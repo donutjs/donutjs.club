@@ -12,7 +12,7 @@ The idea is to make the event:
 Brooklyn.JS and Waffle.JS do a spectacular job of doing this! Each event sells about 100-180 tickets (priced between $10-15). All leftover money after the event gets donated to a non-profit. Talks usually fall into three categories: creative/design, passion, and technical. Events remain alcohol neutral with non-alcoholic options. Both events have live performers at the event and karaoke after the talks. Both events have gotten very popular in their respective communities and usually sell out quickly.
 
 
-We'll use this repo to plan venue, sponsors, and the website for the event. We're also on slack in the #pdxjs channel at http://slack.borojs.com/
+We'll use this repo to plan venue, sponsors, and the website for the event. We're also on slack in the #donut_js channel at http://slack.borojs.com/
 
 Areas we need help in:
 - Finding awesome speakers
