@@ -90,3 +90,32 @@ h1 {
 .main {
     padding: 100px;
 }
+.schedule {
+    border: 3px solid #f288a9;
+    border-radius: 20px;
+    margin: 0 72px 72px 72px;
+}
+.schedule p {
+    color: #f288a9;
+    font-family: 'Poppins';
+    font-weight: 700;
+    float: left;
+}
+
+.time-slot {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 18px;
+}
+
+.schedule li {
+    list-style: none;
+}
+
+.donny {
+    position: absolute;
+    height: 280px;
+    left: 95px;
+    margin-top: 330px;
+    display: inline-block;
+}
