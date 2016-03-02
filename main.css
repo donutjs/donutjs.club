@@ -1,0 +1,74 @@
+@font-face {
+    font-family: donut;
+    src: url('Nickainley-Normal.otf');
+}
+
+@font-face {
+    font-family: campton-bold;
+    src: url('Campton-BoldDEMO.otf');
+}
+
+@font-face {
+    font-family: campton-light;
+    src: url('Campton-LightDEMO.otf');
+}
+body {
+    margin: 0;
+}
+
+a {
+    color: #f288a9;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 1;
+    display: inline-block;
+
+}
+nav a{
+    color: #f288a9;
+    font-family: campton-bold;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.sprinkle-background {
+    background-image: url('donut-js-sprinkles.svg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    font-family: 'donut';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: white;
+}
+
+.donut {
+    position: absolute;
+    max-width: 200px;
+    bottom: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about {
+    font-family: campton-bold;
+    padding: 40px 100px 40px 40px;
+    font-size: 30px;
+    color: black;
+}
+
+.about p {
+    font-family: campton-light;
+    font-size: 25px;
+}
