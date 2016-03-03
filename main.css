@@ -82,7 +82,7 @@ h1 {
     color: black;
 }
 
-.schedule, .speak, .about, .code-of-conduct, .sponsors {
+.schedule, .speak, .about, .code-of-conduct, .sponsors, .organizers {
     padding: 25px 100px;
 }
 
@@ -129,7 +129,7 @@ h1 {
         max-width: 180px;
     }
 
-    .schedule, .about, .speak, .code-of-conduct, .sponsors {
+    .schedule, .about, .speak, .code-of-conduct, .sponsors, .organizers {
         padding: 25px;
     }
 
