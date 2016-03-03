@@ -1,16 +1,54 @@
-@font-face {
-    font-family: donut;
-    src: url('Nickainley-Normal.otf');
-}
-
+/* Reset - - - - - - - - - - */
 body {
     margin: 0;
+    background-color: #3B81F5;
+    font-family: 'GT Pressura Trial';
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
 a {
     color: #f288a9;
 }
 
+/* Typography - - - - - - - - - - */
+p, li {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-bottom: 4px solid #4084F2;
+    display: inline-block;
+}
+
+/* Top Banner - - - - - - - - - - */
+.sprinkle-background {
+    background-image: url('donut-js-sprinkles.svg');
+    width: 100%;
+}
+
+.title {
+    font-family: 'donut';
+    text-align: center;
+    font-size: 10vw;
+    color: white;
+}
+
+.donut {
+    padding-top: 20vh;
+    margin: 0 auto;
+    display: block;
+    width: 20vw;
+    height: 20vw;
+}
+
+
+
+/* Top Navigation - - - - - - - - - - */
 nav {
     position: absolute;
     top: 20px;
@@ -19,7 +57,7 @@ nav {
     display: inline-block;
 
 }
-nav a{
+nav a {
     color: #f288a9;
     font-family: 'Poppins';
     font-size: 30px;
@@ -35,68 +73,30 @@ h2 {
     display: inline-block;
 }
 
-p, li {
-    font-family: 'Poppins';
-    font-size: 25px;
-    font-weight: 300;
-}
-
-h1 {
-    font-size: 36px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    border-bottom: 4px solid #4084F2;
-    display: inline-block;
-}
-.sprinkle-background {
-    background-image: url('donut-js-sprinkles.svg');
+/* Content - - - - - - - - - - */
+.constrain {
     width: 100%;
-    height: 600px;
-    background-size: cover;
-    overflow: hidden;
+    max-width: 60rem;
+    background-color: white;
+    margin: -10vh auto 4rem auto;
+    padding: 2rem;
     position: relative;
-}
-
-.title {
-    font-family: 'donut';
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    font-size: 150px;
-    color: white;
-}
-
-.donut {
-    position: absolute;
-    max-width: 200px;
-    bottom: 110px;
-    left: 50%;
-    transform: translate(-50%, -75%);
+    box-sizing: border-box;
 }
 
 .about {
-    font-family: 'Poppins';
     font-weight: 700;
     font-size: 30px;
     color: black;
 }
 
-.schedule, .speak, .code-of-conduct, .sponsors {
-    padding: 25px 100px;
-}
-
-.main {
-    padding: 100px;
-}
 .schedule {
     border: 3px solid #f288a9;
     border-radius: 20px;
-    margin: 0 72px 72px 72px;
 }
+
 .schedule p {
     color: #f288a9;
-    font-family: 'Poppins';
     font-weight: 700;
     float: left;
 }
@@ -109,6 +109,9 @@ h1 {
 
 .schedule li {
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: block;
 }
 
 .donny {
