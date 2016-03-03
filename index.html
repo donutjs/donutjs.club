@@ -4,83 +4,88 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>DonutJS</title>
-    <link href='main.css' rel='stylesheet'>
+    <link href='css/main.css' rel='stylesheet'>
     <link rel='shortcut icon' type='image/png' href='favicon.png'/>
   </head>
   <body>
 
     <!-- top blue background with generated sprinkles! -->
     <div class='sprinkle-background'>
-      <img class='donut' src='donut.png' />
-      <div class='title'>Donut.JS</div>
+      <img class='donut' src='img/donut.png'/>
+      <div class='title'>Donut.js</div>
       <canvas id="sprinkles"></canvas>
     </div>
 
     <!-- white background with max width for readability -->
     <div class="constrain">
-     <nav>
-        <a href="speak.html">Speak</a>
-        <a href="sponsor.html">Sponsor</a>
-        <a href="index.html">Home</a>
+
+      <nav class="navigation">
+        <a class="navigation-link navigation-link-pink navigation-link-home" href="index.html">Home</a>
+        <a class="navigation-link navigation-link-green" href="speak.html">Speak</a>
+        <a class="navigation-link navigation-link-blue" href="sponsor.html">Sponsor</a>
       </nav>
-      <div class='about'>
-        <p>A fun night of code, donuts, and karaoke.</p>
-        <p>We will gather the last Tuesday of every month at 6:30PM at <a href='http://www.cupandbar.com/'>Cup &amp; Bar</a> in Inner SE Portland.</p>
-        <p>The first Donut.js will be April 26th! Tickets will be available soon.</p>
-      </div>
 
-      <div class='schedule'>
-        <h1>Schedule</h1>
-        <img class='donny' src='donny-donut.png' />
-        <ul>
-          <li>
-            <p>6:30</p>
-            <div class='time-slot'>Arrive and nom on on tasty donuts!</div>
-          </li>
-          <li>
-            <p>7:15</p>
-            <div class='time-slot'>Opening Remarks</div>
-          </li>
-          <li>
-            <p>7:30</p>
-            <div class='time-slot'>First Speaker</div>
-          </li>
-          <li>
-            <p>7:45</p>
-            <div class='time-slot'>Second Speaker</div>
-          </li>
-          <li>
-            <p>8:00</p>
-            <div class='time-slot'>Third Speaker</div>
-          </li>
-          <li>
-            <p>8:15</p>
-            <div class='time-slot'>Fourth Speaker</div>
-          </li>
-          <li>
-            <p>8:30</p>
-            <div class='time-slot'>Fifth Speaker</div>
-          </li>
-          <li>
-            <p>8:45</p>
-            <div class='time-slot'>Karaoke</div>
-          </li>
-        </ul>
-      </div>
+      <div class="panel">
+        <div class='about'>
+          <p>A fun night of code, donuts, and karaoke.</p>
+          <p>We will gather the last Tuesday of every month at 6:30PM at <a href='http://www.cupandbar.com/'>Cup &amp; Bar</a> in Inner SE Portland.</p>
+          <p>The first Donut.js will be April 26th! Tickets will be available soon.</p>
+        </div>
 
-      <div class='speak'>
-        <h2>Speak</h2>
-        <p>Want to speak at DonutJS? We're accepting proposals <a href='https://github.com/donut-js/donut-js.github.io/issues/8'>here!</a> All levels of experience are encouraged to apply!</p>
-      </div>
+        <div class='schedule'>
+          <h1>Schedule</h1>
+          <img class='donny' src='img/donny-donut.png' />
+          <ul>
+            <li>
+              <p>6:30</p>
+              <div class='time-slot'>Arrive and nom on on tasty donuts!</div>
+            </li>
+            <li>
+              <p>7:15</p>
+              <div class='time-slot'>Opening Remarks</div>
+            </li>
+            <li>
+              <p>7:30</p>
+              <div class='time-slot'>First Speaker</div>
+            </li>
+            <li>
+              <p>7:45</p>
+              <div class='time-slot'>Second Speaker</div>
+            </li>
+            <li>
+              <p>8:00</p>
+              <div class='time-slot'>Third Speaker</div>
+            </li>
+            <li>
+              <p>8:15</p>
+              <div class='time-slot'>Fourth Speaker</div>
+            </li>
+            <li>
+              <p>8:30</p>
+              <div class='time-slot'>Fifth Speaker</div>
+            </li>
+            <li>
+              <p>8:45</p>
+              <div class='time-slot'>Karaoke</div>
+            </li>
+          </ul>
+        </div>
 
-      <div class='sponsors'>
-        <h2>Sponsors</h2>
-        <p>Want to sponsor DonutJS? You can learn more about sponsoring <a href='sponsor.html'>here!</a></p>
-      </div>
+        <div class='speak'>
+          <h2>Speak</h2>
+          <p>Want to speak at DonutJS? We're accepting proposals <a href='https://github.com/donut-js/donut-js.github.io/issues/8'>here!</a> All levels of experience are encouraged to apply!</p>
+        </div>
 
-      <div class='code-of-conduct'>
-        <h2>Code of Conduct</h2>
-        <p>All participants are expected to follow the <a href='http://jsconf.com/codeofconduct.html'>JSConf Code of Conduct</a>. If following this seems silly, please don't attend!</p>
+        <div class='sponsors'>
+          <h2>Sponsors</h2>
+          <p>Want to sponsor DonutJS? You can learn more about sponsoring <a href='sponsor.html'>here!</a></p>
+        </div>
+
+        <div class='code-of-conduct'>
+          <h2>Code of Conduct</h2>
+          <p>All participants are expected to follow the <a href='http://jsconf.com/codeofconduct.html'>JSConf Code of Conduct</a>. If following this seems silly, please don't attend!</p>
+        </div>
+
       </div>
 
     </div>

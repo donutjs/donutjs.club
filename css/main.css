@@ -1,0 +1,297 @@
+/* Reference  - - - - - - - - - - - *
+dark blue   #1C406C
+blue        #3B81F5
+pink        #F487A9
+mint        #B6E6CF
+light pink  #F9CACD
+yellow      #EFE670
+light blue  #00CFE4
+* - - - - - - - - - - - - - - - - - */
+
+
+/* Reset  - - - - - - - - - - - - - */
+body {
+    margin: 0;
+    background-color: #3B81F5;
+    font-family: 'Mikado';
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+a {
+    color: #f288a9;
+}
+
+/* Fonts  - - - - - - - - - - - - - */
+@font-face {
+  font-family: 'Mikado';
+  src: url('../fonts/mikado-light.woff2') format('woff2'),
+       url('../fonts/mikado-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mikado';
+  src: url('../fonts/mikado-medium.woff2') format('woff2'),
+       url('../fonts/mikado-medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mikado';
+  src: url('../fonts/mikado-bold.woff2') format('woff2'),
+       url('../fonts/mikado-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Typography - - - - - - - - - - - */
+p, li {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* Top Banner - - - - - - - - - - - */
+.sprinkle-background {
+    background-image: url('../img/donut-js-sprinkles.svg');
+    width: 100%;
+    padding-top: 20vh;
+    opacity: 0;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 200ms;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-delay: 200ms;
+    -ms-animation-name: fade;
+    -ms-animation-duration: 1s;
+    -ms-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-delay: 200ms;
+}
+
+@-webkit-keyframes fade {
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@-moz-keyframes fade {
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@-ms-keyframes fade {
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+.title {
+    text-indent: -10000px;
+    background: url('../img/logotype.svg') center center no-repeat transparent;
+    background-size: contain;
+    width: 100%;
+    height: 20vh;
+    margin-top: -3%;
+}
+
+.donut {
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+    width: 12vw;
+    height: 12vw;
+    -webkit-animation-name: spin;
+    -webkit-animation-easing-function: linear;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: spin;
+    -moz-animation-easing-function: linear;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-name: spin;
+    -ms-animation-easing-function: linear;
+    -ms-animation-duration: 20s;
+    -ms-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes spin {
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spin {
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spin {
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+/* Top Navigation - - - - - - - - - - */
+.navigation {
+    background-color: #1C406C;
+    z-index: 2;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+/*.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }*/
+.navigation-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.navigation-link-home {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;}
+
+.navigation-link-pink { background-color: #F487A9; }
+.navigation-link-pink:hover { background-color: #EF5787; }
+.navigation-link-blue { background-color: #00CFE4; }
+.navigation-link-blue:hover { background-color: #00A1B3; }
+.navigation-link-green { background-color: #85D5AF; }
+.navigation-link-green:hover { background-color: #3CAF77; }
+
+/* Content - - - - - - - - - - */
+.constrain {
+    width: 100%;
+    max-width: 60rem;
+    background-color: white;
+    margin: -10vh auto 4rem auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+
+.panel {
+    padding: 2rem;
+}
+
+.about {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.schedule {
+    border: 3px solid #f288a9;
+    border-radius: 20px;
+}
+
+.schedule p {
+    color: #f288a9;
+    font-weight: 700;
+    float: left;
+}
+
+.time-slot {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 18px;
+}
+
+.schedule li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: block;
+}
+
+.donny {
+    position: absolute;
+    height: 280px;
+    left: 95px;
+    margin-top: 330px;
+    display: inline-block;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .title {
+        font-size: 90px;
+        bottom: 45px;
+    }
+
+    .donut {
+        max-width: 180px;
+    }
+
+    .schedule, .about, .speak, .code-of-conduct, .sponsors {
+        padding: 25px;
+    }
+
+    .donny {
+        height: 100px;
+        left: initial;
+        margin-top: 0;
+    }
+
+    .schedule {
+        margin: 20px;
+    }
+    .schedule ul {
+        padding-left: 0;
+    }
+
+    .schedule p {
+        float: initial;
+    }
+
+    .time-slot {
+        margin: 0;
+    }
+
+    .main {
+        padding: 30px 25px;
+    }
+}
