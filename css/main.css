@@ -13,6 +13,7 @@ light blue  #00CFE4
 body {
     margin: 0;
     background-color: #3B81F5;
+    color: #666;
     font-family: 'Mikado';
     font-weight: 300;
     letter-spacing: 0.05em;
@@ -154,47 +155,29 @@ h2 {
     display: -webkit-flex;
     display: flex;
 }
-/*.flex-container {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    }*/
+
 .navigation-link {
     color: white;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     padding: 1rem;
-    -webkit-order: 0;
     -ms-flex-order: 0;
-    order: 0;
+     -webkit-order: 0;
+             order: 0;
     -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto;
+             align-self: auto;
 }
 
 .navigation-link-home {
     -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;}
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+}
 
 .navigation-link-pink { background-color: #F487A9; }
 .navigation-link-pink:hover { background-color: #EF5787; }
@@ -218,80 +201,81 @@ h2 {
     padding: 2rem;
 }
 
+.panel-dark {
+    background-color: #1C406C;
+    color: #efefff;
+}
+
+.panel-dark h1 {
+    color: white;
+}
+
 .about {
-    font-weight: 700;
-    font-size: 30px;
-    color: black;
+    display: table;
+    margin: 3rem 0;
 }
 
-.schedule {
-    border: 3px solid #f288a9;
-    border-radius: 20px;
-}
-
-.schedule p {
-    color: #f288a9;
-    font-weight: 700;
-    float: left;
-}
-
-.time-slot {
-    display: inline-block;
-    margin-top: 23px;
-    margin-left: 18px;
-}
-
-.schedule li {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-    display: block;
+.about-description {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 3rem;
 }
 
 .donny {
-    position: absolute;
-    height: 280px;
-    left: 95px;
-    margin-top: 330px;
-    display: inline-block;
+    max-width: 100%;
+    margin-right: 2rem;
 }
 
-@media only screen and (max-device-width: 480px) {
-    .title {
-        font-size: 90px;
-        bottom: 45px;
-    }
+/* Schedule - - - - - - - - - - */
+.events-list {
+    margin-left: 100px;
+    padding: 0;
+}
 
-    .donut {
-        max-width: 180px;
-    }
+.event {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    border-left: 4px solid #3B81F5;
+}
 
-    .schedule, .about, .speak, .code-of-conduct, .sponsors {
-        padding: 25px;
-    }
+.event-last {
+    border-left: 4px solid transparent;
+    margin-top: -4px;
+}
 
-    .donny {
-        height: 100px;
-        left: initial;
-        margin-top: 0;
-    }
+.event-first:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 12px;
+    height: 12px;
+    background-color: #1C406C;
+}
 
-    .schedule {
-        margin: 20px;
-    }
-    .schedule ul {
-        padding-left: 0;
-    }
+.event:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: -12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 4px solid #3B81F5;
+    background-color: white;
+}
 
-    .schedule p {
-        float: initial;
-    }
-
-    .time-slot {
-        margin: 0;
-    }
-
-    .main {
-        padding: 30px 25px;
-    }
+.event-time {
+    width: 100px;
+    position: absolute;
+    left: -130px;
+    top: 0;
+    margin: 0;
+    text-align: right;
+    font-weight: 700;
+    color: #3B81F5;
 }
