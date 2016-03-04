@@ -81,6 +81,7 @@ a { color: #3B81F5; }
     -ms-animation-timing-function: linear;
     -moz-animation-fill-mode: forwards;
     -ms-animation-delay: 200ms;
+    animation-timing-function: linear;
 }
 
 .sprinkles {
@@ -88,6 +89,7 @@ a { color: #3B81F5; }
     width: 100vw;
     height: 100vh;
     top: 0;
+    z-index: 1;
 }
 
 @-webkit-keyframes fade {
@@ -188,6 +190,11 @@ a { color: #3B81F5; }
 .navigation-link-green:hover { background-color: #3CAF77; }
 
 /* Content - - - - - - - - - - */
+.on-top {
+    position: relative;
+    z-index: 2;
+}
+
 .constrain {
     width: 100%;
     max-width: 60rem;

@@ -1,77 +1,80 @@
-window.onload = function(){
-  //canvas init
-  var canvas = document.getElementById("sprinkles");
-  var ctx = canvas.getContext("2d");
+window.onload = function () {
+  var canvas = document.getElementById('sprinkles')
+  var ctx = canvas.getContext('2d')
+  var W = window.innerWidth
+  var H = window.innerHeight
+  canvas.width = W
+  canvas.height = H
 
-  //canvas dimensions
-  var W = window.innerWidth;
-  var H = window.innerHeight;
-  canvas.width = W;
-  canvas.height = H;
+  var colors = [
+    'rgba(239, 229, 120, .6)', // yellow
+    'rgba(183, 229, 207, .6)', // mint
+    'rgba(248, 202, 205, .6)', // pink
+    'rgba(245, 84, 137, .6)',  // magenta
+    'rgba(255, 255, 255, .6)'  // white
+  ]
 
-  //snowflake particles
-  var mp = 25; //max particles
-  var particles = [];
-  for (var i = 0; i < mp; i++) {
-    particles.push({
-      x: Math.random()*W, //x-coordinate
-      y: Math.random()*H, //y-coordinate
-      r: Math.random()*4+1, //radius
-      d: Math.random()*mp //density
+  // Generate array of sprinkles
+  var MAX = 60
+  var sprinkles = []
+  for (var i = 0; i < MAX; i++) {
+    sprinkles.push({
+      x: Math.random() * W,                                // x position (0-canvas width)
+      y: Math.random() * H,                                // y position (0-canvas height)
+      l: Math.random() * 25 + 5,                           // length     (5 - 50)
+      r: Math.floor(Math.random() * 360),                  // rotation   (0-360)
+      c: colors[Math.floor(Math.random() * colors.length)] // color      (colors[0-N])
     })
   }
 
-  //Lets draw the flakes
+  // Draw each sprinkle
   function draw () {
-    ctx.clearRect(0, 0, W, H);
+    ctx.clearRect(0, 0, W, H)
+    sprinkles.forEach(function (s) {
+      // save the canvas context
+      ctx.save()
 
-    ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
-    ctx.beginPath();
-    for (var i = 0; i < mp; i++) {
-      var p = particles[i];
-      ctx.moveTo(p.x, p.y);
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2, true);
-    }
-    ctx.fill();
-    update();
+      // translate the context to the center point of the sprinkle and rotate,
+      // translate back to 0,0 after rotation
+      ctx.translate(s.x, s.y)
+      ctx.rotate(s.r * Math.PI / 180)
+      ctx.translate(-s.x, -s.y)
+
+      // draw the sprinkle
+      ctx.beginPath()
+      ctx.moveTo(s.x - (s.l / 2), s.y)
+      ctx.lineTo(s.x + (s.l / 2), s.y)
+      ctx.lineWidth = 20
+      ctx.strokeStyle = s.c
+      ctx.lineCap = 'round'
+      ctx.stroke()
+      ctx.closePath()
+
+      // restore the context to the normal non-rotated translation
+      ctx.restore()
+    })
+    ctx.fill()
+    update()
   }
 
-  var angle = 0;
+  // update the sprinkles with new rotation and y position so they fall
   function update () {
-    angle += 0.01;
-    for (var i = 0; i < mp; i++) {
-      var p = particles[i];
-      //Updating X and Y coordinates
-      //We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
-      //Every particle has its own density which can be used to make the downward movement different for each flake
-      //Lets make it more random by adding in the radius
-      p.y += Math.cos(angle+p.d) + 1 + p.r/2;
-      p.x += Math.sin(angle) * 2;
-
-      //Sending flakes back from the top when it exits
-      //Lets make it a bit more organic and let flakes enter from the left and right also.
-      if(p.x > W+5 || p.x < -5 || p.y > H)
-      {
-        if(i%3 > 0) //66.67% of the flakes
-        {
-          particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
-        }
-        else
-        {
-          //If the flake is exitting from the right
-          if(Math.sin(angle) > 0)
-          {
-            //Enter from the left
-            particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
-          }
-          else
-          {
-            //Enter from the right
-            particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
-          }
+    sprinkles.forEach(function (s, i) {
+      s.y += 2
+      s.r = (s.r + 1) % 360
+      // when sprinkles fall off the bottom, add them to the top again.
+      if (s.y > H) {
+        sprinkles[i] = {
+          x: Math.random() * W,
+          y: -10,
+          l: s.l,
+          r: s.r,
+          c: s.c
         }
       }
-    }
+    })
   }
-  setInterval(draw, 33);
+
+  // kick off the drawing loop
+  setInterval(draw, 33)
 }
