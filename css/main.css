@@ -337,9 +337,15 @@ a { color: #3B81F5; }
 /* Responsive - - - - - - - - - - */
 @media screen and (max-width: 720px) {
     .donny {
-        margin: 0 auto;
+        margin: 2rem auto 0 auto;
     }
-
+    .events-illustrations {
+        display: none;
+    }
+    .events-list {
+        width: 100%;
+        margin-left: 0;
+    }
     .about-description {
         display: block;
         padding: 0;
