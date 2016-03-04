@@ -62,9 +62,9 @@ a { color: #3B81F5; }
 
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
-    background-image: url('../img/donut-js-sprinkles.svg');
     width: 100%;
-    padding-top: 20vh;
+    padding: 20vh 0;
+    position: relative;
     opacity: 0;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 500ms;
@@ -81,6 +81,13 @@ a { color: #3B81F5; }
     -ms-animation-timing-function: linear;
     -moz-animation-fill-mode: forwards;
     -ms-animation-delay: 200ms;
+}
+
+.sprinkles {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
 }
 
 @-webkit-keyframes fade {
@@ -271,8 +278,6 @@ a { color: #3B81F5; }
 .event-illustration-left {
     margin-right: -20px;
 }
-
-
 
 .event {
     list-style-type: none;
