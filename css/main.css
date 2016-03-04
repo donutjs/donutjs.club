@@ -13,14 +13,11 @@ light blue  #00CFE4
 body {
     margin: 0;
     background-color: #3B81F5;
-    color: #666;
+    color: #779;
     font-family: 'Mikado';
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 24px;
     letter-spacing: 0.05em;
-}
-
-a {
-    color: #f288a9;
 }
 
 /* Fonts  - - - - - - - - - - - - - */
@@ -49,22 +46,19 @@ a {
 }
 
 /* Typography - - - - - - - - - - - */
-p, li {
-    font-size: 25px;
-    font-weight: 300;
-}
-
 h1 {
-    font-size: 36px;
+    font-size: 64px;
     font-weight: 700;
-    display: inline-block;
+    margin-bottom: .5em;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 700;
-    display: inline-block;
+    margin: 2em 0 .5em 0;
 }
+
+a { color: #3B81F5; }
 
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
@@ -73,17 +67,17 @@ h2 {
     padding-top: 20vh;
     opacity: 0;
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 500ms;
     -webkit-animation-timing-function: linear;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 200ms;
     -moz-animation-name: fade;
-    -moz-animation-duration: 1s;
+    -moz-animation-duration: 500ms;
     -moz-animation-timing-function: linear;
     -moz-animation-fill-mode: forwards;
     -moz-animation-delay: 200ms;
     -ms-animation-name: fade;
-    -ms-animation-duration: 1s;
+    -ms-animation-duration: 500ms;
     -ms-animation-timing-function: linear;
     -moz-animation-fill-mode: forwards;
     -ms-animation-delay: 200ms;
@@ -108,15 +102,15 @@ h2 {
     background-size: contain;
     width: 100%;
     height: 20vh;
-    margin-top: -3%;
+    margin-top: -50px;
 }
 
 .donut {
     padding-top: 0;
     margin: 0 auto;
     display: block;
-    width: 12vw;
-    height: 12vw;
+    width: 140px;
+    height: 140px;
     -webkit-animation-name: spin;
     -webkit-animation-easing-function: linear;
     -webkit-animation-duration: 20s;
@@ -195,6 +189,22 @@ h2 {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 400ms;
+    -moz-animation-name: fade;
+    -moz-animation-duration: 500ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-delay: 400ms;
+    -ms-animation-name: fade;
+    -ms-animation-duration: 500ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-delay: 400ms;
 }
 
 .panel {
@@ -203,7 +213,7 @@ h2 {
 
 .panel-dark {
     background-color: #1C406C;
-    color: #efefff;
+    color: #B2CCEB;
 }
 
 .panel-dark h1 {
@@ -218,7 +228,7 @@ h2 {
 .about-description {
     display: table-cell;
     vertical-align: middle;
-    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .donny {
@@ -227,10 +237,42 @@ h2 {
 }
 
 /* Schedule - - - - - - - - - - */
+.schedule:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 .events-list {
-    margin-left: 100px;
+    padding-left: 5rem;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    float: right;
+}
+
+.events-illustrations {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
     padding: 0;
 }
+
+.events-illustrations img {
+    max-width: 90%;
+    margin-bottom: 5rem;
+}
+
+.event-illustration-right {
+    margin-left: 60px;
+}
+
+.event-illustration-left {
+    margin-right: -20px;
+}
+
+
 
 .event {
     list-style-type: none;
@@ -278,4 +320,17 @@ h2 {
     text-align: right;
     font-weight: 700;
     color: #3B81F5;
+}
+
+/* Responsive - - - - - - - - - - */
+@media screen and (max-width: 720px) {
+    .donny {
+        margin: 0 auto;
+    }
+
+    .about-description {
+        display: block;
+        padding: 0;
+        margin-top: 2rem;
+    }
 }
