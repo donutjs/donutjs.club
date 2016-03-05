@@ -188,6 +188,8 @@ a { color: #3B81F5; }
 .navigation-link-blue:hover { background-color: #00A1B3; }
 .navigation-link-green { background-color: #85D5AF; }
 .navigation-link-green:hover { background-color: #3CAF77; }
+.navigation-link-yellow { background-color: #EADF43; }
+.navigation-link-yellow:hover { background-color: #CFC217; }
 
 /* Content - - - - - - - - - - */
 .on-top {

@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>DonutJS</title>
-    <link href='main.css' rel='stylesheet'>
-    <link rel='shortcut icon' type='image/png' href='favicon.png'/>
-    <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sponsorship | DonutJS</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Home</a>
-    </nav>
-    <div class='main'>
-      <h1>Sponsoring DonutJS!</h1>
-      <p>Each month DonutJS is sponsored by 2-3 generous companies! We use these funds to cover food, venue costs, and equipment. All leftover proceeds from ticket sales and outside funds are donated to a non-profit in the community. Sponsorship starts at $500 for one month, with discounts for companies that would like to sponsor for multiple months.</p>
 
-      <h2>Sponsorship includes:</h2>
-      <ul><li>2 minutes to speak to the audience about your product, hiring, etc.</li>
-      <li>A space at the event to give out swag</li>
-      <li>Your logo on our website and in our emails to attendees</li>
-      </ul>
+    <div class="on-top">
 
-      <p>If you'd like to be a sponsor, please contact us at <a href='mailto:hello@donutjs.club'>hello@donutjs.club</a></p>
+      <!-- logo -->
+      <div class="sprinkle-background">
+        <img class="donut" src="../img/logo.svg"/>
+        <div class="title">Donut.js</div>
+      </div>
+
+      <!-- white background with max width for readability -->
+      <div class="constrain">
+
+        <nav class="navigation">
+          <a class="navigation-link navigation-link-pink navigation-link-home" href="../">Home</a>
+          <a class="navigation-link navigation-link-green" href="../speak/">Speak</a>
+          <a class="navigation-link navigation-link-yellow" href="../perform/">Perform</a>
+          <a class="navigation-link navigation-link-blue" href="../sponsor/">Sponsor</a>
+        </nav>
+
+        <div class="panel">
+          <h1>Sponsoring DonutJS!</h1>
+          <p>Each month DonutJS is sponsored by 2-3 generous companies! We use these funds to cover food, venue costs, and equipment. All leftover proceeds from ticket sales and outside funds are donated to a non-profit in the community. Sponsorship starts at $500 for one month, with discounts for companies that would like to sponsor for multiple months.</p>
+
+          <h2>Sponsorship includes:</h2>
+          <ul><li>2 minutes to speak to the audience about your product, hiring, etc.</li>
+          <li>A space at the event to give out swag</li>
+          <li>Your logo on our website and in our emails to attendees</li>
+          </ul>
+
+          <p>If you'd like to be a sponsor, please contact us at <a href='mailto:hello@donutjs.club'>hello@donutjs.club</a></p>
+        </div>
+      </div>
     </div>
+
+    <!-- generated sprinkles! -->
+    <canvas id="sprinkles" class="sprinkles"></canvas>
+    <script src="../js/sprinkles.js"></script>
   </body>
 </html>
