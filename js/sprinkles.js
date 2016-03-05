@@ -15,7 +15,7 @@ window.onload = function () {
   ]
 
   // Generate array of sprinkles
-  var MAX = 60
+  var MAX = 70
   var sprinkles = []
   for (var i = 0; i < MAX; i++) {
     sprinkles.push({
