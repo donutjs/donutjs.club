@@ -288,6 +288,10 @@ a { color: #3B81F5; }
     margin-right: -20px;
 }
 
+.event-speaker {
+    color: #F487A9;
+}
+
 .event {
     list-style-type: none;
     position: relative;
