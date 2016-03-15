@@ -56,9 +56,15 @@ h2 {
     font-size: 30px;
     font-weight: 700;
     margin: 2em 0 .5em 0;
+    color: #F487A9;
 }
 
 a { color: #3B81F5; }
+
+input,
+button {
+    font-family: 'Mikado', Sans-Serif;
+}
 
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
@@ -247,6 +253,11 @@ a { color: #3B81F5; }
     padding-right: 3rem;
 }
 
+.non-prof-description {
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
 .donny {
     max-width: 100%;
     margin-right: 2rem;
@@ -338,6 +349,11 @@ a { color: #3B81F5; }
     text-align: right;
     font-weight: 700;
     color: #3B81F5;
+}
+
+/* Tickets - - - - - - - - - - */
+.panel .tito-wrapper {
+    font-family: 'Mikado', Sans-Serif;
 }
 
 /* Responsive - - - - - - - - - - */
