@@ -63,10 +63,10 @@ window.onload = function () {
       s.y += 2
       s.r = (s.r + 1) % 360
       // when sprinkles fall off the bottom, add them to the top again.
-      if (s.y > H) {
+      if (s.y > H + 20) {
         sprinkles[i] = {
           x: Math.random() * W,
-          y: -10,
+          y: -20,
           l: s.l,
           r: s.r,
           c: s.c
