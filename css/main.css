@@ -356,6 +356,18 @@ button {
     font-family: 'Mikado', Sans-Serif;
 }
 
+/* Sponsorship - - - - - - - - - - */
+
+.panel table.sponsorship-packages {
+    width: 100%;
+}
+
+.panel table.sponsorship-packages th,
+.panel table.sponsorship-packages td
+{
+    text-align: center;
+}
+
 /* Responsive - - - - - - - - - - */
 @media screen and (max-width: 720px) {
     .donny {
@@ -372,5 +384,8 @@ button {
         display: block;
         padding: 0;
         margin-top: 2rem;
+    }
+    .panel table.sponsorship-packages {
+        font-size: 14px;
     }
 }
