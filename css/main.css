@@ -368,6 +368,16 @@ button {
     text-align: center;
 }
 
+/* Sponsors */
+img.sponsor-logo {
+    width: 155px;
+}
+
+img.sponsor-logo.knuckleheads {
+    position: relative;
+    bottom: 4px;
+}
+
 /* Responsive - - - - - - - - - - */
 @media screen and (max-width: 720px) {
     .donny {
