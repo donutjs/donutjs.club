@@ -369,11 +369,11 @@ button {
 }
 
 /* Sponsors */
-img.sponsor-logo {
+.support {
     width: 155px;
 }
 
-img.sponsor-logo.knuckleheads {
+.support.knuckleheads {
     position: relative;
     bottom: 4px;
 }
