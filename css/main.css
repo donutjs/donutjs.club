@@ -378,6 +378,11 @@ button {
     bottom: 4px;
 }
 
+.support.new-relic {
+    bottom: 12px;
+    position: relative;
+}
+
 /* Responsive - - - - - - - - - - */
 @media screen and (max-width: 720px) {
     .donny {
