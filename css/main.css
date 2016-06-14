@@ -266,7 +266,7 @@ button {
 }
 
 .about-description strong {
-    color: #1C406C;
+    color: #5e5e7d;
 }
 
 .non-prof-description {
@@ -439,6 +439,11 @@ button {
 /* Sponsors */
 .support {
     width: 155px;
+}
+
+.support {
+    display: inline-block;
+    margin-right: 1rem;
 }
 
 .support.knuckleheads {
