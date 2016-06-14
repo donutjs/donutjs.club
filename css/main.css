@@ -348,6 +348,21 @@ button {
     margin: 0 0 0.25rem 0;
 }
 
+.event-speaker h3 a {
+    font-size: 18px;
+    text-decoration: none;
+
+    padding: 4px 8px;
+    vertical-align: middle;
+
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.event-speaker h3 a:hover {
+    opacity: 1;
+}
+
 .event-speaker p {
     margin: 0;
 }
