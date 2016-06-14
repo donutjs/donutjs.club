@@ -60,7 +60,11 @@ h2 {
 }
 
 h2 + p {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
+}
+
+h2 + h3 {
+    margin-top: 0.75rem;
 }
 
 h3 {
@@ -437,23 +441,23 @@ button {
 }
 
 /* Sponsors */
-.support {
-    width: 155px;
+.sponsors {
+    margin: 0;
+    padding: 0;
 }
 
-.support {
+.sponsors li {
     display: inline-block;
+
     margin-right: 1rem;
+    width: 155px;
+
+    line-height: 1;
+    vertical-align: middle;
 }
 
-.support.knuckleheads {
-    position: relative;
-    bottom: 4px;
-}
-
-.support.new-relic {
-    bottom: 12px;
-    position: relative;
+.sponsors li img {
+    max-width: 100%;
 }
 
 /* Responsive - - - - - - - - - - */
