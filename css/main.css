@@ -49,14 +49,26 @@ body {
 h1 {
     font-size: 64px;
     font-weight: 700;
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 700;
-    margin: 2em 0 .5em 0;
+    margin: 3rem 0 .5rem 0;
     color: #F487A9;
+}
+
+h2 + p {
+    margin-top: .5rem;
+}
+
+h3 {
+    margin-bottom: 0.25rem;
+}
+
+h3 + p {
+    margin-top: 0.25rem;
 }
 
 a { color: #3B81F5; }
@@ -263,6 +275,35 @@ button {
     margin-right: 2rem;
 }
 
+.button {
+    display: block;
+
+    margin: 1rem auto;
+    padding: 10px 16px 8px 16px;
+
+    width: 250px;
+
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-color: #3B81F5;
+    color: #fff;
+
+    border-radius: 5px;
+}
+
+.button:last-child {
+    margin-bottom: 0;
+}
+
+.button:hover {
+    background-color: #00CFE4;
+}
+
+
 /* Schedule - - - - - - - - - - */
 .schedule:after {
     content: '';
@@ -301,6 +342,29 @@ button {
 
 .event-speaker {
     color: #F487A9;
+}
+
+.event-speaker h3 {
+    margin: 0 0 0.25rem 0;
+}
+
+.event-speaker h3 a {
+    font-size: 18px;
+    text-decoration: none;
+
+    padding: 4px 8px;
+    vertical-align: middle;
+
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.event-speaker h3 a:hover {
+    opacity: 1;
+}
+
+.event-speaker p {
+    margin: 0;
 }
 
 .event {
@@ -404,6 +468,9 @@ button {
         font-size: 14px;
     }
 }
+
+/* Speak. */
+
 .speaker-form {
     text-align: center;
 }
