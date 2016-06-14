@@ -265,6 +265,10 @@ button {
     padding-right: 3rem;
 }
 
+.about-description strong {
+    color: #1C406C;
+}
+
 .non-prof-description {
     font-size: 16px;
     padding-bottom: 35px;
