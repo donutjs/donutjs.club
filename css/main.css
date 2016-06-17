@@ -487,3 +487,17 @@ button {
 .speaker-form {
     text-align: center;
 }
+
+
+/* Splash page! */
+
+body.splash .sprinkle-background {
+    z-index: 2;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+
+    transform: translate(-50%, -50%);
+}
