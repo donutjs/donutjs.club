@@ -1,6 +1,6 @@
 /* Reference  - - - - - - - - - - - *
 dark blue   #1C406C
-blue        #3B81F5
+blue        #2babe2
 pink        #F487A9
 mint        #B6E6CF
 light pink  #F9CACD
@@ -12,8 +12,9 @@ light blue  #00CFE4
 /* Reset  - - - - - - - - - - - - - */
 body {
     margin: 0;
-    background-color: #3B81F5;
-    color: #779;
+/*    background-color: #d3e0b4;*/
+    background-color: #8dc73f;
+    color: #000;
     font-family: 'Mikado', Sans-Serif;
     font-weight: 400;
     font-size: 24px;
@@ -84,10 +85,12 @@ button {
 
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
-    width: 100%;
+    width: 30rem;
     padding: 20vh 0;
     position: relative;
     opacity: 0;
+    overflow: auto;
+    margin: 0 auto;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 500ms;
     -webkit-animation-timing-function: linear;
@@ -128,32 +131,16 @@ button {
 }
 
 .title {
-    text-indent: -10000px;
-    background: url('../img/logotype.svg') center center no-repeat transparent;
-    background-size: contain;
-    width: 100%;
     height: 20vh;
-    margin-top: -50px;
+    font-size: 50px;
+    margin-left: 200px;
 }
 
 .donut {
+    float: left;
     padding-top: 0;
-    margin: 0 auto;
     display: block;
-    width: 140px;
-    height: 140px;
-    -webkit-animation-name: spin;
-    -webkit-animation-easing-function: linear;
-    -webkit-animation-duration: 20s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-name: spin;
-    -moz-animation-easing-function: linear;
-    -moz-animation-duration: 20s;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-name: spin;
-    -ms-animation-easing-function: linear;
-    -ms-animation-duration: 20s;
-    -ms-animation-iteration-count: infinite;
+    width: 170px;
 }
 
 @-webkit-keyframes spin {
@@ -206,12 +193,18 @@ button {
 
 .navigation-link-pink { background-color: #F487A9; }
 .navigation-link-pink:hover { background-color: #EF5787; }
-.navigation-link-blue { background-color: #00CFE4; }
-.navigation-link-blue:hover { background-color: #00A1B3; }
-.navigation-link-green { background-color: #85D5AF; }
-.navigation-link-green:hover { background-color: #3CAF77; }
-.navigation-link-yellow { background-color: #EADF43; }
-.navigation-link-yellow:hover { background-color: #CFC217; }
+.navigation-link-blue { background-color: #2babe2; }
+.navigation-link-blue:hover { background-color: #009ee0; }
+.navigation-link-green { background-color: #8dc73f; }
+.navigation-link-green:hover { background-color: #76bc12; }
+.navigation-link-yellow { background-color: #e0d335; }
+.navigation-link-yellow:hover { background-color: #ffe10e; }
+.navigation-link-orange { background-color: #fbb041; }
+.navigation-link-orange:hover { background-color: #fba117; }
+.navigation-link-red { background-color: #ef4137; }
+.navigation-link-red:hover { background-color: #ed1d0e; }
+.navigation-link-teal { background-color: #01a69e; }
+.navigation-link-teal:hover { background-color: #009b90; }
 
 /* Content - - - - - - - - - - */
 .on-top {
@@ -297,7 +290,7 @@ button {
     text-decoration: none;
     text-transform: uppercase;
 
-    background-color: #3B81F5;
+    background-color: #2babe2;
     color: #fff;
 
     border-radius: 5px;
@@ -317,6 +310,14 @@ button {
     content: '';
     clear: both;
     display: table;
+}
+
+.event-day {
+    color: white;
+    position: relative;
+    right: 14%;
+    display: block;
+    padding-bottom: 10px;
 }
 
 .events-list {
@@ -380,7 +381,7 @@ button {
     position: relative;
     padding-left: 20px;
     padding-bottom: 40px;
-    border-left: 4px solid #3B81F5;
+    border-left: 4px solid #2babe2;
 }
 
 .event-last {
@@ -408,7 +409,7 @@ button {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 4px solid #3B81F5;
+    border: 4px solid #2babe2;
     background-color: white;
 }
 
@@ -420,7 +421,7 @@ button {
     margin: 0;
     text-align: right;
     font-weight: 700;
-    color: #3B81F5;
+    color: #2babe2;
 }
 
 /* Tickets - - - - - - - - - - */
