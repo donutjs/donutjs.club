@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DonutJS</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png"/>
+  </head>
+  <body>
+
+    <div class="on-top">
+
+      <!-- logo -->
+      <div class="sprinkle-background">
+        <img class="donut" src="../img/logo.svg"/>
+        <div class="title">Donut.js</div>
+      </div>
+
+      <!-- white background with max width for readability -->
+      <div class="constrain">
+
+        <nav class="navigation">
+          <a class="navigation-link navigation-link-pink navigation-link-home" href="../">Home</a>
+          <a class="navigation-link navigation-link-green" href="../speak/">Speak</a>
+          <a class="navigation-link navigation-link-yellow" href="../perform/">Perform</a>
+          <a class="navigation-link navigation-link-blue" href="../sponsor/">Sponsor</a>
+        </nav>
+
+        <div class="panel panel-dark">
+          <div class="schedule" id="schedule">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- generated sprinkles! -->
+    <canvas id="sprinkles" class="sprinkles"></canvas>
+    <script src="../js/sprinkles.js"></script>
+  </body>
+</html>
