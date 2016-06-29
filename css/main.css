@@ -431,6 +431,16 @@ button {
     font-size: .7em;
 }
 
+.past-event {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.past-event .event-speaker p {
+    color: #779;;
+}
+
 /* Tickets - - - - - - - - - - */
 .panel .tito-wrapper {
     font-family: 'Mikado', Sans-Serif;
