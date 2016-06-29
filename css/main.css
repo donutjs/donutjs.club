@@ -247,6 +247,7 @@ button {
 
 .panel {
     padding: 2rem;
+    position: relative;
 }
 
 .panel-dark {
@@ -421,6 +422,13 @@ button {
     text-align: right;
     font-weight: 700;
     color: #3B81F5;
+}
+
+.past-speakers-link {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-size: .7em;
 }
 
 /* Tickets - - - - - - - - - - */
