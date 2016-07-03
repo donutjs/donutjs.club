@@ -576,9 +576,9 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		</clipPath>
-		<g transform="matrix(1 0 0 1 -7.629395e-06 0)" clip-path="url(#SVGID_2_)">
+		<g clip-path="url(#SVGID_2_)">
 			
-				<image overflow="visible" width="702" height="702" xlink:href="6CFD4FB90346614F.jpg"  transform="matrix(0.0766 0 0 0.0766 123.4238 305.8086)">
+				<image overflow="visible" width="702" height="702" xlink:href="6CFD4FB90346614E.jpg"  transform="matrix(0.0766 0 0 0.0766 10.6738 307.3086)">
 			</image>
 		</g>
 	</g>
@@ -592,9 +592,22 @@
 		</clipPath>
 		<g clip-path="url(#SVGID_4_)">
 			
-				<image overflow="visible" width="15" height="7" xlink:href="6CFD4FB90346614A.jpg"  transform="matrix(0.0766 0 0 0.0766 176.0435 359.04)">
+				<image overflow="visible" width="15" height="7" xlink:href="6CFD4FB90346614B.jpg"  transform="matrix(0.0766 0 0 0.0766 176.0435 359.04)">
 			</image>
 		</g>
 	</g>
+</g>
+<g>
+	<circle fill="none" stroke="#1E416B" stroke-width="7" stroke-miterlimit="10" cx="150.241" cy="333.613" r="26.375"/>
+	<ellipse fill="#E9E8E9" stroke="#1E416B" stroke-miterlimit="10" cx="150.616" cy="333.363" rx="6.5" ry="23.125"/>
+	
+		<ellipse transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 20.363 675.6622)" fill="#E9E8E9" stroke="#1E416B" stroke-miterlimit="10" cx="150.116" cy="333.614" rx="6.5" ry="23.125"/>
+	
+		<ellipse transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 492.8419 462.5838)" fill="#E9E8E9" stroke="#1E416B" stroke-miterlimit="10" cx="150.617" cy="333.363" rx="6.5" ry="23.125"/>
+	<ellipse fill="none" stroke="#1E416B" stroke-miterlimit="10" cx="150.366" cy="333.113" rx="23.125" ry="6.5"/>
+	<path fill="#231F20" d="M142.616,331.738c0,0,2.33-15.256,7.834-15.334c5.833-0.083,7.166,16.084,7.166,16.084
+		s4.501,1.667,3.918,14.167c-0.023,0.499-3.168,0.333-3.168,0.333s-0.916-6.75-1-6.25c-1.332,1.667-5.332,2.834-5.332,2.834
+		l-0.5,3.333l-2.668,0.083l-1-3.75c0,0-3.084-0.917-4.5-2c-0.416-0.416-0.832,5.583-0.832,5.583l-3.668-0.083
+		C138.866,346.738,137.866,333.238,142.616,331.738z"/>
 </g>
 </svg>
