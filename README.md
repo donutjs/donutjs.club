@@ -42,7 +42,7 @@ Records videos of the talks and posts them to youtube
 
 Works with attendees to develop officially supported childcare and accessibility programs and any other programs that are needed in the future.
 
-### Event director
+### Event Handler
 
 Manages day-of logistics, first to venue, delegates tasks to the couriers and other volunteers, makes sure we have enough duct tape and chairs etc
 
