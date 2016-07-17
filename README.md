@@ -1,55 +1,77 @@
 # [donutjs.club](http://donutjs.club/)
 
+<center><img src="img/donny.svg" width="200"></center>
+
 We are a Donut themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
 
 This repo is to plan venue, sponsors, and the website for the event.
 
 We're also on slack in the #donut_js channel, you can join here: http://slack.borojs.com/
 
-## Organizers
+## Organizers and Staff
 
-We have these organizer roles:
+We have the following roles.
 
-### Speaker coordinator
+If you are interested in volunteering, please reach out to us on the [#donut_js Slack channel](http://slack.borojs.com/).
 
-Finds future speakers, holds speaker elections, communicates with future speakers to help them make their talks awesome
+### Speaker Coordinator
 
-### Financial adult
+- Finds future speakers.
+- Sets up backup speakers in case we need them.
+- Holds speaker elections.
+- Communicates with speakers to help them make their talks awesome.
+	- Asks speakers for a few details on their talk.
+	- Encourages slides or another audio/visual component.
 
-Manages bank acount, writes checks, cashes checks, pays for things, pays the monthly non-profit
+### Financial Adult
 
-### Sponsorship lead
+- Coordinates with venue.
+- Manages bank acount.
+- Writes checks.
+- Cashes checks.
+- Pays for things.
+- Pays the monthly non-profit.
 
-Makes sure we have sponsors, emails with sponsors to get them to commit to sponsoring us
+### Sponsorship Lead
 
-### Communications/social media coordinator
+- Makes sure we have sponsors.
+- Emails with sponsors to get them to commit to sponsoring us.
 
-Runs twitter account/slack
+### Communications/Social Media Coordinator
 
-### Webmaster of the web ring
+- Runs Twitter and Slack accounts.
 
-Updates web site every month
+### Webmaster of the Web Ring
 
-### Audio person
+- Updates website every month.
 
-Makes sure speakers get mic'd up for their talks, and that there is no audio feedback, and that video person gets a clean recording line
+### Audio Person
 
-### Video person
+- Mics up speakers for their talks.
+- Makes sure there is no audio feedback.
+- Makes sure video person gets a clean recording line.
 
-Records videos of the talks and posts them to youtube
+### Video Person
 
-### Childcare/accessibility
+- Records videos of the talks.
+- Posts talk videos to YouTube.
 
-Works with attendees to develop officially supported childcare and accessibility programs and any other programs that are needed in the future.
+### Childcare/Accessibility Coordinator
+
+- Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
 
 ### Event Handler
 
-Manages day-of logistics, first to venue, delegates tasks to the couriers and other volunteers, makes sure we have enough duct tape and chairs etc
+- First person to venue.
+- Manages day-of logistics.
+- Delegates tasks to the couriers and other volunteers.
+- Makes sure we have enough duct tape, chairs, etc.
 
-### Donut courier
+### Donut Courier
 
-Makes sure the donuts gets ordered and paid for and picks up the donuts
+- Makes sure the donuts get ordered and paid for.
+- Picks up the donuts.
 
 ### Concierge
 
-Checks attendeeds in at the event
+- Checks in attendees at the event.
