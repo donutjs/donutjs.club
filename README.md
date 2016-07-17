@@ -1,7 +1,5 @@
 # [donutjs.club](http://donutjs.club/)
 
-<center><img src="img/donny.svg" width="200"></center>
-
 We are a Donut themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
 
 This repo is to plan venue, sponsors, and the website for the event.
