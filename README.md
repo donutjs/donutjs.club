@@ -1,4 +1,4 @@
-# [donutjs.club](http://donutjs.club/)
+# [Donut.js](http://donutjs.club/)
 
 We are a Donut themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
 
@@ -23,6 +23,8 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Financial Adult
 
+**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+
 - Coordinates with venue.
 - Manages bank acount.
 - Writes checks.
@@ -37,9 +39,13 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Communications/Social Media Coordinator
 
+**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+
 - Runs Twitter and Slack accounts.
 
 ### Webmaster of the Web Ring
+
+**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/)**
 
 - Updates website every month.
 
@@ -71,5 +77,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 - Picks up the donuts.
 
 ### Concierge
+
+**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/)**
 
 - Checks in attendees at the event.
