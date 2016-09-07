@@ -14,7 +14,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Speaker Coordinator
 
-- Finds future speakers.
 - Sets up backup speakers in case we need them.
 - Holds speaker elections.
 - Communicates with speakers to help them make their talks awesome.
@@ -39,8 +38,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Communications/Social Media Coordinator
 
-**Currently: [Emily Plummer](https://github.com/emily-plummer)**
-
 - Runs Twitter and Slack accounts.
 
 ### Webmaster of the Web Ring
@@ -49,7 +46,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 - Updates website every month.
 
-### Audio Person
+### Audio Person - Ben
 
 - Mics up speakers for their talks.
 - Makes sure there is no audio feedback.
@@ -60,18 +57,18 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 - Records videos of the talks.
 - Posts talk videos to YouTube.
 
-### Childcare/Accessibility Coordinator
+### Childcare/Accessibility Coordinator - Toby
 
 - Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
 
-### Event Handler
+### Event Handler - Folashade
 
 - First person to venue.
 - Manages day-of logistics.
 - Delegates tasks to the couriers and other volunteers.
 - Makes sure we have enough duct tape, chairs, etc.
 
-### Donut Courier
+### Donut Courier - Michael
 
 - Makes sure the donuts get ordered and paid for.
 - Picks up the donuts.
