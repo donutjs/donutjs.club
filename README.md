@@ -14,6 +14,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Speaker Coordinator
 
+- Finds future speakers.
 - Sets up backup speakers in case we need them.
 - Holds speaker elections.
 - Communicates with speakers to help them make their talks awesome.
@@ -37,6 +38,8 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 - Emails with sponsors to get them to commit to sponsoring us.
 
 ### Communications/Social Media Coordinator
+
+**Currently: [Emily Plummer](https://github.com/emily-plummer)**
 
 - Runs Twitter and Slack accounts.
 
