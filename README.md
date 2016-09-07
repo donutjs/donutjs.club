@@ -1,5 +1,7 @@
 # [Donut.js](http://donutjs.club/)
 
+**[donutjs.club](http://donutjs.club/)**
+
 We are a Donut themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
 
 This repo is to plan venue, sponsors, and the website for the event.
@@ -13,6 +15,8 @@ We have the following roles.
 If you are interested in volunteering, please reach out to us on the [#donut_js Slack channel](http://slack.borojs.com/).
 
 ### Speaker Coordinator
+
+**Currently: DonutJS staff**
 
 - Finds future speakers.
 - Sets up backup speakers in case we need them.
@@ -34,6 +38,8 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Sponsorship Lead
 
+**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+
 - Makes sure we have sponsors.
 - Emails with sponsors to get them to commit to sponsoring us.
 
@@ -43,13 +49,15 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 - Runs Twitter and Slack accounts.
 
-### Webmaster of the Web Ring
+### Webmaster
 
 **Currently: [Matthew McVickar](http://github.com/matthewmcvickar/)**
 
-- Updates website every month.
+- Updates website.
 
 ### Audio Person - Ben
+
+**Currently: [Ben Michel](https://github.com/obensource)**
 
 - Mics up speakers for their talks.
 - Makes sure there is no audio feedback.
@@ -57,27 +65,35 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Video Person
 
+**Currently: [Aaron Parecki](https://github.com/aaronpk)**
+
 - Records videos of the talks.
 - Posts talk videos to YouTube.
 
-### Childcare/Accessibility Coordinator - Toby
+### Childcare/Accessibility Coordinator
+
+**Currently: [Toby Fee](https://github.com/tobyfee)**
 
 - Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
 
-### Event Handler - Folashade
+### Event Handler
+
+**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
 
 - First person to venue.
 - Manages day-of logistics.
 - Delegates tasks to the couriers and other volunteers.
 - Makes sure we have enough duct tape, chairs, etc.
 
-### Donut Courier - Michael
+### Donut Courier
+
+**Currently: [Michael Hansen](https://github.com/modality)**
 
 - Makes sure the donuts get ordered and paid for.
 - Picks up the donuts.
 
 ### Concierge
 
-**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/)**
+**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/) and [Jessica Lord](https://github.com/jlord)**
 
 - Checks in attendees at the event.
