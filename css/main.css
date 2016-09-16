@@ -75,7 +75,10 @@ h3 + p {
     margin-top: 0.25rem;
 }
 
-a { color: #3B81F5; }
+a {
+    color: #3B81F5;
+    transition: color 0.2s;
+}
 
 input,
 button {
@@ -361,15 +364,12 @@ button {
     font-size: 18px;
     text-decoration: none;
 
-    padding: 4px 8px;
+    padding: 4px 0;
     vertical-align: middle;
-
-    opacity: 0.5;
-    transition: opacity 0.2s;
 }
 
 .event-speaker h3 a:hover {
-    opacity: 1;
+    color: #F487A9;
 }
 
 .event-speaker p {
