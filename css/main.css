@@ -10,13 +10,16 @@ light blue  #00CFE4
 
 
 /* Reset  - - - - - - - - - - - - - */
+html {
+    font-size: 24px;
+}
+
 body {
     margin: 0;
     background-color: #3B81F5;
     color: #779;
     font-family: 'Mikado', Sans-Serif;
     font-weight: 400;
-    font-size: 24px;
     letter-spacing: 0.05em;
 }
 
@@ -47,13 +50,13 @@ body {
 
 /* Typography - - - - - - - - - - - */
 h1 {
-    font-size: 64px;
+    font-size: 2.66rem;
     font-weight: 700;
     margin-bottom: .5rem;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin: 3rem 0 .5rem 0;
     color: #F487A9;
@@ -83,6 +86,10 @@ a {
 input,
 button {
     font-family: 'Mikado', Sans-Serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Top Banner - - - - - - - - - - - */
@@ -182,14 +189,19 @@ button {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .navigation-link {
     color: white;
-    font-size: 14px;
+    font-size: .65rem;
     font-weight: 700;
     text-decoration: none;
-    padding: 1rem;
+    padding: .75rem;
     -ms-flex-order: 0;
      -webkit-order: 0;
              order: 0;
@@ -224,7 +236,7 @@ button {
 
 .constrain {
     width: 100%;
-    max-width: 60rem;
+    max-width: 42rem;
     background-color: white;
     margin: -10vh auto 4rem auto;
     box-sizing: border-box;
@@ -264,7 +276,6 @@ button {
 
 .about {
     display: table;
-    margin: 3rem 0;
 }
 
 .about-description {
@@ -273,13 +284,18 @@ button {
     padding-right: 3rem;
 }
 
+.about-image {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .about-description strong {
     color: #5e5e7d;
 }
 
 .non-prof-description {
-    font-size: 16px;
-    padding-bottom: 35px;
+    font-size: .875rem;
+    padding-bottom: 1.5rem;
 }
 
 .donny {
@@ -291,11 +307,14 @@ button {
     display: block;
 
     margin: 1rem auto;
-    padding: 10px 16px 8px 16px;
-
+    padding: .5rem .75rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 250px;
+    max-width: 100%;
 
-    font-size: 28px;
+    font-size: 1.25rem;
     line-height: 1;
     text-align: center;
     text-decoration: none;
@@ -361,9 +380,7 @@ button {
 }
 
 .event-speaker h3 a {
-    font-size: 18px;
     text-decoration: none;
-
     padding: 4px 0;
     vertical-align: middle;
 }
@@ -382,6 +399,7 @@ button {
     padding-left: 20px;
     padding-bottom: 40px;
     border-left: 4px solid #3B81F5;
+    word-wrap: break-word;
 }
 
 .event-last {
@@ -438,7 +456,7 @@ button {
 }
 
 .past-event .event-speaker p {
-    color: #779;;
+    color: #779;
 }
 
 /* Tickets - - - - - - - - - - */
@@ -467,7 +485,7 @@ button {
 .sponsors li {
     display: inline-block;
 
-    margin-right: 1rem;
+    margin: 1rem 1rem 1rem 0;
     width: 155px;
 
     line-height: 1;
@@ -480,8 +498,12 @@ button {
 
 /* Responsive - - - - - - - - - - */
 @media screen and (max-width: 720px) {
+    .about-image {
+        width: 100%;
+        display: block;
+    }
     .donny {
-        margin: 2rem auto 0 auto;
+        margin: 0 auto 1rem auto;
     }
     .events-illustrations {
         display: none;
@@ -496,7 +518,35 @@ button {
         margin-top: 2rem;
     }
     .panel table.sponsorship-packages {
-        font-size: 14px;
+        font-size: .675rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 18px;
+    }
+    .panel {
+        padding: 2rem 1em;
+    }
+    .event {
+        font-size: .75rem;
+    }
+    .navigation-link {
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        -ms-flex: 1;
+        -o-flex: 1;
+        flex: 1;
+    }
+    .button {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 16px;
     }
 }
 
