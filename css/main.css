@@ -383,6 +383,14 @@ img {
     text-decoration: none;
     padding: 4px 0;
     vertical-align: middle;
+
+    font-size: 16px;
+}
+
+.event-speaker h3 a + span.ampersand {
+    color: #3B81F5;
+    font-size: 18px;
+    opacity: 0.6;
 }
 
 .event-speaker h3 a:hover {
