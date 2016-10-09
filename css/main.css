@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 3rem 0 .5rem 0;
     color: #F487A9;
@@ -311,7 +311,7 @@ img {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 250px;
+    width: 275px;
     max-width: 100%;
 
     font-size: 1.25rem;
@@ -457,14 +457,23 @@ img {
     font-size: .7em;
 }
 
-.past-event {
+.past-events li {
     list-style-type: none;
     position: relative;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
-.past-event .event-speaker p {
+.past-events li .event-speaker h3 {
     color: #779;
+}
+
+.past-events li .event-speaker p {
+    color: #aaa;
+}
+
+.past-events .button {
+    margin-top: 3rem;
 }
 
 /* Tickets - - - - - - - - - - */
