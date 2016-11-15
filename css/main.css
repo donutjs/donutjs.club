@@ -503,14 +503,22 @@ img {
     display: inline-block;
 
     margin: 1rem 1rem 1rem 0;
-    width: 155px;
+}
 
-    line-height: 1;
-    vertical-align: middle;
+.sponsors li a {
+    display: inline-block;
+
+    min-width: 155px;
+
+    height: 50px;
+    line-height: 50px;
 }
 
 .sponsors li img {
     max-width: 100%;
+    max-height: 100%;
+
+    vertical-align: middle;
 }
 
 /* Responsive - - - - - - - - - - */
