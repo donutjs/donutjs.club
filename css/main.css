@@ -427,6 +427,13 @@ img {
     margin: 0;
 }
 
+.event-speaker p.event-talk-description {
+    margin-top: 0.25rem;
+    font-size: 14px;
+    font-weight: normal;
+    color: #B2CCEB;
+}
+
 .event {
     list-style-type: none;
     position: relative;
