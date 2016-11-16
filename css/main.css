@@ -184,39 +184,15 @@ img {
     background-color: #1C406C;
     z-index: 2;
     position: relative;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    -o-flex-wrap: wrap;
-    flex-wrap: wrap;
 }
 
 .navigation-link {
     color: white;
-    font-size: .65rem;
     font-weight: 700;
     text-decoration: none;
     padding: .75rem;
-    -ms-flex-order: 0;
-     -webkit-order: 0;
-             order: 0;
-    -webkit-flex: 0 1 auto;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
-     -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-             align-self: auto;
-}
-
-.navigation-link-home {
-    -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.15s;
 }
 
 .navigation-link-pink { background-color: #F487A9; }
@@ -227,6 +203,56 @@ img {
 .navigation-link-green:hover { background-color: #3CAF77; }
 .navigation-link-yellow { background-color: #EADF43; }
 .navigation-link-yellow:hover { background-color: #CFC217; }
+.navigation-link-orange { background-color: #f0711c; }
+.navigation-link-orange:hover { background-color: #c3550c; }
+.navigation-link-purple { background-color: #bf87f4; }
+.navigation-link-purple:hover { background-color: #8c6abf; }
+
+/* Nav on multiple rows when it doesn't all fit. */
+@media (max-width: 699px) {
+    .navigation {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .navigation-link {
+        display: inline-block;
+        font-size: 16px;
+        margin-left: -7px;
+    }
+}
+
+/* One row of navigation items when it fits. */
+
+@media (min-width: 700px) {
+
+    .navigation {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .navigation-link {
+        font-size: 18px;
+
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    }
+
+    .navigation-link-home {
+        -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+    }
+}
 
 /* Content - - - - - - - - - - */
 .on-top {
