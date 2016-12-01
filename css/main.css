@@ -116,6 +116,10 @@ img {
     animation-timing-function: linear;
 }
 
+.sprinkle-background a {
+    display: block;
+}
+
 .sprinkles {
     position: fixed;
     width: 100vw;
