@@ -20,7 +20,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Speaker Coordinator
 
-**Currently: DonutJS staff**
+**Currently: Donut.js staff**
 
 - Finds future speakers.
 - Sets up backup speakers in case we need them.
