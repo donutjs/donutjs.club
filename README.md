@@ -31,7 +31,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Financial Adult
 
-**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
 
 - Coordinates with venue.
 - Manages bank acount.
@@ -42,14 +42,14 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Sponsorship Lead
 
-**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
 
 - Makes sure we have sponsors.
 - Emails with sponsors to get them to commit to sponsoring us.
 
 ### Communications/Social Media Coordinator
 
-**Currently: [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
 
 - Runs Twitter and Slack accounts.
 
@@ -59,9 +59,9 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 - Updates website.
 
-### Audio Person - Ben
+### Audio Person
 
-**Currently: [Ben Michel](https://github.com/obensource)**
+**Currently: [Ben Michel](https://github.com/obensource), [Teffen Ellis](https://github.com/TeffenEllis)**
 
 - Mics up speakers for their talks.
 - Makes sure there is no audio feedback.
@@ -82,7 +82,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Event Handler
 
-**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer), [Michael Hansen](https://github.com/modality)**
 
 - First person to venue.
 - Manages day-of logistics.
@@ -98,6 +98,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Concierge
 
-**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/) and [Jessica Lord](https://github.com/jlord)**
+**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality), [Jessica Lord](https://github.com/jlord)**
 
 - Checks in attendees at the event.
