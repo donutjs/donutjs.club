@@ -364,6 +364,22 @@ img {
     background-color: #00CFE4;
 }
 
+.button.pink {
+    background-color: #F487A9;
+}
+
+.button.pink:hover {
+    background-color: #F9CACD;
+}
+
+.button.green {
+    background-color: #3CAF77;
+}
+
+.button.green:hover {
+    background-color: #85D5AF;
+}
+
 
 /* Schedule - - - - - - - - - - */
 .schedule:after {
@@ -372,11 +388,15 @@ img {
     display: table;
 }
 
+.schedule h1 {
+    margin-top: 0;
+}
+
 .events-list {
     padding-left: 5rem;
     width: 70%;
     margin-left: 10%;
-    margin-top: 4rem;
+
     box-sizing: border-box;
     float: right;
 }
@@ -391,6 +411,10 @@ img {
 .events-illustrations img {
     max-width: 90%;
     margin-bottom: 5rem;
+}
+
+.events-illustrations img:last-child {
+    margin-bottom: 0;
 }
 
 .event-illustration-right {
@@ -450,6 +474,7 @@ img {
 .event-last {
     border-left: 4px solid transparent;
     margin-top: -4px;
+    margin-bottom: 0;
 }
 
 .event-first:before {
@@ -511,6 +536,30 @@ img {
 
 .past-events .button {
     margin-top: 3rem;
+}
+
+/* Future events. */
+.panel.future-events {
+    background-color: #3B81F5;
+}
+
+.panel.future-events h2,
+.panel.future-events p,
+.panel.future-events li {
+    color: #fff;
+}
+
+.panel.future-events h2 {
+    margin-top: 0;
+}
+
+.panel.future-events ul {
+    margin-bottom: 0;
+}
+
+/* Details on the homepage. */
+.panel.details h2:first-child {
+    margin-top: 0;
 }
 
 /* Tickets - - - - - - - - - - */
