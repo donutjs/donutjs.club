@@ -1,10 +1,10 @@
-# [Donut.js](http://donutjs.club/)
+# [Donut.js](https://donutjs.club/)
 
 <img src="https://img.shields.io/badge/events-9-3B81F5.svg">
 <img src="https://img.shields.io/badge/speakers-37-00CFE4.svg">
 <img src="https://img.shields.io/badge/donuts-🍩_tasty!-F487A9.svg">
 
-**[donutjs.club](http://donutjs.club/)**
+**[donutjs.club](https://donutjs.club/)**
 
 We are a donut-themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
 
@@ -55,7 +55,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Webmaster
 
-**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/)**
+**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/)**
 
 - Updates website.
 
@@ -98,6 +98,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Concierge
 
-**Currently: [Matthew McVickar](http://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality), [Jessica Lord](https://github.com/jlord)**
+**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality), [Jessica Lord](https://github.com/jlord)**
 
 - Checks in attendees at the event.
