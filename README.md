@@ -6,17 +6,17 @@
 
 **[donutjs.club](https://donutjs.club/)**
 
-We are a donut-themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">Waffle.JS</a> and <a href="http://brooklynjs.com/">Brooklyn.JS</a>
+We are a donut-themed web programming meetup in Portland inspired by <a href="http://wafflejs.com/">WaffleJS</a> and <a href="http://brooklynjs.com/">BrooklynJS</a>
 
-This repo is to plan venue, sponsors, and the website for the event.
+This repo is mainly for our website, but is also used to help plan events and store information.
 
-We're also on slack in the #donut_js channel, you can join here: http://slack.borojs.com/
+We also chat and organized in the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
 
 ## Organizers and Staff
 
 We have the following roles.
 
-If you are interested in volunteering, please reach out to us on the [#donut_js Slack channel](http://slack.borojs.com/).
+If you are interested in volunteering, please reach out to us on the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
 
 ### Speaker Coordinator
 
@@ -98,6 +98,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Concierge
 
-**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality), [Jessica Lord](https://github.com/jlord)**
+**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality)
 
 - Checks in attendees at the event.
