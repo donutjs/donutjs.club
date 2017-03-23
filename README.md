@@ -8,7 +8,7 @@ We are a donut-themed web programming meetup in Portland inspired by <a href="ht
 
 This repo is mainly for our website, but is also used to help plan events and store information.
 
-We also chat and organized in the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
+We also chat and organize in the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
 
 ## Organizers and Staff
 
