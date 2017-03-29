@@ -586,6 +586,10 @@ img {
     margin-bottom: 0;
 }
 
+.panel.future-events li {
+    margin-top: 0.5rem;
+}
+
 /* Details on the homepage. */
 .panel.details h2:first-child {
     margin-top: 0;
