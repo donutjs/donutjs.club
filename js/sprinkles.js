@@ -15,15 +15,16 @@ window.onload = function () {
   ]
 
   // Generate array of sprinkles
-  var MAX = 70
+  var MAX = 50
   var sprinkles = []
   for (var i = 0; i < MAX; i++) {
     sprinkles.push({
-      x: Math.random() * W,                                // x position (0-canvas width)
-      y: Math.random() * H,                                // y position (0-canvas height)
-      l: Math.random() * 25 + 5,                           // length     (5 - 50)
-      r: Math.floor(Math.random() * 360),                  // rotation   (0-360)
-      c: colors[Math.floor(Math.random() * colors.length)] // color      (colors[0-N])
+      x: Math.random() * W,                                 // x position (0-canvas width)
+      y: Math.random() * H,                                 // y position (0-canvas height)
+      l: Math.random() * 25 + 5,                            // length     (5 - 50)
+      r: Math.floor(Math.random() * 360),                   // rotation   (0-360)
+      c: colors[Math.floor(Math.random() * colors.length)], // color      (colors[0-N])
+      v: Math.random() * 1 + 1                              // velocity   (1 - 2)
     })
   }
 
@@ -60,7 +61,7 @@ window.onload = function () {
   // update the sprinkles with new rotation and y position so they fall
   function update () {
     sprinkles.forEach(function (s, i) {
-      s.y += 2
+      s.y += 2 * s.v
       s.r = (s.r + 1) % 360
       // when sprinkles fall off the bottom, add them to the top again.
       if (s.y > H + 20) {
@@ -69,7 +70,8 @@ window.onload = function () {
           y: -20,
           l: s.l,
           r: s.r,
-          c: s.c
+          c: s.c,
+          v: s.v
         }
       }
     })
