@@ -1,6 +1,6 @@
 # [Donut.js](https://donutjs.club/)
 
-<img src="https://img.shields.io/badge/events-9-3B81F5.svg"> <img src="https://img.shields.io/badge/speakers-37-00CFE4.svg"> <img src="https://img.shields.io/badge/donuts-🍩_tasty!-F487A9.svg">
+<img src="https://img.shields.io/badge/events-10-3B81F5.svg"> <img src="https://img.shields.io/badge/speakers-40-00CFE4.svg"> <img src="https://img.shields.io/badge/donuts-🍩_tasty!-F487A9.svg">
 
 **[donutjs.club](https://donutjs.club/)**
 
@@ -96,6 +96,6 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Concierge
 
-**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality)
+**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality)**
 
 - Checks in attendees at the event.
