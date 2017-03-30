@@ -411,6 +411,10 @@ img {
 
 
 /* Schedule - - - - - - - - - - */
+.schedule-coming-soon {
+    padding: 62px 0;
+}
+
 .schedule:after {
     content: '';
     clear: both;
