@@ -29,7 +29,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Financial Adult
 
-**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden)**
 
 - Coordinates with venue.
 - Manages bank acount.
@@ -40,14 +40,14 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Sponsorship Lead
 
-**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden)**
 
 - Makes sure we have sponsors.
 - Emails with sponsors to get them to commit to sponsoring us.
 
 ### Communications/Social Media Coordinator
 
-**Currently: [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer)**
+**Currently: [Max Ogden](https://github.com/maxogden), [Matthew McVickar](https://github.com/matthewmcvickar)**
 
 - Runs Twitter and Slack accounts.
 
@@ -72,15 +72,9 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 - Records videos of the talks.
 - Posts talk videos to YouTube.
 
-### Childcare/Accessibility Coordinator
-
-**Currently: [Toby Fee](https://github.com/tobyfee)**
-
-- Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
-
 ### Event Handler
 
-**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Emily Plummer](https://github.com/emily-plummer), [Michael Hansen](https://github.com/modality)**
+**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Michael Hansen](https://github.com/modality)**
 
 - First person to venue.
 - Manages day-of logistics.
@@ -99,3 +93,9 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 **Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality)**
 
 - Checks in attendees at the event.
+
+### Childcare/Accessibility Coordinator
+
+**Currently: [Toby Fee](https://github.com/tobyfee)**
+
+- Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
