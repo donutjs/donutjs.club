@@ -16,86 +16,21 @@ We have the following roles.
 
 If you are interested in volunteering, please reach out to us on the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
 
-### Speaker Coordinator
+### Organizers
 
-**Currently: Donut.js staff**
+- [Michael Hansen](https://github.com/modality)
+- [Stefanie Hatcher](https://github.com/stefhatcher)
+- [Max Ogden](https://github.com/maxogden)
+- [Folashade Okunubi](https://github.com/folashade)
+- [Matthew McVickar](https://github.com/matthewmcvickar/)
+- [Colin Williams](https://github.com/matthewmcvickar/)
 
-- Finds future speakers.
-- Sets up backup speakers in case we need them.
-- Holds speaker elections.
-- Communicates with speakers to help them make their talks awesome.
-	- Asks speakers for a few details on their talk.
-	- Encourages slides or another audio/visual component.
+See [Roles & Responsibilities](./wiki/Roles-&-Responsibilities) for details.
 
-### Financial Adult
+### Staff
 
-**Currently: [Max Ogden](https://github.com/maxogden)**
-
-- Coordinates with venue.
-- Manages bank acount.
-- Writes checks.
-- Cashes checks.
-- Pays for things.
-- Pays the monthly non-profit.
-
-### Sponsorship Lead
-
-**Currently: [Max Ogden](https://github.com/maxogden)**
-
-- Makes sure we have sponsors.
-- Emails with sponsors to get them to commit to sponsoring us.
-
-### Communications/Social Media Coordinator
-
-**Currently: [Max Ogden](https://github.com/maxogden), [Matthew McVickar](https://github.com/matthewmcvickar)**
-
-- Runs Twitter and Slack accounts.
-
-### Webmaster
-
-**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/)**
-
-- Updates website.
-
-### Audio Person
-
-**Currently: [Ben Michel](https://github.com/obensource), [Teffen Ellis](https://github.com/TeffenEllis)**
-
-- Mics up speakers for their talks.
-- Makes sure there is no audio feedback.
-- Makes sure video person gets a clean recording line.
-
-### Video Person
-
-**Currently: [Aaron Parecki](https://github.com/aaronpk)**
-
-- Records videos of the talks.
-- Posts talk videos to YouTube.
-
-### Event Handler
-
-**Currently: [Folashade Okunubi](https://github.com/folashade), [Max Ogden](https://github.com/maxogden), [Michael Hansen](https://github.com/modality)**
-
-- First person to venue.
-- Manages day-of logistics.
-- Delegates tasks to the couriers and other volunteers.
-- Makes sure we have enough duct tape, chairs, etc.
-
-### Donut Courier
-
-**Currently: [Michael Hansen](https://github.com/modality)**
-
-- Makes sure the donuts get ordered and paid for.
-- Picks up the donuts.
-
-### Concierge
-
-**Currently: [Matthew McVickar](https://github.com/matthewmcvickar/), [Michael Hansen](https://github.com/modality)**
-
-- Checks in attendees at the event.
-
-### Childcare/Accessibility Coordinator
-
-**Currently: [Toby Fee](https://github.com/tobyfee)**
-
-- Works with attendees to develop officially-supported childcare and accessibility programs and any other programs that are needed in the future.
+- [Teffen Ellis](https://github.com/TeffenEllis): event audio engineer
+- [Ben Michel](https://github.com/obensource): event audio equipment provider
+- [Aaron Parecki](https://github.com/aaronpk): event video engineer
+- [Paul Pederson](https://github.com/paulcpederson): website designer/contributor
+- [Toby Fee](https://github.com/tobyfee): childcare coordinator
