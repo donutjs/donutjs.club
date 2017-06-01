@@ -1,8 +1,6 @@
 # [Donut.js](https://donutjs.club/)
 
-<img src="https://img.shields.io/badge/events-13-3B81F5.svg">
-<img src="https://img.shields.io/badge/speakers-44-00CFE4.svg">
-<img src="https://img.shields.io/badge/donuts-🍩_tasty!-F487A9.svg">
+<img src="https://img.shields.io/badge/events-13-3B81F5.svg"> <img src="https://img.shields.io/badge/speakers-44-00CFE4.svg"> <img src="https://img.shields.io/badge/donuts-🍩_tasty!-F487A9.svg">
 
 **[donutjs.club](https://donutjs.club/)**
 
