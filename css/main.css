@@ -189,6 +189,8 @@ img {
     background-color: #1C406C;
     z-index: 2;
     position: relative;
+    border-top: 4px solid #1C406C;
+    border-bottom: 4px solid #1C406C;
 }
 
 .navigation-link {
@@ -202,14 +204,22 @@ img {
 
 .navigation-link-pink { background-color: #F487A9; }
 .navigation-link-pink:hover { background-color: #EF5787; }
-.navigation-link-blue { background-color: #00CFE4; }
-.navigation-link-blue:hover { background-color: #00A1B3; }
+
+.navigation-link-blue { background-color: #3B81F5; }
+.navigation-link-blue:hover { background-color: #336fd3; }
+
+.navigation-link-light-blue { background-color: #00CFE4; }
+.navigation-link-light-blue:hover { background-color: #00A1B3; }
+
 .navigation-link-green { background-color: #85D5AF; }
 .navigation-link-green:hover { background-color: #3CAF77; }
+
 .navigation-link-yellow { background-color: #EADF43; }
 .navigation-link-yellow:hover { background-color: #CFC217; }
+
 .navigation-link-orange { background-color: #f0711c; }
 .navigation-link-orange:hover { background-color: #c3550c; }
+
 .navigation-link-purple { background-color: #bf87f4; }
 .navigation-link-purple:hover { background-color: #8c6abf; }
 
@@ -246,17 +256,13 @@ img {
 
     .navigation-link {
         font-size: 18px;
+        text-align: center;
 
-    -webkit-flex: 0 1 auto;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
     }
 
-    .navigation-link-home {
-        -webkit-flex: 1 1 auto;
-            -ms-flex: 1 1 auto;
-                flex: 1 1 auto;
-    }
 }
 
 /* Content - - - - - - - - - - */
