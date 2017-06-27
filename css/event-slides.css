@@ -1,0 +1,86 @@
+.logo-condensed,
+.event-slide-content {
+  position: relative;
+  z-index: 2; }
+
+.logo-condensed {
+  margin: 1rem;
+  text-align: center; }
+  .logo-condensed .donut,
+  .logo-condensed .title {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .logo-condensed .donut {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle; }
+  .logo-condensed .title {
+    margin-left: 0.5rem;
+    width: 212px;
+    height: 80px;
+    vertical-align: 15px; }
+
+.event-slide-content {
+  overflow: hidden;
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px; }
+  @media (max-width: 900px) {
+    .event-slide-content {
+      margin: 1rem 1rem; } }
+  .event-slide-content h2 {
+    margin: 0 0 0.75rem;
+    font-size: 42px;
+    color: #f487a9; }
+  .event-slide-content h3 {
+    color: #3b81f5; }
+  .event-slide-content p,
+  .event-slide-content li {
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.025rem; }
+  .event-slide-content p {
+    margin: 0.5rem 0; }
+  .event-slide-content a {
+    color: #777799;
+    text-decoration: none; }
+  .event-slide-content .social-networking-link {
+    font-size: 75%;
+    opacity: 0.6;
+    margin-left: 0.2rem; }
+
+ul.condensed-events-list {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none; }
+  ul.condensed-events-list li {
+    display: flex;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #cce; }
+    ul.condensed-events-list li:first-child {
+      padding-top: 0; }
+    ul.condensed-events-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0; }
+  ul.condensed-events-list time {
+    width: 60px; }
+  ul.condensed-events-list span {
+    flex: 1; }
+
+.just-heard-up-next p {
+  font-size: 22px; }
+
+.divider {
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center; }
+  .divider img {
+    width: 60px;
+    height: 60px; }
+  .divider span {
+    flex: 1;
+    margin: 0 1rem;
+    border-bottom: 4px solid #1c406c; }
