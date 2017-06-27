@@ -46,11 +46,12 @@
     margin: 0.5rem 0; }
   .event-slide-content a {
     color: #777799;
-    text-decoration: none; }
-  .event-slide-content .social-networking-link {
+    text-decoration: underline; }
+  .event-slide-content a.social-networking-link {
     font-size: 75%;
     opacity: 0.6;
-    margin-left: 0.2rem; }
+    margin-left: 0.2rem;
+    text-decoration: none; }
 
 ul.condensed-events-list {
   margin: 0.75rem 0 0;

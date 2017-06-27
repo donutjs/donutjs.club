@@ -81,13 +81,14 @@ $light-pink:  #F9CACD;
 
   a {
     color: $text-gray;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
-  .social-networking-link {
+  a.social-networking-link {
     font-size: 75%;
     opacity: 0.6;
     margin-left: 0.2rem;
+    text-decoration: none;
   }
 }
 
