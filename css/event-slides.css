@@ -4,7 +4,7 @@
   z-index: 2; }
 
 .logo-condensed {
-  margin: 1rem;
+  margin: 0.5rem auto -8px auto;
   text-align: center; }
   .logo-condensed .donut,
   .logo-condensed .title {
@@ -12,25 +12,25 @@
     margin: 0;
     padding: 0; }
   .logo-condensed .donut {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle; }
   .logo-condensed .title {
     margin-left: 0.5rem;
-    width: 212px;
-    height: 80px;
-    vertical-align: 15px; }
+    width: 133px;
+    height: 50px;
+    vertical-align: 4px; }
 
 .event-slide-content {
   overflow: hidden;
   max-width: 800px;
-  margin: 1rem auto;
+  margin: 0.75rem auto;
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px; }
   @media (max-width: 900px) {
     .event-slide-content {
-      margin: 1rem 1rem; } }
+      margin: 0.75rem 1rem; } }
   .event-slide-content h2 {
     margin: 0 0 0.75rem;
     font-size: 42px;
