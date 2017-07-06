@@ -525,6 +525,20 @@ img {
   margin-top: 3rem;
 }
 
+.past-events .non-event {
+  margin: 4rem auto;
+  background: #eee;
+  color: #aaa;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.past-events .non-event strong {
+  color: #F487A9;
+  display: block;
+}
+
 /* Future events. */
 .panel.future-events {
   background-color: #3376c7;
