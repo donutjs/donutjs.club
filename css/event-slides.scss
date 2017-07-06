@@ -24,7 +24,6 @@ $light-pink:  #F9CACD;
     display: inline-block;
     margin: 0;
     padding: 0;
-
   }
 
   .donut {
@@ -128,20 +127,3 @@ ul.condensed-events-list {
   }
 }
 
-.divider {
-  margin: 1.5rem auto;
-
-  display: flex;
-  align-items: center;
-
-  img {
-    width: 60px;
-    height: 60px;
-  }
-
-  span {
-    flex: 1;
-    margin: 0 1rem;
-    border-bottom: 4px solid $dark-blue;
-  }
-}

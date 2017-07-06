@@ -73,15 +73,3 @@ ul.condensed-events-list {
 
 .just-heard-up-next p {
   font-size: 22px; }
-
-.divider {
-  margin: 1.5rem auto;
-  display: flex;
-  align-items: center; }
-  .divider img {
-    width: 60px;
-    height: 60px; }
-  .divider span {
-    flex: 1;
-    margin: 0 1rem;
-    border-bottom: 4px solid #1c406c; }
