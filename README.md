@@ -18,9 +18,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 
 ### Organizers
 
-- [Michael Hansen](https://github.com/modality)
 - [Stefanie Hatcher](https://github.com/stefhatcher)
-- [Max Ogden](https://github.com/maxogden)
 - [Folashade Okunubi](https://github.com/folashade)
 - [Matthew McVickar](https://github.com/matthewmcvickar/)
 - [Colin Williams](https://github.com/matthewmcvickar/)
@@ -29,8 +27,5 @@ See [Roles & Responsibilities](./wiki/Roles-&-Responsibilities) for details.
 
 ### Staff
 
-- [Teffen Ellis](https://github.com/TeffenEllis): event audio engineer
-- [Ben Michel](https://github.com/obensource): event audio equipment provider
 - [Aaron Parecki](https://github.com/aaronpk): event video engineer
-- [Paul Pederson](https://github.com/paulcpederson): website designer/contributor
-- [Toby Fee](https://github.com/tobyfee): childcare coordinator
+- [Paul Pederson](https://github.com/paulcpederson): website and identity designer
