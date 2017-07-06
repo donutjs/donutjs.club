@@ -21,7 +21,7 @@ If you are interested in volunteering, please reach out to us on the [#donut_js 
 - [Stefanie Hatcher](https://github.com/stefhatcher)
 - [Folashade Okunubi](https://github.com/folashade)
 - [Matthew McVickar](https://github.com/matthewmcvickar/)
-- [Colin Williams](https://github.com/matthewmcvickar/)
+- [Colin Williams](https://github.com/colinswilliams/)
 
 See [Roles & Responsibilities](../../wiki/Roles-&-Responsibilities) for details.
 
