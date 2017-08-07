@@ -96,7 +96,7 @@ img {
 /* Top Banner - - - - - - - - - - - */
 .sprinkle-background {
   width: 100%;
-  padding: 20vh 0;
+  margin: 5vh 0;
   position: relative;
 }
 
@@ -237,7 +237,7 @@ img {
   width: 100%;
   max-width: 42rem;
   background-color: white;
-  margin: -10vh auto 4rem auto;
+  margin: 0 auto 4rem auto;
   box-sizing: border-box;
   position: relative;
   z-index: 2;
