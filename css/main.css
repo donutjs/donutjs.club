@@ -542,6 +542,7 @@ img {
 /* Future events. */
 .panel.future-events {
   background-color: #3376c7;
+  text-align: center;
 }
 
 .panel.future-events h2,
@@ -556,10 +557,20 @@ img {
 
 .panel.future-events ul {
   margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .panel.future-events li {
   margin-top: 0.5rem;
+}
+
+.panel.future-events li + li {
+  margin-top: 1.25rem;
+}
+
+.panel.future-events .button.inline-button {
+  margin-left: 0;
 }
 
 /* Details on the homepage. */
