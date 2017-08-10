@@ -499,6 +499,11 @@ img {
   color: #3B81F5;
 }
 
+.topic-tba {
+  opacity: 0.35;
+}
+
+
 .past-speakers-link {
   position: absolute;
   bottom: 0;
@@ -853,3 +858,4 @@ body.splash .sprinkle-background {
 .code-of-conduct .fine-print a {
   color: #888;
 }
+
