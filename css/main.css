@@ -859,3 +859,29 @@ body.splash .sprinkle-background {
   color: #888;
 }
 
+
+#mc_embed_signup form {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+#mc_embed_signup input.email,
+#mc_embed_signup input.button {
+  margin: 0;
+}
+
+#mc_embed_signup input.email {
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  margin-right: 20px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, .15);
+}
+
+#mc_embed_signup input.button {
+  border: 0;
+  -webkit-appearance: none;
+}
