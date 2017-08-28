@@ -1,4 +1,6 @@
-$margin: 0.75rem;
+$margin: 0.5rem;
+$margin-md: 0.75rem;
+$margin-lg: 1rem;
 $slide-max-width: 800px;
 
 $text-gray:   #779;
@@ -46,13 +48,17 @@ $light-pink:  #F9CACD;
   max-width: $slide-max-width;
 
   @media (max-width: 900px) {
-    margin: $margin 1rem;
+    margin: $margin-md 1rem;
   }
-  margin: $margin auto;
+  margin: $margin-md auto;
 
-  padding: 1.5rem;
+  padding: 1rem;
   background: rgba(white, 0.9);
   border-radius: 10px;
+
+  .donny {
+    margin-right: 15px;
+  }
 
   h2 {
     margin: 0 0 $margin;
@@ -61,6 +67,7 @@ $light-pink:  #F9CACD;
   }
 
   h3 {
+    margin-top: $margin-lg;
     color: $blue;
   }
 
@@ -73,6 +80,12 @@ $light-pink:  #F9CACD;
 
   p {
     margin: 0.5rem 0;
+  }
+
+  ol,
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0;
   }
 
   li {
@@ -157,7 +170,7 @@ ul.condensed-events-list {
   }
 }
 
-.organizers {
+ul.organizers {
   margin: 0;
   padding: 0;
   list-style: none;

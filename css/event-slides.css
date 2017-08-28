@@ -25,17 +25,20 @@
   overflow: hidden;
   max-width: 800px;
   margin: 0.75rem auto;
-  padding: 1.5rem;
+  padding: 1rem;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px; }
   @media (max-width: 900px) {
     .event-slide-content {
       margin: 0.75rem 1rem; } }
+  .event-slide-content .donny {
+    margin-right: 15px; }
   .event-slide-content h2 {
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.5rem;
     font-size: 42px;
     color: #f487a9; }
   .event-slide-content h3 {
+    margin-top: 1rem;
     color: #3b81f5; }
   .event-slide-content p,
   .event-slide-content li {
@@ -44,6 +47,10 @@
     letter-spacing: 0.025rem; }
   .event-slide-content p {
     margin: 0.5rem 0; }
+  .event-slide-content ol,
+  .event-slide-content ul {
+    margin: 0 0 0 20px;
+    padding: 0; }
   .event-slide-content a {
     color: #777799;
     text-decoration: underline; }
@@ -59,7 +66,7 @@
     border-bottom: 2px solid #cce; }
 
 ul.condensed-events-list {
-  margin: 0.75rem 0 0;
+  margin: 0.5rem 0 0;
   padding: 0;
   list-style: none; }
   ul.condensed-events-list li {
@@ -93,15 +100,15 @@ ul.condensed-events-list {
   .slide-nav .next-slide {
     text-align: right; }
 
-.organizers {
+ul.organizers {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex; }
-  .organizers li {
+  ul.organizers li {
     text-align: center;
     margin-right: 40px; }
-  .organizers img {
+  ul.organizers img {
     display: inline-block;
     width: 90px;
     border-radius: 50%;
