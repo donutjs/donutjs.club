@@ -52,6 +52,11 @@
     opacity: 0.6;
     margin-left: 0.2rem;
     text-decoration: none; }
+  .event-slide-content hr {
+    border: 0;
+    background: transparent;
+    color: none;
+    border-bottom: 2px solid #cce; }
 
 ul.condensed-events-list {
   margin: 0.75rem 0 0;
@@ -73,3 +78,31 @@ ul.condensed-events-list {
 
 .just-heard-up-next p {
   font-size: 22px; }
+
+.slide-nav {
+  position: relative;
+  z-index: 2;
+  width: 800px;
+  margin: 0 auto;
+  display: flex; }
+  .slide-nav a {
+    flex: 1;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none; }
+  .slide-nav .next-slide {
+    text-align: right; }
+
+.organizers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; }
+  .organizers li {
+    text-align: center;
+    margin-right: 40px; }
+  .organizers img {
+    display: inline-block;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden; }

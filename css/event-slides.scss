@@ -1,4 +1,5 @@
 $margin: 0.75rem;
+$slide-max-width: 800px;
 
 $text-gray:   #779;
 $blue:        #3B81F5;
@@ -42,7 +43,7 @@ $light-pink:  #F9CACD;
 
 .event-slide-content {
   overflow: hidden;
-  max-width: 800px;
+  max-width: $slide-max-width;
 
   @media (max-width: 900px) {
     margin: $margin 1rem;
@@ -89,6 +90,13 @@ $light-pink:  #F9CACD;
     margin-left: 0.2rem;
     text-decoration: none;
   }
+
+  hr {
+    border: 0;
+    background: transparent;
+    color: none;
+    border-bottom: 2px solid #cce;
+  }
 }
 
 ul.condensed-events-list {
@@ -127,3 +135,44 @@ ul.condensed-events-list {
   }
 }
 
+.slide-nav {
+  position: relative;
+  z-index: 2;
+
+  width: $slide-max-width;
+  margin: 0 auto;
+
+  display: flex;
+
+  & a {
+    flex: 1;
+
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  & .next-slide {
+    text-align: right;
+  }
+}
+
+.organizers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+
+  & li {
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  & img {
+    display: inline-block;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
