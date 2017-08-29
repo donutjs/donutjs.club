@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener('load', function(event) {
   var canvas = document.getElementById('sprinkles')
   var ctx = canvas.getContext('2d')
   var W = window.innerWidth
@@ -25,6 +25,7 @@ window.onload = function () {
       r: Math.floor(Math.random() * 360),                   // rotation   (0-360)
       c: colors[Math.floor(Math.random() * colors.length)], // color      (colors[0-N])
       v: Math.random() * 1 + 1                              // velocity   (1 - 2)
+      // v: 1                              // velocity   (1 - 2)
     })
   }
 
@@ -79,4 +80,4 @@ window.onload = function () {
 
   // kick off the drawing loop
   setInterval(draw, 33)
-}
+});

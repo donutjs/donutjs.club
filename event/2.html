@@ -18,7 +18,7 @@
 
     <!-- SLIDE -->
     <div class="event-slide-content just-heard-up-next">
-      <h2>You Just Heard</h2>
+      <h2>You Just Saw/Heard</h2>
       <p>
         Lee Baillie <a class="social-networking-link" href="https://twitter.com/_lbaillie">@_lbaillie</a><br>
         <strong>Ruby is Awesome! Rust is Awesome! Building a Game in Both is AWESOME!</strong>
@@ -35,7 +35,10 @@
         <span></span>
       </div>
 
-      <h2>Now: A 20-minute Break</h2>
+      <h2>
+        Now: A 20-minute Break
+        <span class="countdown-timer">(<span id="countdown-time-left">20min left</span>)</span>
+      </h2>
       <p>
         Tell our speakers what an amazing job they did!<br>
         Grab a soda and/or donut. Take a deep breath. Chat.<br>
@@ -56,10 +59,26 @@
 
     <!-- SLIDE NAV -->
     <div class="slide-nav">
-      <a class="previous-slide" href="index.html">&larr;</a>
-      <!-- <a class="next-slide" href="3.html">&rarr;</a> -->
-      <a class="next-slide" href="last.html">&rarr;</a>
+      <a href="1.html">1</a>
+      <a href="2.html">2</a>
+      <a href="last.html">3</a>
     </div>
+
+    <!-- countdown -->
+    <script>
+    window.addEventListener('load', function(event) {
+      var display = document.querySelector('#countdown-time-left');
+      var timer = 20 * 60;
+      var minutes;
+      setInterval(function () {
+          minutes = parseInt(timer / 60, 10);
+          display.textContent = minutes + 'min left';
+          if (--timer < 0) {
+            display.textContent = 'Time’s up!';
+          }
+      }, 1000);
+    });
+    </script>
 
     <!-- generated sprinkles! -->
     <canvas id="sprinkles" class="sprinkles"></canvas>
