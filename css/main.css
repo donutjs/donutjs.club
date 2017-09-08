@@ -50,7 +50,7 @@ body {
 
 /* Typography - - - - - - - - - - - */
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-bottom: .5rem;
 }
@@ -592,6 +592,11 @@ img {
 .panel.tickets h1 {
   color: #3B81F5;
   margin-top: 0;
+  text-align: center;
+}
+
+.panel.tickets h1 + p {
+  text-align: center;
 }
 
 .panel.tickets p {
@@ -612,7 +617,7 @@ img {
 
 .tickets-or-divider {
   position: relative;
-  margin: 1.5rem auto;
+  margin: 2rem auto;
   width: 90px;
   height: 90px;
 
@@ -905,4 +910,12 @@ body.splash .sprinkle-background {
   margin: 0.25rem 0 0.75rem;
   max-width: 500px;
   font-size: 16px;
+}
+
+/* ~Halloween~ */
+.spooky {
+  background: -webkit-linear-gradient(yellow, #BC5526);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 105%;
 }
