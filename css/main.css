@@ -503,12 +503,27 @@ img {
   opacity: 0.35;
 }
 
-
 .past-speakers-link {
   position: absolute;
   bottom: 0;
   right: 20px;
   font-size: .7em;
+}
+
+.past-events h2.event-title a {
+  color: #F487A9;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.past-events h2.event-title a:hover:before {
+  position: absolute;
+  left: -22px;
+  top: 16px;
+  content: " #";
+  color: #ddd;
+  font-size: 60%;
 }
 
 .past-events li {
