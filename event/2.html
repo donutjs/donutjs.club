@@ -16,45 +16,103 @@
       <div class="title">Donut.js</div>
     </div>
 
-    <!-- SLIDE -->
-    <div class="event-slide-content just-heard-up-next">
-      <h2>You Just Saw/Heard</h2>
-      <p>
-        Lee Baillie <a class="social-networking-link" href="https://twitter.com/_lbaillie">@_lbaillie</a><br>
-        <strong>Ruby is Awesome! Rust is Awesome! Building a Game in Both is AWESOME!</strong>
-      </p>
-      <hr>
-      <p>
-        Kara Sowles <a class="social-networking-link" href="https://twitter.com/feynudibranch">@feynudibranch</a><br>
-        <strong>Carrying On: Tech Travel Lessons</strong>
-      </p>
+    <!-- SLIDES -->
+    <div class="event-slides-carousel">
 
-      <div class="divider">
-        <span></span>
-        <img src="../img/logo.svg"/>
-        <span></span>
+      <!-- SLIDE 1 -->
+      <div class="event-slide-content just-heard-up-next">
+        <h2>You Just Saw/Heard</h2>
+        <p>
+          Courtney Stanton <a class="social-networking-link" href="https://twitter.com/q0rtz">@q0rtz</a><br>
+          <strong>How to Manage People</strong>
+        </p>
+        <hr>
+        <p>
+          Jesse Wolfe <a class="social-networking-link" href="https://twitter.com/jes5199">@jes5199</a><br>
+          <strong>Synthesizing Video and Turning It Into Music</strong>
+        </p>
+
+        <div class="divider">
+          <span></span>
+          <img src="../img/logo.svg"/>
+          <span></span>
+        </div>
+
+        <h2>
+          Now: A 20-minute Break
+          <span class="countdown-timer">(<span id="countdown-time-left">20min left</span>)</span>
+        </h2>
+        <p>
+          Tell our speakers what an amazing job they did!<br>
+          Grab a soda and/or donut. Take a deep breath. Chat.<br>
+        </p>
+
+        <div class="divider">
+          <span></span>
+          <img src="../img/logo.svg"/>
+          <span></span>
+        </div>
+
+        <h2>Next Up</h2>
+        <p>
+          Emily Plummer <a class="social-networking-link" href="https://twitter.com/emplums">@emplums</a><br>
+          <strong>Learning from History: Architecture &amp; Universal Design</strong>
+        </p>
+        <hr>
+        <p>
+          George Mandis <a class="social-networking-link" href="https://twitter.com/georgemandis">@georgemandis</a><br>
+          <strong>Make More Than Music with MIDI, JavaScript &amp; Tiny Computers</strong>
+        </p>
       </div>
 
-      <h2>
-        Now: A 20-minute Break
-        <span class="countdown-timer">(<span id="countdown-time-left">20min left</span>)</span>
-      </h2>
-      <p>
-        Tell our speakers what an amazing job they did!<br>
-        Grab a soda and/or donut. Take a deep breath. Chat.<br>
-      </p>
 
-      <div class="divider">
-        <span></span>
-        <img src="../img/logo.svg"/>
-        <span></span>
+      <!-- SLIDE 2 -->
+      <div class="event-slide-content">
+        <h3>Your Organizers Tonight</h3>
+        <ul class="organizers">
+          <li>
+            <img src="../img/organizers/matthew-mcvickar.jpg">
+            <br>
+            Matt McVickar
+          </li>
+          <li>
+            <img src="../img/organizers/colin-williams.jpg">
+            <br>
+            Colin Williams
+          </li>
+          <li>
+            <img src="../img/organizers/milan-loveless.jpg">
+            <br>
+            Milan Loveless
+          </li>
+          <li>
+            <img src="../img/organizers/emily-plummer.jpg">
+            <br>
+            Emily Plummer
+          </li>
+        </ul>
+
+        <h3>Need a Conversation Topic?</h3>
+        <p>Find someone who needs a conversation partner and ask them:</p>
+        <ul>
+          <li>What&rsquo;s your favorite kind of donut? What&rsquo;s the best donut you ever had?</li>
+          <li>Have you been to Donut.js before? What was your favorite Donut.js talk?</li>
+          <li>What&rsquo;s a personal project you&rsquo;d love to start or work on more?</li>
+          <li>How did you hear about Donut.js?</li>
+          <li>Which talks tonight are you particularly looking forward to?</li>
+          <li>Do you have some a favorite place in Portland you like to take visitors?</li>
+          <li>What&rsquo;s your favorite animal?</li>
+          <li>What was your first username online?</li>
+          <li>What&rsquo;s something you saw on the internet recently that made you feel joy?</li>
+        </ul>
+
+        <center>
+          <h3>Vote on this poll: <a href="http://tinyurl.com/bestdonut">tinyurl.com/bestdonut</a></h3>
+          <blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr">So?</p>&mdash; Donut.js (@donutjs) <a href="https://twitter.com/donutjs/status/912807347877064704">September 26, 2017</a></blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </center>
       </div>
 
-      <h2>Next Up</h2>
-      <p>
-        Liz Abinante <a class="social-networking-link" href="https://twitter.com/feministy">@feministy</a><br>
-        <strong>The Social Responsibility of Coding</strong>
-      </p>
     </div>
 
     <!-- SLIDE NAV -->
@@ -83,5 +141,17 @@
     <!-- generated sprinkles! -->
     <canvas id="sprinkles" class="sprinkles"></canvas>
     <script src="../js/sprinkles.js"></script>
+
+    <!-- slideshow! -->
+    <script src="../js/flickity.pkgd.min.js"></script>
+    <link href="../js/flickity.css" rel="stylesheet">
+    <script>
+    var elem = document.querySelector('.event-slides-carousel');
+    var flkty = new Flickity( elem, {
+      prevNextButtons: false,
+      pageDots: false,
+      autoPlay: 10000
+    });
+    </script>
   </body>
 </html>

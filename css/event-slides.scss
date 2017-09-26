@@ -13,9 +13,34 @@ $yellow:      #EFE670;
 $light-pink:  #F9CACD;
 
 .logo-condensed,
+.event-slides-carousel,
 .event-slide-content {
   position: relative;
   z-index: 2;
+
+  & * {
+    box-sizing: border-box;
+  }
+}
+
+.event-slides-carousel {
+  width: $slide-max-width;
+  max-width: 100%;
+  margin: 1rem auto;
+
+  & .event-slide-content {
+    margin: 0 25px;
+    opacity: 0.25;
+    transition: opacity 0.5s;
+
+    &.is-selected {
+      opacity: 1;
+    }
+  }
+
+  & .flickity-viewport {
+    overflow: visible;
+  }
 }
 
 .logo-condensed {
@@ -46,6 +71,7 @@ $light-pink:  #F9CACD;
 }
 
 .event-slide-content {
+  width: 100%;
   overflow: hidden;
   max-width: $slide-max-width;
 
@@ -169,7 +195,7 @@ ul.condensed-events-list {
   z-index: 2;
 
   width: $slide-max-width;
-  margin: 0 auto;
+  margin: 500px auto 100px auto;
 
   text-align: center;
 }
@@ -222,5 +248,5 @@ ul.organizers {
 }
 
 .countdown-timer {
-  opacity: 0.4;
+  opacity: 0.6;
 }

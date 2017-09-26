@@ -1,7 +1,25 @@
 .logo-condensed,
+.event-slides-carousel,
 .event-slide-content {
   position: relative;
   z-index: 2; }
+  .logo-condensed *,
+  .event-slides-carousel *,
+  .event-slide-content * {
+    box-sizing: border-box; }
+
+.event-slides-carousel {
+  width: 800px;
+  max-width: 100%;
+  margin: 1rem auto; }
+  .event-slides-carousel .event-slide-content {
+    margin: 0 25px;
+    opacity: 0.25;
+    transition: opacity 0.5s; }
+    .event-slides-carousel .event-slide-content.is-selected {
+      opacity: 1; }
+  .event-slides-carousel .flickity-viewport {
+    overflow: visible; }
 
 .logo-condensed {
   display: none;
@@ -23,6 +41,7 @@
     vertical-align: 4px; }
 
 .event-slide-content {
+  width: 100%;
   overflow: hidden;
   max-width: 800px;
   margin: 0.75rem auto;
@@ -99,7 +118,7 @@ ul.condensed-events-list {
   position: relative;
   z-index: 2;
   width: 800px;
-  margin: 0 auto;
+  margin: 500px auto 100px auto;
   text-align: center; }
 
 .slide-nav a {
@@ -142,4 +161,4 @@ ul.organizers {
   100% {
     transform: rotate(0deg); } }
 .countdown-timer {
-  opacity: 0.4; }
+  opacity: 0.6; }
