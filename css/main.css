@@ -934,3 +934,30 @@ body.splash .sprinkle-background {
   -webkit-text-fill-color: transparent;
   font-size: 105%;
 }
+
+
+/* Videos coming soon. */
+p.video-coming-soon {
+  display: inline-block;
+  background: #f3f3f3;
+  color: #bbb !important;
+  border-radius: 5px;
+  margin-top: .25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.past-events h1 {
+  text-align: center;
+}
+
+.past-event-counts {
+  text-align: center;
+}
+
+.past-event-counts strong {
+  color: #F487A9;
+  font-size: 150%;
+  vertical-align: -5px;
+}

@@ -33,7 +33,18 @@
 
         <div class="panel past-events">
 
-          <h1>Past Donut.js Events, Speakers, and Videos</h1>
+          <h1>Past Donut.js Speaker Videos</h1>
+
+          <p class="past-event-counts">
+            Since April 2016: <strong id="numberOfEvents">🤔</strong> events, <strong id="numberOfSpeakers">🤔</strong> speakers!
+          </p>
+
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('numberOfEvents').innerHTML = document.querySelectorAll('.event-title').length;
+            document.getElementById('numberOfSpeakers').innerHTML = document.querySelectorAll('.event-speaker').length;
+          });
+          </script>
 
           <!-- 🍩 -->
 
@@ -49,33 +60,9 @@
                   <a href="https://twitter.com/q0rtz">@q0rtz</a>
                 </h3>
                 <p>How to Manage People</p>
-                <!-- <div class="video-wrap">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div> -->
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Emily Plummer
-                  <a href="https://twitter.com/emplums">@emplums</a>
-                </h3>
-                <p>Learning from History: Architecture &amp; Universal Design</p>
-                <!-- <div class="video-wrap">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div> -->
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  George Mandis
-                  <a href="https://twitter.com/georgemandis">@georgemandis</a>
-                </h3>
-                <p>Make More Than Music with MIDI, JavaScript &amp; Tiny Computers</p>
-                <!-- <div class="video-wrap">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div> -->
+                <div class="video-wrap">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/QpatPDlfqgU?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </li>
             <li>
@@ -85,9 +72,33 @@
                   <a href="https://twitter.com/jes5199">@jes5199</a>
                 </h3>
                 <p>Synthesizing Video and Turning It Into Music</p>
-                <!-- <div class="video-wrap">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div> -->
+                <div class="video-wrap">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/u0umvcH7kIc?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="event-speaker">
+                <h3>
+                  Emily Plummer
+                  <a href="https://twitter.com/emplums">@emplums</a>
+                </h3>
+                <p>Learning from History: Architecture &amp; Universal Design</p>
+                <div class="video-wrap">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/NhN1HV6VGAI?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="event-speaker">
+                <h3>
+                  George Mandis
+                  <a href="https://twitter.com/georgemandis">@georgemandis</a>
+                </h3>
+                <p>Make More Than Music with MIDI, JavaScript &amp; Tiny Computers</p>
+                <div class="video-wrap">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/UsqEFwfdBdU?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </li>
           </ul>
@@ -106,6 +117,7 @@
                   <a href="https://twitter.com/_lbaillie">@_lbaillie</a>
                 </h3>
                 <p>Ruby is Awesome! Rust is Awesome! Building a Game in Both is AWESOME!</p>
+                <p class="video-coming-soon">Video coming soon!</p>
                 <!-- <div class="video-wrap">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div> -->
@@ -118,6 +130,7 @@
                     <a href="https://twitter.com/feynudibranch">@feynudibranch</a>
                   </h3>
                   <p>Carrying On: Tech Travel Lessons</p>
+                  <p class="video-coming-soon">Video coming soon!</p>
                 <!-- <div class="video-wrap">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div> -->
@@ -130,6 +143,7 @@
                     <a href="https://twitter.com/feministy">@feministy</a>
                   </h3>
                   <p>The Social Responsibility of Coding</p>
+                  <p class="video-coming-soon">Video coming soon!</p>
                 <!-- <div class="video-wrap">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div> -->
