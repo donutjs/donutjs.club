@@ -9,7 +9,7 @@
     box-sizing: border-box; }
 
 .event-slides-carousel {
-  width: 800px;
+  width: 850px;
   max-width: 100%;
   margin: 1rem auto; }
   .event-slides-carousel .event-slide-content {
@@ -43,7 +43,7 @@
 .event-slide-content {
   width: 100%;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 850px;
   margin: 0.75rem auto;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.9);
@@ -117,7 +117,7 @@ ul.condensed-events-list {
 .slide-nav {
   position: relative;
   z-index: 2;
-  width: 800px;
+  width: 850px;
   margin: 500px auto 100px auto;
   text-align: center; }
 
