@@ -961,3 +961,31 @@ p.video-coming-soon {
   font-size: 150%;
   vertical-align: -5px;
 }
+
+
+/* Schedule table. */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table td {
+  padding: .5rem 0;
+}
+
+.schedule-table td {
+  border-bottom: 2px solid #eee;
+  vertical-align: top;
+}
+
+
+/* Big buttons?! */
+.huge-button {
+  display: inline-block !important;
+  margin-top: 30px !important;
+}
+
+.huge-button,
+.huge-button .tito-tickets-button {
+  font-size: 48px !important;
+}
