@@ -97,6 +97,10 @@ $light-pink:  #F9CACD;
   h3 {
     margin-top: $margin-lg;
     color: $blue;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   p,

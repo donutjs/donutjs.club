@@ -60,6 +60,8 @@
   .event-slide-content h3 {
     margin-top: 1rem;
     color: #3b81f5; }
+    .event-slide-content h3:first-child {
+      margin-top: 0; }
   .event-slide-content p,
   .event-slide-content li {
     font-size: 18px;
