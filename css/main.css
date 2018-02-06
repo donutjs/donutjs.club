@@ -989,3 +989,21 @@ p.video-coming-soon {
 .huge-button .tito-tickets-button {
   font-size: 48px !important;
 }
+
+
+/* This CSS file just keeps getting longer and more unweildy and I love it. */
+@media (max-width: 767px) {
+  .stumptown-syndicate-logo {
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .stumptown-syndicate-logo {
+    float: right;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+}
