@@ -971,9 +971,6 @@ p.video-coming-soon {
 
 .schedule-table td {
   padding: .5rem 0;
-}
-
-.schedule-table td {
   border-bottom: 2px solid #eee;
   vertical-align: top;
 }
