@@ -1004,3 +1004,53 @@ p.video-coming-soon {
     margin-bottom: 2rem;
   }
 }
+
+
+/* Panel for showing current sponsors. */
+.panel.current-sponsors {
+  background: #fff;
+}
+
+.panel.current-sponsors h2 {
+  margin-top: 0;
+  color: #1C406C;
+}
+
+.sponsor-box__logo {
+  display: block;
+  margin: 1.25rem auto 0.5rem auto;
+  max-width: 250px;
+}
+
+.sponsor-box__logo svg {
+  display: inline-block;
+}
+
+.sponsor-box__text {
+  font-size: 16px;
+  color: #555;
+}
+
+.sponsor-box__text h3 {
+  margin: 0 0 .25rem 0;
+}
+
+.sponsor-box__text a {
+  color: #222;
+}
+
+@media (min-width: 768px) {
+  .sponsor-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .sponsor-box__logo {
+    width: 250px;
+    margin-right: 2rem;
+  }
+
+  .sponsor-box__text {
+    flex: 1;
+  }
+}
