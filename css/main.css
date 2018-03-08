@@ -1016,41 +1016,41 @@ p.video-coming-soon {
   color: #1C406C;
 }
 
-.sponsor-box__logo {
+.entity-whomst-gave-us-money__logo {
   display: block;
   margin: 1.25rem auto 0.5rem auto;
   max-width: 250px;
 }
 
-.sponsor-box__logo svg {
+.entity-whomst-gave-us-money__logo svg {
   display: inline-block;
 }
 
-.sponsor-box__text {
+.entity-whomst-gave-us-money__text {
   font-size: 16px;
   color: #555;
 }
 
-.sponsor-box__text h3 {
+.entity-whomst-gave-us-money__text h3 {
   margin: 0 0 .25rem 0;
 }
 
-.sponsor-box__text a {
+.entity-whomst-gave-us-money__text a {
   color: #222;
 }
 
 @media (min-width: 768px) {
-  .sponsor-box {
+  .entity-whomst-gave-us-money {
     display: flex;
     align-items: center;
   }
 
-  .sponsor-box__logo {
+  .entity-whomst-gave-us-money__logo {
     width: 250px;
     margin-right: 2rem;
   }
 
-  .sponsor-box__text {
+  .entity-whomst-gave-us-money__text {
     flex: 1;
   }
 }
