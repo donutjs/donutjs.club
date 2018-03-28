@@ -576,13 +576,21 @@ img {
 }
 
 .panel.future-events ul {
+  margin-top: 1.5rem;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
 
 .panel.future-events li {
-  margin-top: 0.5rem;
+  display: inline-block;
+  max-width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.6rem .25rem 0.6rem .7rem;
+
+  border-radius: 4px;
+  background-color: #fff;
+  color: #1C406C;
 }
 
 .panel.future-events li + li {
@@ -1074,3 +1082,4 @@ p.video-coming-soon {
 .panel.donate form {
   text-align: center;
 }
+
