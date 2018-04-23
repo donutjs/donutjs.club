@@ -199,9 +199,15 @@ ul.condensed-events-list {
   z-index: 2;
 
   width: $slide-max-width;
-  margin: 500px auto 100px auto;
+  margin: 100px auto 100px auto;
 
   text-align: center;
+
+  opacity: .25;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .slide-nav a {

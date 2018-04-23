@@ -23,13 +23,8 @@
       <div class="event-slide-content just-heard-up-next">
         <h2>You Just Saw/Heard</h2>
         <p>
-          Danielle Heberling <a class="social-networking-link" href="https://twitter.com/deeheber">@deeheber</a><br>
-          <strong>Yinzer&rsquo;s First Alexa Skill</strong>
-        </p>
-        <hr>
-        <p>
-          Lizzi Lindboe <a class="social-networking-link" href="https://twitter.com/cosmic_peril">@cosmic_peril</a><br>
-          <strong>How Functional Programming Can Be Useful for You</strong>
+          Sandya Sankarram <a class="social-networking-link" href="https://twitter.com/sandyaaaas">@sandyaaaas</a><br>
+          <strong>Learnings from Going Local(e)</strong>
         </p>
 
         <div class="divider">
@@ -39,8 +34,8 @@
         </div>
 
         <h2>
-          Now: A 20-minute Break
-          <span class="countdown-timer">(<span id="countdown-time-left">20min left</span>)</span>
+          Now: A 15-minute Break
+          <span class="countdown-timer">(<span id="countdown-time-left">15min left</span>)</span>
         </h2>
         <p>
           Tell our speakers what an amazing job they did!<br>
@@ -55,15 +50,15 @@
 
         <h2>Next Up</h2>
         <p>
-          Josh Marinacci <a class="social-networking-link" href="https://twitter.com/joshmarinacci">@joshmarinacci</a><br>
-          <strong>I am VR and So Can You!</strong>
+          Ryan Kubik <a class="social-networking-link" href="https://twitter.com/ryrykubes">@ryrykubes</a><br>
+          <strong>HTML5 Game Development with Phaser</strong>
         </p>
       </div>
 
 
       <!-- SLIDE 2 -->
       <div class="event-slide-content">
-        <h3>Your Organizers Tonight</h3>
+        <!-- <h3>Your Organizers Tonight</h3>
         <ul class="organizers">
           <li>
             <img src="../img/organizers/milan-loveless.jpg">
@@ -80,12 +75,12 @@
             <br>
             Colin Williams
           </li>
-          <!-- <li>
+          <li>
             <img src="../img/organizers/emily-plummer.jpg">
             <br>
             Emily Plummer
-          </li> -->
-        </ul>
+          </li>
+        </ul> -->
 
         <h3>Need a Conversation Topic?</h3>
         <p>First, ask someone if they want a conversation partner! Then ask away:</p>
@@ -113,22 +108,28 @@
     <div class="slide-nav">
       <a href="1.html">1</a>
       <a href="2.html">2</a>
-      <a href="last.html">3</a>
+      <a href="3.html">3</a>
+      <a href="last.html">4</a>
     </div>
 
-    <!-- countdown -->
+    <!-- Countdown -->
     <script>
     window.addEventListener('load', function(event) {
+      var minutesToCount = 15;
+
       var display = document.querySelector('#countdown-time-left');
-      var timer = 20 * 60;
+      var timer = minutesToCount * 60;
       var minutes;
-      setInterval(function () {
+      setInterval(
+        function () {
           minutes = parseInt(timer / 60, 10);
           display.textContent = minutes + 'min left';
           if (--timer < 0) {
             display.textContent = 'Time’s up!';
           }
-      }, 1000);
+        },
+        1000
+      );
     });
     </script>
 
