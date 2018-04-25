@@ -1024,6 +1024,12 @@ p.video-coming-soon {
   color: #1C406C;
 }
 
+.entity-whomst-gave-us-money + .entity-whomst-gave-us-money {
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
 .entity-whomst-gave-us-money__logo {
   display: block;
   margin: 1.25rem auto 0.5rem auto;
