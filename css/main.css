@@ -1036,8 +1036,12 @@ p.video-coming-soon {
   max-width: 250px;
 }
 
-.entity-whomst-gave-us-money__logo svg {
-  display: inline-block;
+.entity-whomst-gave-us-money__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 130px;
+  object-fit: scale-down;
 }
 
 .entity-whomst-gave-us-money__text {
