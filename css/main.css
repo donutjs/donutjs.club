@@ -366,7 +366,9 @@ img {
 
 /* Schedule - - - - - - - - - - */
 .schedule-coming-soon {
-  padding: 62px 0;
+  padding: 60px 0;
+  font-size: 36px;
+  text-align: center;
 }
 
 .schedule:after {
