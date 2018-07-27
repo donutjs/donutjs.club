@@ -1096,3 +1096,13 @@ p.video-coming-soon {
   text-align: center;
 }
 
+
+
+
+/* Love ya. */
+.love-ya {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #3B81F5;
+}
