@@ -76,8 +76,9 @@ window.addEventListener('load', function(event) {
         }
       }
     })
+    window.requestAnimationFrame(draw)
   }
 
   // kick off the drawing loop
-  setInterval(draw, 33)
+  draw()
 });
