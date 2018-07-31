@@ -1,4 +1,4 @@
-window.addEventListener('load', function(event) {
+window.addEventListener('DOMContentLoaded', function(event) {
   var canvas = document.getElementById('sprinkles')
   var ctx = canvas.getContext('2d')
   var W = window.innerWidth
