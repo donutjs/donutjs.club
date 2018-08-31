@@ -526,55 +526,6 @@ img {
   font-size: .7em;
 }
 
-.past-events h2.event-title a {
-  color: #F487A9;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-}
-
-.past-events h2.event-title a:hover:before {
-  position: absolute;
-  left: -22px;
-  top: 16px;
-  content: " #";
-  color: #ddd;
-  font-size: 60%;
-}
-
-.past-events li {
-  list-style-type: none;
-  position: relative;
-  padding-left: 20px;
-  margin-bottom: 20px;
-}
-
-.past-events li .event-speaker h3 {
-  color: #779;
-}
-
-.past-events li .event-speaker p {
-  color: #aaa;
-}
-
-.past-events .button {
-  margin-top: 3rem;
-}
-
-.past-events .non-event {
-  margin: 4rem auto;
-  background: #eee;
-  color: #aaa;
-  border-radius: 12px;
-  padding: 1rem 1.5rem;
-  text-align: center;
-}
-
-.past-events .non-event strong {
-  color: #F487A9;
-  display: block;
-}
-
 /* Future events. */
 .panel.future-events {
   background-color: #3376c7;
@@ -778,23 +729,6 @@ img {
   }
 }
 
-/* Responsive Videos - - - - - - - */
-
-.video-wrap {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-wrap iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /* Speak. */
 
 .speaker-form {
@@ -972,8 +906,126 @@ p.video-coming-soon {
   text-transform: uppercase;
 }
 
+.video-link {
+  display: inline-block;
+  background-color: #eee;
+  color: #3B81F5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.video-link:before {
+  content: "▶";
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+
 .past-events h1 {
   text-align: center;
+}
+
+.past-events-nav {
+  text-align: center;
+  font-size: 26px;
+}
+
+.past-events-nav a {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.past-events-nav a:hover {
+  color: #1C406C;
+}
+
+a.past-events-year {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  position: relative;
+  text-align: center;
+  color: #aaa;
+}
+
+a.past-events-year:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 48%;
+  border-top: 2px solid #eee;
+}
+
+a.past-events-year span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  background: #fff;
+  padding: 4px 10px;
+}
+
+.past-events h2.event-title a {
+  color: #F487A9;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.past-events h2.event-title a:hover:before {
+  position: absolute;
+  left: -22px;
+  top: 16px;
+  content: " #";
+  color: #ddd;
+  font-size: 60%;
+}
+
+.past-events li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 35px;
+}
+
+.past-events li .event-speaker h3 {
+  color: #444;
+  margin-bottom: 0;
+}
+
+.past-events li .event-speaker h3 a {
+  color: #aaa;
+}
+
+.past-events li .event-speaker h3 a:hover {
+  color: #3B81F5;
+}
+
+.past-events li .event-speaker p {
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.past-events .button {
+  margin-top: 3rem;
+}
+
+.past-events .non-event {
+  margin: 4rem auto;
+  background: #eee;
+  color: #aaa;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.past-events .non-event strong {
+  color: #F487A9;
+  display: block;
 }
 
 .past-event-counts {
@@ -1089,9 +1141,6 @@ p.video-coming-soon {
   }
 }
 
-
-
-
 /* Donation page. */
 .panel.donate h1 {
   color: #3B81F5;
@@ -1108,9 +1157,6 @@ p.video-coming-soon {
 .panel.donate form {
   text-align: center;
 }
-
-
-
 
 /* Love ya. */
 .love-ya {
