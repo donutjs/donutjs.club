@@ -6,6 +6,4 @@
 
 We are a donut-themed tech meetup in Portland.
 
-We also chat and organize in the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
-
-If you are interested in volunteering, please reach out to us on the [#donut_js channel on the BoroJS Slack](http://slack.borojs.com/).
+If you are interested in volunteering, please email us at [hello@donutjs.club](mailto:hello@donutjs.club).
