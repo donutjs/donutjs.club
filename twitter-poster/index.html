@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donut.js</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <style>
+    /* Reference  - - - - - - - - - - - *
+    dark blue   #1C406C
+    blue        #3B81F5
+    pink        #F487A9
+    mint        #B6E6CF
+    light pink  #F9CACD
+    yellow      #EFE670
+    light blue  #00CFE4
+    pale blue   #B2CCEB
+    light green #B7E5CF
+    * - - - - - - - - - - - - - - - - - */
+
+    body,
+    .constrain {
+      background: #1C406C;
+    }
+
+    .constrain {
+    }
+
+    .twitter-poster {
+      border: 10px solid #fff;
+      padding: 30px 50px;
+    }
+
+    h1 {
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+    }
+
+    .twitter-poster--date,
+    .twitter-poster--location {
+      margin: 0.25rem 0;
+    }
+
+    .twitter-poster--date {
+      color: #B2CCEB;
+      font-size: 34px;
+    }
+
+    .twitter-poster--location {
+      color: #B7E5CF;
+      font-size: 28px;
+    }
+
+    .twitter-poster--location sup {
+      font-size: 70%;
+    }
+
+    .twitter-poster--illustrations {
+      float: right;
+      width: 160px;
+    }
+
+    .twitter-poster--illustrations img {
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    .twitter-poster--illustrations img:first-child {
+      margin-left: -50px;
+    }
+
+    .twitter-poster--illustrations img:nth-child(2) {
+      margin-left: 10px;
+    }
+
+    .twitter-poster--illustrations img:last-child {
+      margin-left: -55px;
+    }
+
+    .events-list {
+      float: none;
+      margin-left: 6px;
+      margin-bottom: 0;
+      padding-left: 0;
+      width: 80%;
+    }
+
+    .event:after {
+      background-color: transparent;
+      border-color: #B2CCEB;
+      border-width: 6px;
+      width: 6px;
+      height: 6px;
+      top: 7px;
+    }
+
+    .event {
+      border-color: transparent;
+      padding-bottom: 1.2rem;
+    }
+
+    .event-speaker h3 {
+      color: #fff;
+    }
+
+    .event-speaker h3 a {
+      color: #B2CCEB;
+      font-size: 19px;
+      margin-left: 0.5rem;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="on-top">
+      <div class="constrain">
+
+        <div class="panel twitter-poster">
+
+          <div class="twitter-poster--illustrations">
+            <img src="./img/wave.svg" alt="an illustration of an anthropomorphized donut waving at you">
+            <img src="./img/donuts.svg" alt="illustration of a anthropomorphized donut juggling donuts">
+            <img src="./img/speak.svg" alt="illustration of a anthropomorphized donut giving a talk">
+          </div>
+
+          <div class="twitter-poster--header">
+            <h1>Donut.js</h1>
+            <div class="twitter-poster--date">Tuesday, October 30, 2018 &bull; 6&ndash;9pm</div>
+            <div class="twitter-poster--location">Alchemy Code Lab &bull; 30 NW 10<sup>th</sup> Ave</div>
+          </div>
+
+          <ul class="events-list">
+            <li class="event event-first">
+              <div class="event-speaker">
+                <h3>
+                  Beth Duckles
+                  <a href="https://twitter.com/bduckles">@bduckles</a>
+                </h3>
+                <p>How to Write Surveys That Get Data You Can Actually Use</p>
+              </div>
+            </li>
+            <li class="event">
+              <div class="event-speaker">
+                <h3>
+                  Mark Arciaga
+                  <a href="https://twitter.com/compurhythm8000">@compurhythm8000</a>
+                </h3>
+                <p>Navigating the World of Open-Source as a Volunteer Software Engineer at a Community Radio Station</p>
+              </div>
+            </li>
+            <li class="event event-last">
+              <div class="event-speaker">
+                <h3>
+                  Caito Scherr
+                </h3>
+                <p>Hocus Pocus Focus</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

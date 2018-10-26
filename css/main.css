@@ -6,6 +6,7 @@ mint        #B6E6CF
 light pink  #F9CACD
 yellow      #EFE670
 light blue  #00CFE4
+pale blue   #B2CCEB
 * - - - - - - - - - - - - - - - - - */
 
 
@@ -258,8 +259,14 @@ img {
 }
 
 .panel {
-  padding: 2rem;
+  padding: 1rem 0.5rem;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    padding: 1.5rem 1.6rem;
+  }
 }
 
 .panel-dark {
@@ -273,6 +280,14 @@ img {
 
 .panel-about {
   display: table;
+}
+
+.panel-about sup {
+  font-size: 50%;
+}
+
+.panel-about p:first-of-type {
+  margin-top: 0;
 }
 
 .about-description {
@@ -694,7 +709,7 @@ img {
   .about-description {
     display: block;
     padding: 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
   .panel table.sponsorship-packages {
     font-size: .675rem;
@@ -755,7 +770,8 @@ body.splash .sprinkle-background {
 }
 
 .donny-hello {
-  width: 150px;
+  /* margin-top: 20px; */
+  width: 180px;
 }
 
 .panel-about .divider {
@@ -770,7 +786,7 @@ body.splash .sprinkle-background {
 @media (max-width: 499px) {
   .donny-bbq,
   .donny-hello {
-    display: block;
+    display: none;
     margin: 0 auto;
   }
 }
@@ -782,6 +798,7 @@ body.splash .sprinkle-background {
   }
 
   .donny-hello {
+    display: block;
     float: right;
     padding: 0 0 0 1.5rem;
   }
