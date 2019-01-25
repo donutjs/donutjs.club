@@ -1,230 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Get Tickets | Donut.js</title>
-    <link href="../css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" type="text/css" href="https://css.tito.io/v1" />
-  </head>
-  <body>
-
-    <div class="on-top">
-
-      <!-- logo -->
-      <div class="sprinkle-background">
-        <a href="../">
-          <img class="donut" src="../img/logo.svg"/>
-          <div class="title">Donut.js</div>
-        </a>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1"
+        name="viewport">
+  <title>Get Tickets | Donut.js</title>
+  <link href="../css/main.css"
+        rel="stylesheet">
+  <link href="/favicon.png"
+        rel="shortcut icon"
+        type="image/png">
+  <link href="https://css.tito.io/v1"
+        rel="stylesheet"
+        type="text/css">
+</head>
+<body>
+  <div class="on-top">
+    <!-- logo -->
+    <div class="sprinkle-background">
+      <a href="../"><img class="donut"
+           src="../img/logo.svg">
+      <div class="title">
+        Donut.js
+      </div></a>
+    </div><!-- white background with max width for readability -->
+    <div class="constrain">
+      <nav class="navigation">
+        <a class="navigation-link navigation-link-pink navigation-link-home"
+             href="/">Home</a> <a class="navigation-link navigation-link-blue"
+             href="/tickets/">Tickets</a> <a class="navigation-link navigation-link-light-blue"
+             href="/speak/">Speak</a> <a class="navigation-link navigation-link-green"
+             href="/sponsor/">Sponsor</a> <a class="navigation-link navigation-link-orange"
+             href="/past-speakers/">Past Speakers</a> <a class="navigation-link navigation-link-purple"
+             href="/conduct/">Code of Conduct</a>
+      </nav>
+      <div class="panel tickets">
+        <h1>Get Your Donut.js Tickets!</h1>
+        <p>Tuesday, January 29<sup>th</sup> at Alchemy Code Lab (30 NW 10th Ave)<br>
+        6:00pm: doors open<br>
+        6:30pm: opening remarks<br></p>
+        <center>
+          <tito-button class="button inline-button huge-button"
+                       event="donutjs/donut-js-january-2019">Buy Tickets</tito-button>
+        </center>
+        <p style="margin: 2rem auto 0 auto; max-width: 700px; text-align: center;">Our proceeds each quarter go to a local non-profit. In January, February, and March, we are raising money for <a href="http://www.pueblounidopdx.org">Pueblo
+        Unido</a>, whose mission is to empower and provide resources to Latinxs with vulnerable immigration status, and to advocate for solutions that build just communities. They help people navigate immigration legal services, advocate for
+        effective representation, and support evidence-gathering to strengthen cases against deportation.</p><!-- <p><strong>Donut.js is taking the month off and will be back in January. We&rsquo;ll see you in 2019!</strong></p> -->
+        <br>
+        <div class="divider"><img src="../img/logo.svg"></div>
+        <h2>What is Donut.js?</h2>
+        <p>Donut.js is a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.</p>
+        <h2>The Schedule</h2><!-- <div class="schedule-coming-soon">January lineup coming soon!</div> -->
+        <table class="schedule-table">
+          <tr>
+            <td style="padding-right: 20px;">6:00pm</td>
+            <td>Arrive, socialize, eat tasty donuts and snacks!</td>
+          </tr>
+          <tr>
+            <td>6:30</td>
+            <td>Opening Remarks</td>
+          </tr>
+          <tr>
+            <td>6:45</td>
+            <td>
+              <strong>Karen Painter</strong> (<a href="https://twitter.com/KLPainterPDX">@KLPainterPDX</a>)<br>
+              Dream vs Reality: The Pros and Cons of Working Remotely
+            </td>
+          </tr>
+          <tr>
+            <td>7:00</td>
+            <td>10-minute break</td>
+          </tr>
+          <tr>
+            <td>7:15</td>
+            <td>
+              <strong>Molly Jean Bennett</strong> (<a href="https://twitter.com/MollyJeanBee">@MollyJeanBee</a>)<br>
+              The Agony and Empathy of Supporting IE11
+            </td>
+          </tr>
+          <tr>
+            <td>7:30</td>
+            <td>10-minute break</td>
+          </tr>
+          <tr>
+            <td>7:45</td>
+            <td>
+              <strong>Tiffany Longworth</strong> (<a href="https://twitter.com/thelongshanx">@thelongshanx</a>)<br>
+              Bees!
+            </td>
+          </tr>
+          <tr>
+            <td>8:00</td>
+            <td>Meet people and eat more donuts!</td>
+          </tr>
+        </table>
+        <h2 id="venue-info">The Venue</h2>
+        <ul>
+          <li>We&rsquo;re at <a href="http://www.alchemycodelab.com/">Alchemy Code Lab</a>! The address is 30 NW 10th Ave.
+          </li>
+          <li>
+            <a href="https://goo.gl/maps/iNwmgTr61KB2">Here&rsquo;s a Google Map link.</a>
+          </li>
+          <li>It&rsquo;s a red brick building on the east side of the street. It&rsquo;s across the street from Powell&rsquo;s Bookstore. Alchemy Code Lab is on the second floor. There are &lsquo;Alchemy Code Lab&rsquo; signs on the door, and we’ll
+          have a big blue Donut.js sign out front too.</li>
+          <li>
+            <strong>Public transportation:</strong>
+            <ul>
+              <li>Alchemy Code Lab is right at the Portland Streetcar NW 10th &amp; Couch stop. The <strong>A Loop</strong> and <strong>NS Line</strong> streetcar lines stop there.
+                <ul>
+                  <li>Streetcar fare is $2 for 2.5hrs, which should be enough time to cover getting to and leaving from Donut.js.</li>
+                </ul>
+              </li>
+              <li>The closest bus stop is W Burnside &amp; SW 10th, which is diagonally across the street from Alchemy Code Lab. The <strong>Route 20</strong> bus stops there. The <strong>Route 77</strong> bus stops at NW Everett &amp; 11th, which
+              is two blocks east of the venue.
+                <ul>
+                  <li>Trimet bus fare is $2.50 for 2.5hrs, which should be enough time to cover getting to and leaving from Donut.js. A day pass is $5.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2>Checking In</h2>
+        <ul>
+          <li>You don&rsquo;t need to bring a printed ticket or show us your digital ticket. Just tell us your name and we can look you up and check you in.</li>
+          <li>Nametags and pronoun stickers (<i>ask me</i>, <i>he</i>, <i>she</i>, <i>they</i>) available at check-in.</li>
+          <li>Free Donut.js stickers available.</li>
+          <li>Donut.js enamel pins are available for $5.</li>
+        </ul>
+        <h2>Accessibility</h2>
+        <ul>
+          <li>All host remarks and talks will be live-captioned by <a href="http://stenoknight.com/">Mirabai Knight of StenoKnight</a>.
+          </li>
+          <li>Two all-gender, stall-only restrooms are available.</li>
+          <li>An elevator is available; our event is on the second floor.</li>
+          <li>3.5&prime;-wide physical access lanes will be taped on the floor throughout the venue.</li>
+          <li>Anyone can reserve a front-row seat or space for their wheelchair/mobility device.</li>
+          <li>Service dogs are very welcome.</li>
+        </ul>
+        <h2>Food &amp; Drink</h2>
+        <ul>
+          <li>Omnivore donuts from <a href="http://www.deliciousdonutspdx.com/">Delicious Donuts</a>!
+          </li>
+          <li>Vegan-and-gluten-free donuts from <a href="https://www.backtoedenbakery.com/">Back to Eden Bakery</a>!
+          </li>
+          <li>We&rsquo;ll have a few other snacks (pretzels and gluten-free+vegan chips) on hand for those of you looking to avoid an evening sugar rush.</li>
+        </ul>
+        <h2>Code of Conduct</h2>
+        <ul>
+          <li>All staff, speakers, attendees, and venue staff shall adhere to the <a href="/conduct/">Donut.js Code of Conduct</a>.
+          </li>
+          <li>You can reach the Donut.js Code of Conduct responders through:
+            <ul>
+              <li>Online form: <a href="https://donutjs.club/cocform">donutjs.club/cocform</a>
+              </li>
+              <li>Email: <a href=
+              "&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x63;&#x6f;&#99;&#x40;&#x64;&#x6f;&#x6e;&#117;&#116;&#106;&#115;&#46;&#99;&#108;&#117;&#x62;">&#99;&#111;&#x63;&#x40;&#x64;&#x6f;&#110;&#x75;&#x74;&#106;&#115;&#46;&#x63;&#108;&#x75;&#x62;</a>
+              </li>
+              <li>Text/SMS: <a href="sms:5038250021">(503) 825-0021</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-
-      <!-- white background with max width for readability -->
-      <div class="constrain">
-
-        <nav class="navigation">
-          <a class="navigation-link navigation-link-pink navigation-link-home" href="/">Home</a>
-          <a class="navigation-link navigation-link-blue" href="/tickets/">Tickets</a>
-          <a class="navigation-link navigation-link-light-blue" href="/speak/">Speak</a>
-          <a class="navigation-link navigation-link-green" href="/sponsor/">Sponsor</a>
-          <a class="navigation-link navigation-link-orange" href="/past-speakers/">Past Speakers</a>
-          <a class="navigation-link navigation-link-purple" href="/conduct/">Code of Conduct</a>
-        </nav>
-
-        <div class="panel tickets">
-          <h1>Get Your Donut.js Tickets!</h1>
-          <p>
-            Tuesday, January 29<sup>th</sup> at Alchemy Code Lab (30 NW 10th Ave)<br>
-            6:00pm: doors open<br>6:30pm: opening remarks<br>
-          </p>
-
-          <center>
-            <tito-button class="button inline-button huge-button" event="donutjs/donut-js-january-2019">Buy Tickets</tito-button>
-          </center>
-
-          <p style="margin: 2rem auto 0 auto; max-width: 700px; text-align: center;">
-            Our proceeds each quarter go to a local non-profit. In January, February, and March, we are raising money for <a href="http://www.pueblounidopdx.org">Pueblo Unido</a>, whose mission is to empower and provide resources to Latinxs with vulnerable immigration status, and to advocate for solutions that build just communities. They help people navigate immigration legal services, advocate for effective representation, and support evidence-gathering to strengthen cases against deportation.
-          </p>
-
-          <!-- <p><strong>Donut.js is taking the month off and will be back in January. We&rsquo;ll see you in 2019!</strong></p> -->
-
-          <br>
-
-          <div class="divider">
-            <span></span>
-            <img src="../img/logo.svg"/>
-            <span></span>
+      <div class="divider"><img alt="an illustration of a donut"
+           src="../img/logo.svg"></div>
+      <div class="panel current-sponsors">
+        <h2>Our Sponsors</h2><!-- Okta: indefinitely -->
+        <div class="entity-whomst-gave-us-money">
+          <div class="entity-whomst-gave-us-money__logo"><img alt="Okta logo: the word 'Okta' with curly brackets around it"
+               src="/img/sponsors/okta.svg"
+               title="Okta"></div>
+          <div class="entity-whomst-gave-us-money__text">
+            <h3><a href="https://developer.okta.com"
+               ref="nofollow">Okta</a></h3>
+            <p>Okta is sponsoring our video recording and production. Okta adds authentication, authorization, and user management to your web or mobile app within minutes. Let Okta's API handle user registration, password reset, multi-factor
+            authentication, social login, groups and permissions, and even syncing with existing user databases.<br>
+            <a href="https://developer.okta.com"
+               ref="nofollow">developer.okta.com</a> &bull; <a href="https://twitter.com/oktadev"
+               ref="nofollow">@oktadev</a></p>
           </div>
-
-          <h2>What is Donut.js?</h2>
-
-          <p>Donut.js is a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.</p>
-
-          <h2>The Schedule</h2>
-
-          <!-- <div class="schedule-coming-soon">January lineup coming soon!</div> -->
-
-          <table class="schedule-table">
-            <tr>
-              <td style="padding-right: 20px;">6:00pm</td>
-              <td>Arrive, socialize, eat tasty donuts and snacks!</td>
-            </tr>
-            <tr>
-              <td>6:30</td>
-              <td>Opening Remarks</td>
-            </tr>
-            <tr>
-              <td>6:45</td>
-              <td>
-                <strong>Karen Painter</strong><br>
-                Dream vs Reality:  The Pros and Cons of Working Remotely
-              </td>
-            </tr>
-            <tr>
-              <td>7:00</td>
-              <td>10-minute break</td>
-            </tr>
-            <tr>
-              <td>7:15</td>
-              <td>
-                <strong>Molly Jean Bennett</strong> (<a href="https://twitter.com/MollyJeanBee">@MollyJeanBee</a>)<br>
-                The Agony and Empathy of Supporting IE11
-              </td>
-            </tr>
-            <tr>
-              <td>7:30</td>
-              <td>10-minute break</td>
-            </tr>
-            <tr>
-              <td>7:45</td>
-              <td>
-                <strong>Tiffany Longworth</strong> (<a href="https://twitter.com/thelongshanx">@thelongshanx</a>)<br>
-                Bees!
-              </td>
-            </tr>
-            <tr>
-              <td>8:00</td>
-              <td>Meet people and eat more donuts!</td>
-            </tr>
-          </table>
-
-          <h2 id="venue-info">The Venue</h2>
-          <ul>
-            <li>We&rsquo;re at <a href="http://www.alchemycodelab.com/">Alchemy Code Lab</a>! The address is 30 NW 10th Ave.</li>
-            <li><a href="https://goo.gl/maps/iNwmgTr61KB2">Here&rsquo;s a Google Map link.</a></li>
-            <li>It&rsquo;s a red brick building on the east side of the street. It&rsquo;s across the street from Powell&rsquo;s Bookstore. Alchemy Code Lab is on the second floor. There are &lsquo;Alchemy Code Lab&rsquo; signs on the door, and we’ll have a big blue Donut.js sign out front too.</li>
-            <li>
-              <strong>Public transportation:</strong>
-              <ul>
-                <li>
-                  Alchemy Code Lab is right at the Portland Streetcar NW 10th &amp; Couch stop. The <strong>A Loop</strong> and <strong>NS Line</strong> streetcar lines stop there.
-                  <ul>
-                    <li>Streetcar fare is $2 for 2.5hrs, which should be enough time to cover getting to and leaving from Donut.js.</li>
-                  </ul>
-                </li>
-                <li>
-                  The closest bus stop is W Burnside &amp; SW 10th, which is diagonally across the street from Alchemy Code Lab. The <strong>Route 20</strong> bus stops there. The <strong>Route 77</strong> bus stops at NW Everett &amp; 11th, which is two blocks east of the venue.
-                  <ul>
-                    <li>Trimet bus fare is $2.50 for 2.5hrs, which should be enough time to cover getting to and leaving from Donut.js. A day pass is $5.</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <h2>Checking In</h2>
-          <ul>
-            <li>You don&rsquo;t need to bring a printed ticket or show us your digital ticket. Just tell us your name and we can look you up and check you in.</li>
-            <li>Nametags and pronoun stickers (<i>ask me</i>, <i>he</i>, <i>she</i>, <i>they</i>) available at check-in.</li>
-            <li>Free Donut.js stickers available.</li>
-            <li>Donut.js enamel pins are available for $5.</li>
-          </ul>
-
-          <h2>Accessibility</h2>
-          <ul>
-            <li>All host remarks and talks will be live-captioned by <a href="http://stenoknight.com/">Mirabai Knight of StenoKnight</a>.</li>
-            <li>Two all-gender, stall-only restrooms are available.</li>
-            <li>An elevator is available; our event is on the second floor.</li>
-            <li>3.5&prime;-wide physical access lanes will be taped on the floor throughout the venue.</li>
-            <li>Anyone can reserve a front-row seat or space for their wheelchair/mobility device.</li>
-            <li>Service dogs are very welcome.</li>
-          </ul>
-
-          <h2>Food &amp; Drink</h2>
-          <ul>
-            <li>Omnivore donuts from <a href="http://www.deliciousdonutspdx.com/">Delicious Donuts</a>!</li>
-            <li>Vegan-and-gluten-free donuts from <a href="https://www.backtoedenbakery.com/">Back to Eden Bakery</a>!</li>
-            <li>We&rsquo;ll have a few other snacks (pretzels and gluten-free+vegan chips) on hand for those of you looking to avoid an evening sugar rush.</li>
-          </ul>
-
-          <h2>Code of Conduct</h2>
-          <ul>
-            <li>All staff, speakers, attendees, and venue staff shall adhere to the <a href="/conduct/">Donut.js Code of Conduct</a>.</li>
-            <li>You can reach the Donut.js Code of Conduct responders through:
-              <ul>
-              <li>Online form: <a href="https://donutjs.club/cocform">donutjs.club/cocform</a></li>
-              <li>Email: <a href="&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x63;&#x6f;&#99;&#x40;&#x64;&#x6f;&#x6e;&#117;&#116;&#106;&#115;&#46;&#99;&#108;&#117;&#x62;">&#99;&#111;&#x63;&#x40;&#x64;&#x6f;&#110;&#x75;&#x74;&#106;&#115;&#46;&#x63;&#108;&#x75;&#x62;</a></li>
-              <li>Text/SMS: <a href="sms:5038250021">(503) 825-0021</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div class="divider">
-          <span></span>
-          <img src="../img/logo.svg" alt="an illustration of a donut">
-          <span></span>
-        </div>
-
-        <div class="panel current-sponsors">
-          <h2>Our Sponsors</h2>
-
-          <!-- Okta: indefinitely -->
-          <div class="entity-whomst-gave-us-money">
-            <div class="entity-whomst-gave-us-money__logo">
-              <img src="/img/sponsors/okta.svg" alt="Okta logo: the word 'Okta' with curly brackets around it" title="Okta">
-            </div>
-            <div class="entity-whomst-gave-us-money__text">
-              <h3><a href="https://developer.okta.com" ref="nofollow">Okta</a></h3>
-              <p>
-                Okta is sponsoring our video recording and production. Okta adds
-                authentication, authorization, and user management to your web
-                or mobile app within minutes. Let Okta's API handle user
-                registration, password reset, multi-factor authentication,
-                social login, groups and permissions, and even syncing with
-                existing user databases.<br>
-                <a href="https://developer.okta.com" ref="nofollow">developer.okta.com</a>
-                &bull;
-                <a href="https://twitter.com/oktadev" ref="nofollow">@oktadev</a>
-              </p>
-            </div>
+        </div><!-- Notion: indefinitely -->
+        <div class="entity-whomst-gave-us-money">
+          <div class="entity-whomst-gave-us-money__logo"><img alt="Notion logo: a building block shape with a the letter 'N' on the front"
+               src="/img/sponsors/notion.png"
+               title="Notion"></div>
+          <div class="entity-whomst-gave-us-money__text">
+            <h3><a href="https://notion.so"
+               ref="nofollow">Notion</a></h3>
+            <p>Notion provides us with a free team account to make it easier to organize Donut.js! Notion is the all-in-one workspace for your notes, tasks, wikis, and databases.<br>
+            <a href="https://notion.so"
+               ref="nofollow">Notion</a> &bull; <a href="https://twitter.com/NotionHQ"
+               ref="nofollow">@NotionHQ</a></p>
           </div>
-
-          <!-- Notion: indefinitely -->
-          <div class="entity-whomst-gave-us-money">
-            <div class="entity-whomst-gave-us-money__logo">
-              <img src="/img/sponsors/notion.png" alt="Notion logo: a building block shape with a the letter 'N' on the front" title="Notion">
-            </div>
-            <div class="entity-whomst-gave-us-money__text">
-              <h3><a href="https://notion.so" ref="nofollow">Notion</a></h3>
-              <p>
-                Notion provides us with a free team account to make it easier to organize Donut.js! Notion is the all-in-one workspace for your notes, tasks, wikis, and databases.
-                <br>
-                <a href="https://notion.so" ref="nofollow">Notion</a>
-                &bull;
-                <a href="https://twitter.com/NotionHQ" ref="nofollow">@NotionHQ</a>
-              </p>
-            </div>
-          </div>
-
         </div>
-
-    </div>
-
-    <!-- generated sprinkles! -->
-    <canvas id="sprinkles" class="sprinkles"></canvas>
-    <script src="../js/sprinkles.js"></script>
-    <script src="https://js.tito.io/v1" async></script>
-  </body>
+      </div>
+    </div><!-- generated sprinkles! -->
+    <canvas class="sprinkles"
+            id="sprinkles"></canvas>
+    <script src="../js/sprinkles.js"></script> 
+    <script async
+         src="https://js.tito.io/v1"></script>
+  </div>
+</body>
 </html>
