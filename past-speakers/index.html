@@ -1,733 +1,585 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Past Speakers &amp; Videos | Donut.js</title>
-    <link href="/css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-  </head>
-  <body>
-
-    <div class="on-top">
-
-      <!-- logo -->
-      <div class="sprinkle-background">
-        <a href="/">
-          <img class="donut" src="/img/logo.svg"/>
-          <div class="title">Donut.js</div>
-        </a>
-      </div>
-
-      <!-- white background with max width for readability -->
-      <div class="constrain">
-
-        <nav class="navigation">
-          <a class="navigation-link navigation-link-pink navigation-link-home" href="/">Home</a>
-          <a class="navigation-link navigation-link-blue" href="/tickets/">Tickets</a>
-          <a class="navigation-link navigation-link-light-blue" href="/speak/">Speak</a>
-          <a class="navigation-link navigation-link-green" href="/sponsor/">Sponsor</a>
-          <a class="navigation-link navigation-link-orange" href="/past-speakers/">Past Speakers</a>
-          <a class="navigation-link navigation-link-purple" href="/conduct/">Code of Conduct</a>
-        </nav>
-
-        <div class="panel past-events">
-
-          <h1>Past Donut.js Speaker Videos</h1>
-
-          <p class="past-events-nav">
-            <!-- <a href="#2019">2019</a> &bull; -->
-            <a href="#2018">2018</a> &bull;
-            <a href="#2017">2017</a> &bull;
-            <a href="#2016">2016</a>
-          </p>
-
-          <p class="past-event-counts">
-            Since April 2016: <strong id="numberOfEvents">counting&hellip;</strong> events, <strong id="numberOfTalks">counting&hellip;</strong> talks!
-          </p>
-
-          <script>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1"
+        name="viewport">
+  <title>Past Speakers &amp; Videos | Donut.js</title>
+  <link href="/css/main.css"
+        rel="stylesheet">
+  <link href="/favicon.png"
+        rel="shortcut icon"
+        type="image/png">
+</head>
+<body>
+  <div class="on-top">
+    <!-- logo -->
+    <div class="sprinkle-background">
+      <a href="/"><img class="donut"
+           src="/img/logo.svg">
+      <div class="title">
+        Donut.js
+      </div></a>
+    </div><!-- white background with max width for readability -->
+    <div class="constrain">
+      <nav class="navigation">
+        <a class="navigation-link navigation-link-pink navigation-link-home"
+             href="/">Home</a> <a class="navigation-link navigation-link-blue"
+             href="/tickets/">Tickets</a> <a class="navigation-link navigation-link-light-blue"
+             href="/speak/">Speak</a> <a class="navigation-link navigation-link-green"
+             href="/sponsor/">Sponsor</a> <a class="navigation-link navigation-link-orange"
+             href="/past-speakers/">Past Speakers</a> <a class="navigation-link navigation-link-purple"
+             href="/conduct/">Code of Conduct</a>
+      </nav>
+      <div class="panel past-events">
+        <h1>Past Donut.js Speaker Videos</h1>
+        <p class="past-events-nav"><a href="#2019">2019</a> &bull; <a href="#2018">2018</a> &bull; <a href="#2017">2017</a> &bull; <a href="#2016">2016</a></p>
+        <p class="past-event-counts">Since April 2016: <strong id="numberOfEvents">counting&hellip;</strong> events, <strong id="numberOfTalks">counting&hellip;</strong> talks!</p>
+        <script>
           document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('numberOfEvents').innerHTML = document.querySelectorAll('.event-title').length;
             document.getElementById('numberOfTalks').innerHTML = document.querySelectorAll('.event-speaker').length;
           });
-          </script>
-
-          <!-- <p class="video-coming-soon">Video coming soon!</p> -->
-
-          <!-- 🍩 -->
-
-          <!-- <a id="2019" class="past-events-year"><span>2018</span></a> -->
-
-          <!-- 🍩 -->
-
-          <!-- <h2 id="january-2019" class="event-title">
-            <a href="#january-2019">January 29<sup>th</sup>, 2019</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Masen Matthews
-                  <a href="https://twitter.com/masen_matthews">@masen_matthews</a>
-                </h3>
-                <p>Developing for All: The Who, What, and Why of Accessibility in Technology</p>
-              </div>
-              <a href="https://www.youtube.com/watch?v=uBIXOTDSwLo" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Mike Lambert
-                  <a href="https://twitter.com/mikeblambert">@mikeblambert</a>
-                </h3>
-                <p>Intrapreneurship for Everyone</p>
-                <a href="https://www.youtube.com/watch?v=XKmcWSvcMeY" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Sarah Joy Calpo
-                  <a href="https://twitter.com/superissarah">@superissarah</a>
-                </h3>
-                <p>Poetic Devices for Programmers</p>
-                <a href="https://www.youtube.com/watch?v=TjwDhGskWHE" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul> -->
-
-          <!-- 🍩 -->
-
-          <a id="2018" class="past-events-year"><span>2018</span></a>
-
-          <!-- 🍩 -->
-
-          <h2 id="november-2018" class="event-title">
-            <a href="#november-2018">November 27<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Masen Matthews
-                  <a href="https://twitter.com/masen_matthews">@masen_matthews</a>
-                </h3>
-                <p>Developing for All: The Who, What, and Why of Accessibility in Technology</p>
-              </div>
-              <a href="https://www.youtube.com/watch?v=uBIXOTDSwLo&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Mike Lambert
-                  <a href="https://twitter.com/mikeblambert">@mikeblambert</a>
-                </h3>
-                <p>Intrapreneurship for Everyone</p>
-                <a href="https://www.youtube.com/watch?v=XKmcWSvcMeY&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Sarah Joy Calpo
-                  <a href="https://twitter.com/superissarah">@superissarah</a>
-                </h3>
-                <p>Poetic Devices for Programmers</p>
-                <a href="https://www.youtube.com/watch?v=TjwDhGskWHE&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="october-2018" class="event-title">
-            <a href="#october-2018">October 30<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Beth Duckles
-                  <a href="https://twitter.com/bduckles">@bduckles</a>
-                </h3>
-                <p>How to Write Surveys That Get Data You Can Actually Use</p>
-              </div>
-              <a href="https://www.youtube.com/watch?v=mjnjToO5McU&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Mark Arciaga
-                  <a href="https://twitter.com/compurhythm8000">@compurhythm8000</a>
-                </h3>
-                <p>Navigating the World of Open-Source as a Volunteer Software Engineer at a Community Radio Station</p>
-                <a href="https://www.youtube.com/watch?v=Rn9Nn898N7U&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Caito Scherr
-                </h3>
-                <p>Hocus Pocus Focus</p>
-                <a href="https://www.youtube.com/watch?v=IPj-wj68RPI&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="september-2018" class="event-title">
-            <a href="#september-2018">September 25<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Eli Duke
-                  <a href="https://twitter.com/eliduke">@eliduke</a>
-                </h3>
-                <p>Forking a Gem: Taking Open-Source Software Into Your Own Hands</p>
-              </div>
-              <a href="https://www.youtube.com/watch?v=BxRYlKR1_QM&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Naomi Rubin
-                  <a href="https://twitter.com/naomiyaki">@naomiyaki</a>
-                </h3>
-                <p>Change Gender Y/N: Robot characters that explore transgender and non-binary identities in fiction</p>
-                <a href="https://www.youtube.com/watch?v=6parX18l8g4&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Suz Hinton
-                  <a href="https://twitter.com/noopkat">@noopkat</a>
-                </h3>
-                <p>Exploring WebUSB and Its Exciting Potential</p>
-                <a href="https://www.youtube.com/watch?v=u5krjJBiRJU&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="august-2018" class="event-title">
-            <a href="#august-2018">August 28<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Caleb Taylor
-                  <a href="https://twitter.com/ctaylo21">@ctaylo21</a>
-                </h3>
-                <p>How Webpack Works</p>
-              </div>
-              <a href="https://www.youtube.com/watch?v=3YLHZzDroRE" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Nisha Kumar
-                  <a href="https://twitter.com/nishakmr">@nishakmr</a>
-                </h3>
-                <p>Bringing Cloud Down to Earth</p>
-                <a href="https://www.youtube.com/watch?v=_nJwbD2Fncs" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>Angela Riggs
-                  <a href="https://twitter.com/angelariggs_">@angelariggs_</a>
-                </h3>
-                <p>Creating a Culture of Quality Assurance</p>
-                <a href="https://www.youtube.com/watch?v=fdd-wFPzKmA" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="july-2018" class="event-title">
-            <a href="#july-2018">July 31<sup>st</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Haile Canton
-                  <a href="https://twitter.com/hailecanton">@hailecanton</a>
-                </h3>
-                <p>When to Stop Teaching Others and Start Caring For Ourselves</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Marisa Morby
-                  <a href="https://twitter.com/marisamorby">@marisamorby</a>
-                </h3>
-                <p>How Design and Data Can Save the World: Urban Planning and the Future of Cities</p>
-                <a href="https://www.youtube.com/watch?v=mn6SErMAGr4" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>Erik Hansen
-                  <a href="https://twitter.com/eirkeirkeirk">@eirkeirkeirk</a>
-                </h3>
-                <p>Never Type &lsquo;git status&rsquo; (And Other Practices of a Frictionless Developer)</p>
-                <a href="https://www.youtube.com/watch?v=xsCS7PvfQJ8" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="june-2018" class="event-title">
-            <a href="#june-2018">June 26<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Danielle Robinson
-                  <a href="https://twitter.com/daniellecrobins">@daniellecrobins</a>
-                </h3>
-                <p>Everything I Know About Public Speaking I Learned from (Private Room) Karaoke</p>
-                <a href="https://www.youtube.com/watch?v=keZmD9jC86I" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Miki Demeter
-                  <a href="https://twitter.com/theDawgCr8">@theDawgCr8</a>
-                </h3>
-                <p>Choosing Better Open Source Components for Your Project</p>
-                <a href="https://www.youtube.com/watch?v=mSKa0IwyxMI" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Justin Falcone
-                    <a href="https://twitter.com/modernserf">@modernserf</a>
-                </h3>
-                <p>One Hundred Years of JavaScript</p>
-                <a href="https://www.youtube.com/watch?v=nSrH7hufhos" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="april-2018" class="event-title">
-            <a href="#april-2018">April 24<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Sandya Sankarram
-                  <a href="https://twitter.com/sandyaaaas">@sandyaaaas</a>
-                </h3>
-                <p>Learnings from Going Local(e)</p>
-                <a href="https://www.youtube.com/watch?v=bHbYpCrLAcU" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Ryan Kubik
-                  <a href="https://twitter.com/ryrykubes">@ryrykubes</a>
-                </h3>
-                <p>HTML5 Game Development with Phaser</p>
-                <a href="https://www.youtube.com/watch?v=O7ca2ZNQR8c" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Noelle Daley
-                  <a href="https://twitter.com/elnoelle">@elnoelle</a>
-                </h3>
-                <p>Self Help: You&rsquo;re Already Doing It</p>
-                <a href="https://www.youtube.com/watch?v=Eg8-tf7VFuQ" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="march-2018" class="event-title">
-            <a href="#march-2018">March 27<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Danielle Heberling
-                  <a href="https://twitter.com/deeheber">@deeheber</a>
-                </h3>
-                <p>Yinzer&rsquo;s First Alexa Skill</p>
-                <a href="https://www.youtube.com/watch?v=77rk1uYzayM" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Lizzi Lindboe
-                  <a href="https://twitter.com/cosmic_peril">@cosmic_peril</a>
-                </h3>
-                <p>How Functional Programming Can Be Useful for You</p>
-                <a href="https://www.youtube.com/watch?v=WCL9SrrTEUA" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Josh Marinacci
-                  <a href="https://twitter.com/joshmarinacci">@joshmarinacci</a>
-                </h3>
-                <p>I am VR and So Can You!</p>
-                <a href="https://www.youtube.com/watch?v=5jBrcElNpIY" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="february-2018" class="event-title">
-            <a href="#february-2018">February 27<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Qristy Overton
-                  <a href="https://twitter.com/NextLevelBanana">@NextLevelBanana</a>
-                </h3>
-                <p>PICO-8 Tweetcarts: Making Donuts in 280 Characters or Less</p>
-                <a href="https://www.youtube.com/watch?v=VAwY2x-nOXU" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Melissa Lewis
-                  <a href="https://twitter.com/iff_or">@iff_or</a>
-                </h3>
-                <p>The Metaphor of Semaphore: Explaining the Internet</p>
-                <a href="https://www.youtube.com/watch?v=Jan02HVM7KI" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Karl Anderson
-                  <a href="https://twitter.com/karlanderson">@karlanderson</a>
-                </h3>
-                <p>Futel: Telecommunications Colossus of the Modern Age</p>
-                <a href="https://www.youtube.com/watch?v=wRh18Sqahhg" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="january-2018" class="event-title">
-            <a href="#january-2018">January 30<sup>th</sup>, 2018</a>
-          </h2>
-          <ul>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Vanessa White
-                  <a href="https://twitter.com/the_nephilim">@the_nephilim</a>
-                </h3>
-                <p>Project Management 101 with Cats!</p>
-                <a href="https://www.youtube.com/watch?v=IuPGpAuGYlo" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Ryan McKern
-                  <a href="https://twitter.com/the_mckern">@the_mckern</a>
-                </h3>
-                <p>Bash 101: What Are Dot Files?</p>
-                <a href="https://www.youtube.com/watch?v=S7nxFR18Qbk" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Matt Haughey
-                  <a href="https://twitter.com/mathowie">@mathowie</a>
-                </h3>
-                <p>Communication is the Hardest Part</p>
-                <a href="https://www.youtube.com/watch?v=j2J5A4QqKlg" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <a id="2017" class="past-events-year"><span>2017</span></a>
-
-          <!-- 🍩 -->
-
-          <h2 id="January-2017" class="event-title">
-            <a href="#november-2017">November 28<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Cory Reed <a href="https://twitter.com/swashcap">@swashcap</a> &amp;
-                  Chris Dieringer <a href="https://twitter.com/cdaringe">@cdaringe</a>
-                </h3>
-                <p>How to Make a Donut</p>
-                <!-- <p class="video-coming-soon">Video coming soon!</p> -->
-                <a href="https://www.youtube.com/watch?v=gJwTi14n6jw" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Kim Niedermaier
-                </h3>
-                <p>Data, Design, and D3</p>
-                <a href="https://www.youtube.com/watch?v=Pw-8GN6eO_E" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Kyle Shevlin
-                  <a href="https://twitter.com/kyleshevlin">@kyleshevlin</a>
-                </h3>
-                <p>Just Enough Functional Programming to be a Danger to Yourself and Coworkers</p>
-                <a href="https://www.youtube.com/watch?v=-4QNj7TJjgo" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Kari Goin
-                  <a href="https://twitter.com/karigoin">@karigoin</a>
-                </h3>
-                <p>Advocating &amp; Implementing Accessibility in the Public Sector</p>
-                <!-- <p class="video-coming-soon">Video coming soon!</p> -->
-                <a href="https://www.youtube.com/watch?v=muvPFO5TsRk" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="october-2017" class="event-title">
-            <a href="#october-2017">October 25<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Alan McCosh
-                  <a href="https://twitter.com/whilesoftware">@whilesoftware</a>
-                </h3>
-                <p>A Game Developer&rsquo;s Approach to Building Productivity Software</p>
-                <a href="https://www.youtube.com/watch?v=RFAlu24HAHg" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Marissa Anderson
-                  <a href="https://twitter.com/electrozoic">@electrozoic</a>
-                </h3>
-                <p>Code Review for the Mind</p>
-                <a href="https://www.youtube.com/watch?v=8e9L-WX824o" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Josh Millard
-                  <a href="https://twitter.com/joshmillard">@joshmillard</a>
-                </h3>
-                <p>Keeping Web Communities Healthy in a Dark Timeline</p>
-                <a href="https://www.youtube.com/watch?v=qhun8OzAmfg" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="september-2017" class="event-title">
-            <a href="#september-2017">September 26<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Courtney Stanton
-                  <a href="https://twitter.com/q0rtz">@q0rtz</a>
-                </h3>
-                <p>How to Manage People</p>
-                <a href="https://www.youtube.com/watch?v=QpatPDlfqgU" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Jesse Wolfe
-                  <a href="https://twitter.com/jes5199">@jes5199</a>
-                </h3>
-                <p>Synthesizing Video and Turning It Into Music</p>
-                <a href="https://www.youtube.com/watch?v=u0umvcH7kIc" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Emily Plummer
-                  <a href="https://twitter.com/emplums">@emplums</a>
-                </h3>
-                <p>Learning from History: Architecture &amp; Universal Design</p>
-                <a href="https://www.youtube.com/watch?v=NhN1HV6VGAI" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  George Mandis
-                  <a href="https://twitter.com/georgemandis">@georgemandis</a>
-                </h3>
-                <p>Make More Than Music with MIDI, JavaScript &amp; Tiny Computers</p>
-                <a href="https://www.youtube.com/watch?v=UsqEFwfdBdU" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="august-2017" class="event-title">
-            <a href="#august-2017">August 29<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Julien Fitzpatrick
-                  <a href="https://twitter.com/_jbfitz">@_jbfitz</a>
-                </h3>
-                <p>Ruby is Awesome! Rust is Awesome! Building a Game in Both is AWESOME!</p>
-                <a href="https://www.youtube.com/watch?v=vDMZQzNQlXE" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                    Kara Sowles
-                    <a href="https://twitter.com/feynudibranch">@feynudibranch</a>
-                  </h3>
-                  <p>Carrying On: Tech Travel Lessons</p>
-                <a href="https://www.youtube.com/watch?v=wOs8hYJ8s-4" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                    Liz Abinante
-                    <a href="https://twitter.com/feministy">@feministy</a>
-                  </h3>
-                  <p>The Social Responsibility of Coding</p>
-                <a href="https://www.youtube.com/watch?v=EAV7RZZOspw" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <div class="non-event"><strong>July 26<sup>th</sup>, 2017:</strong> Donut.js Summer BBQ!</div>
-
-          <!-- 🍩 -->
-
-          <h2 id="june-2017" class="event-title">
-            <a href="#june-2017">June 27<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Sara Beroff
-                  <a href="https://twitter.com/FireballSara1">@FireballSara1</a>
-                </h3>
-                <p>Mentorship for Women in STEM</p>
-                <a href="https://www.youtube.com/watch?v=WbNqCRXj_pQ" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Ivana McConnell
-                  <a href="https://twitter.com/IvanaMcConnell">@IvanaMcConnell</a>
-                </h3>
-                <p>Go&hellip; Advanced Analytics? The Glorious Minutiae of Data in Pro Sports</p>
-                <a href="https://www.youtube.com/watch?v=qzBRVR711fc" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Tara Z. Manicsic
-                  <a href="https://twitter.com/tzmanics">@tzmanics</a>
-                </h3>
-                <p>PWAs FTW</p>
-                <a href="https://www.youtube.com/watch?v=XhIPaj_Zq9c" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Joel Kraft
-                  <a href="https://twitter.com/pajamatron">@pajamatron</a>
-                </h3>
-                <p>First Thoughts: The Dawn of Flashing Lights, or, How Trump&rsquo;s Tweetstorms Can Help You Become a Better Sailor</p>
-                <a href="https://www.youtube.com/watch?v=7MejJ0wBMvk" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="may-2017" class="event-title">
-            <a href="#may-2017">May 30<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Vaidehi Joshi
-                  <a href="https://twitter.com/vaidehijoshi">@vaidehijoshi</a>
-                </h3>
-                <p>Hexes and the Magic of Base 16</p>
-                <a href="https://www.youtube.com/watch?v=WR67syBDzew" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <!--
+        </script> <!-- <p class="video-coming-soon">Video coming soon!</p> -->
+         <!-- 🍩 -->
+         <a class="past-events-year"
+             id="2019"><span>2019</span></a> <!-- 🍩 -->
+        <h2 class="event-title"
+            id="january-2019"><a href="#january-2019">January 29<sup>th</sup>, 2019</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Karen Painter <a href="https://twitter.com/KLPainterPDX">@KLPainterPDX</a></h3>
+              <p>Dream vs Reality: The Pros and Cons of Working Remotely</p>
+            </div>
+            <p class="video-coming-soon">Video coming soon!</p>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Molly Jean Bennett <a href="https://twitter.com/MollyJeanBee">@MollyJeanBee</a></h3>
+              <p>The Agony and Empathy of Supporting IE11</p>
+            </div>
+            <p class="video-coming-soon">Video coming soon!</p>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Tiffany Longworth <a href="https://twitter.com/thelongshanx">@thelongshanx</a></h3>
+              <p>Bees!</p>
+              <p class="video-coming-soon">Video coming soon!</p>
+            </div>
+          </li>
+        </ul>
+        <!-- 🍩 -->
+        <a class="past-events-year"
+             id="2018"><span>2018</span></a> <!-- 🍩 -->
+        <h2 class="event-title"
+            id="november-2018"><a href="#november-2018">November 27<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Masen Matthews <a href="https://twitter.com/masen_matthews">@masen_matthews</a></h3>
+              <p>Developing for All: The Who, What, and Why of Accessibility in Technology</p>
+            </div><a class="video-link"
+                href="https://www.youtube.com/watch?v=uBIXOTDSwLo&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl"
+                rel="noopener"
+                target="_blank">Watch the talk video!</a>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Mike Lambert <a href="https://twitter.com/mikeblambert">@mikeblambert</a></h3>
+              <p>Intrapreneurship for Everyone</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=XKmcWSvcMeY&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Sarah Joy Calpo <a href="https://twitter.com/superissarah">@superissarah</a></h3>
+              <p>Poetic Devices for Programmers</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=TjwDhGskWHE&list=PLclEcT4yxER43F0Nwhc30A4nwJujcATjl"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="october-2018"><a href="#october-2018">October 30<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Beth Duckles <a href="https://twitter.com/bduckles">@bduckles</a></h3>
+              <p>How to Write Surveys That Get Data You Can Actually Use</p>
+            </div><a class="video-link"
+                href="https://www.youtube.com/watch?v=mjnjToO5McU&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh"
+                rel="noopener"
+                target="_blank">Watch the talk video!</a>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Mark Arciaga <a href="https://twitter.com/compurhythm8000">@compurhythm8000</a></h3>
+              <p>Navigating the World of Open-Source as a Volunteer Software Engineer at a Community Radio Station</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Rn9Nn898N7U&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Caito Scherr</h3>
+              <p>Hocus Pocus Focus</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=IPj-wj68RPI&list=PLclEcT4yxER76B7kRe-bU2ToYVbc-Wydh"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="september-2018"><a href="#september-2018">September 25<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Eli Duke <a href="https://twitter.com/eliduke">@eliduke</a></h3>
+              <p>Forking a Gem: Taking Open-Source Software Into Your Own Hands</p>
+            </div><a class="video-link"
+                href="https://www.youtube.com/watch?v=BxRYlKR1_QM&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK"
+                rel="noopener"
+                target="_blank">Watch the talk video!</a>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Naomi Rubin <a href="https://twitter.com/naomiyaki">@naomiyaki</a></h3>
+              <p>Change Gender Y/N: Robot characters that explore transgender and non-binary identities in fiction</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=6parX18l8g4&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Suz Hinton <a href="https://twitter.com/noopkat">@noopkat</a></h3>
+              <p>Exploring WebUSB and Its Exciting Potential</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=u5krjJBiRJU&list=PLclEcT4yxER5SgcKu54LzS8vmssvT2GcK"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="august-2018"><a href="#august-2018">August 28<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Caleb Taylor <a href="https://twitter.com/ctaylo21">@ctaylo21</a></h3>
+              <p>How Webpack Works</p>
+            </div><a class="video-link"
+                href="https://www.youtube.com/watch?v=3YLHZzDroRE"
+                rel="noopener"
+                target="_blank">Watch the talk video!</a>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Nisha Kumar <a href="https://twitter.com/nishakmr">@nishakmr</a></h3>
+              <p>Bringing Cloud Down to Earth</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=_nJwbD2Fncs"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Angela Riggs <a href="https://twitter.com/angelariggs_">@angelariggs_</a></h3>
+              <p>Creating a Culture of Quality Assurance</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=fdd-wFPzKmA"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="july-2018"><a href="#july-2018">July 31<sup>st</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Haile Canton <a href="https://twitter.com/hailecanton">@hailecanton</a></h3>
+              <p>When to Stop Teaching Others and Start Caring For Ourselves</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Marisa Morby <a href="https://twitter.com/marisamorby">@marisamorby</a></h3>
+              <p>How Design and Data Can Save the World: Urban Planning and the Future of Cities</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=mn6SErMAGr4"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Erik Hansen <a href="https://twitter.com/eirkeirkeirk">@eirkeirkeirk</a></h3>
+              <p>Never Type &lsquo;git status&rsquo; (And Other Practices of a Frictionless Developer)</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=xsCS7PvfQJ8"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="june-2018"><a href="#june-2018">June 26<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Danielle Robinson <a href="https://twitter.com/daniellecrobins">@daniellecrobins</a></h3>
+              <p>Everything I Know About Public Speaking I Learned from (Private Room) Karaoke</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=keZmD9jC86I"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Miki Demeter <a href="https://twitter.com/theDawgCr8">@theDawgCr8</a></h3>
+              <p>Choosing Better Open Source Components for Your Project</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=mSKa0IwyxMI"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Justin Falcone <a href="https://twitter.com/modernserf">@modernserf</a></h3>
+              <p>One Hundred Years of JavaScript</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=nSrH7hufhos"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="april-2018"><a href="#april-2018">April 24<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Sandya Sankarram <a href="https://twitter.com/sandyaaaas">@sandyaaaas</a></h3>
+              <p>Learnings from Going Local(e)</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=bHbYpCrLAcU"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Ryan Kubik <a href="https://twitter.com/ryrykubes">@ryrykubes</a></h3>
+              <p>HTML5 Game Development with Phaser</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=O7ca2ZNQR8c"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Noelle Daley <a href="https://twitter.com/elnoelle">@elnoelle</a></h3>
+              <p>Self Help: You&rsquo;re Already Doing It</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Eg8-tf7VFuQ"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="march-2018"><a href="#march-2018">March 27<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Danielle Heberling <a href="https://twitter.com/deeheber">@deeheber</a></h3>
+              <p>Yinzer&rsquo;s First Alexa Skill</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=77rk1uYzayM"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Lizzi Lindboe <a href="https://twitter.com/cosmic_peril">@cosmic_peril</a></h3>
+              <p>How Functional Programming Can Be Useful for You</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=WCL9SrrTEUA"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Josh Marinacci <a href="https://twitter.com/joshmarinacci">@joshmarinacci</a></h3>
+              <p>I am VR and So Can You!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=5jBrcElNpIY"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="february-2018"><a href="#february-2018">February 27<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Qristy Overton <a href="https://twitter.com/NextLevelBanana">@NextLevelBanana</a></h3>
+              <p>PICO-8 Tweetcarts: Making Donuts in 280 Characters or Less</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=VAwY2x-nOXU"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Melissa Lewis <a href="https://twitter.com/iff_or">@iff_or</a></h3>
+              <p>The Metaphor of Semaphore: Explaining the Internet</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Jan02HVM7KI"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Karl Anderson <a href="https://twitter.com/karlanderson">@karlanderson</a></h3>
+              <p>Futel: Telecommunications Colossus of the Modern Age</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=wRh18Sqahhg"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="january-2018"><a href="#january-2018">January 30<sup>th</sup>, 2018</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Vanessa White <a href="https://twitter.com/the_nephilim">@the_nephilim</a></h3>
+              <p>Project Management 101 with Cats!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=IuPGpAuGYlo"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Ryan McKern <a href="https://twitter.com/the_mckern">@the_mckern</a></h3>
+              <p>Bash 101: What Are Dot Files?</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=S7nxFR18Qbk"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Matt Haughey <a href="https://twitter.com/mathowie">@mathowie</a></h3>
+              <p>Communication is the Hardest Part</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=j2J5A4QqKlg"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <a class="past-events-year"
+             id="2017"><span>2017</span></a> <!-- 🍩 -->
+        <h2 class="event-title"
+            id="January-2017"><a href="#november-2017">November 28<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Cory Reed <a href="https://twitter.com/swashcap">@swashcap</a> &amp; Chris Dieringer <a href="https://twitter.com/cdaringe">@cdaringe</a></h3>
+              <p>How to Make a Donut</p><!-- <p class="video-coming-soon">Video coming soon!</p> -->
+              <a class="video-link"
+                   href="https://www.youtube.com/watch?v=gJwTi14n6jw"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Kim Niedermaier</h3>
+              <p>Data, Design, and D3</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Pw-8GN6eO_E"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Kyle Shevlin <a href="https://twitter.com/kyleshevlin">@kyleshevlin</a></h3>
+              <p>Just Enough Functional Programming to be a Danger to Yourself and Coworkers</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=-4QNj7TJjgo"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Kari Goin <a href="https://twitter.com/karigoin">@karigoin</a></h3>
+              <p>Advocating &amp; Implementing Accessibility in the Public Sector</p><!-- <p class="video-coming-soon">Video coming soon!</p> -->
+              <a class="video-link"
+                   href="https://www.youtube.com/watch?v=muvPFO5TsRk"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="october-2017"><a href="#october-2017">October 25<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Alan McCosh <a href="https://twitter.com/whilesoftware">@whilesoftware</a></h3>
+              <p>A Game Developer&rsquo;s Approach to Building Productivity Software</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=RFAlu24HAHg"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Marissa Anderson <a href="https://twitter.com/electrozoic">@electrozoic</a></h3>
+              <p>Code Review for the Mind</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=8e9L-WX824o"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Josh Millard <a href="https://twitter.com/joshmillard">@joshmillard</a></h3>
+              <p>Keeping Web Communities Healthy in a Dark Timeline</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=qhun8OzAmfg"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="september-2017"><a href="#september-2017">September 26<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Courtney Stanton <a href="https://twitter.com/q0rtz">@q0rtz</a></h3>
+              <p>How to Manage People</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=QpatPDlfqgU"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Jesse Wolfe <a href="https://twitter.com/jes5199">@jes5199</a></h3>
+              <p>Synthesizing Video and Turning It Into Music</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=u0umvcH7kIc"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Emily Plummer <a href="https://twitter.com/emplums">@emplums</a></h3>
+              <p>Learning from History: Architecture &amp; Universal Design</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=NhN1HV6VGAI"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>George Mandis <a href="https://twitter.com/georgemandis">@georgemandis</a></h3>
+              <p>Make More Than Music with MIDI, JavaScript &amp; Tiny Computers</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=UsqEFwfdBdU"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="august-2017"><a href="#august-2017">August 29<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Julien Fitzpatrick <a href="https://twitter.com/_jbfitz">@_jbfitz</a></h3>
+              <p>Ruby is Awesome! Rust is Awesome! Building a Game in Both is AWESOME!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=vDMZQzNQlXE"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Kara Sowles <a href="https://twitter.com/feynudibranch">@feynudibranch</a></h3>
+              <p>Carrying On: Tech Travel Lessons</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=wOs8hYJ8s-4"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Liz Abinante <a href="https://twitter.com/feministy">@feministy</a></h3>
+              <p>The Social Responsibility of Coding</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=EAV7RZZOspw"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <div class="non-event">
+          <strong>July 26<sup>th</sup>, 2017:</strong> Donut.js Summer BBQ!
+        </div><!-- 🍩 -->
+        <h2 class="event-title"
+            id="june-2017"><a href="#june-2017">June 27<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Sara Beroff <a href="https://twitter.com/FireballSara1">@FireballSara1</a></h3>
+              <p>Mentorship for Women in STEM</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=WbNqCRXj_pQ"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Ivana McConnell <a href="https://twitter.com/IvanaMcConnell">@IvanaMcConnell</a></h3>
+              <p>Go&hellip; Advanced Analytics? The Glorious Minutiae of Data in Pro Sports</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=qzBRVR711fc"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Tara Z. Manicsic <a href="https://twitter.com/tzmanics">@tzmanics</a></h3>
+              <p>PWAs FTW</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=XhIPaj_Zq9c"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Joel Kraft <a href="https://twitter.com/pajamatron">@pajamatron</a></h3>
+              <p>First Thoughts: The Dawn of Flashing Lights, or, How Trump&rsquo;s Tweetstorms Can Help You Become a Better Sailor</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=7MejJ0wBMvk"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="may-2017"><a href="#may-2017">May 30<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Vaidehi Joshi <a href="https://twitter.com/vaidehijoshi">@vaidehijoshi</a></h3>
+              <p>Hexes and the Magic of Base 16</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=WR67syBDzew"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li><!--
             <li>
               <div class="event-speaker">
                 <h3>
@@ -740,518 +592,418 @@
               </div>
             </li>
             -->
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Derek Hurley
-                  <a href="https://github.com/dzhurley">github.com/dzhurley</a>
-                </h3>
-                <p>Listening in (kind of) the Third Dimension</p>
-                <a href="https://www.youtube.com/watch?v=Yug5HC7Ppog" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="april-2017" class="event-title">
-            <a href="#april-2017">April 18<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Patrick Kettner
-                  <a href="https://twitter.com/patrickkettner">@patrickkettner</a>
-                </h3>
-                <p>Building Command Line Apps with React</p>
-                <a href="https://www.youtube.com/watch?v=duNfIN8T9jA" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Blaine Schmeisser
-                  <a href="https://twitter.com/blainesch">@blainesch</a>
-                </h3>
-                <p>Zazu: Your Trusty Programmable Butler</p>
-                <a href="https://www.youtube.com/watch?v=BtDaH5i4YAI" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Asa Miller
-                  <a href="https://twitter.com/realasa">@realasa</a>
-                </h3>
-                <p>Turning JavaScript into Light</p>
-                <a href="https://www.youtube.com/watch?v=068V9mmotpU" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="march-2017" class="event-title">
-            <a href="#march-2017">March 29<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  James Churchill
-                  <a href="https://twitter.com/SmashDev">@SmashDev</a>
-                </h3>
-                <p>Can Anyone Learn to Program?</p>
-                <a href="https://www.youtube.com/watch?v=o-T7cnElKMY" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Bill Automata
-                  <a href="https://twitter.com/billautomata">@billautomata</a>
-                </h3>
-                <p>Beyond Math.random()</p>
-                <a href="https://www.youtube.com/watch?v=KoHSQStw3fs" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Gabriela Rodriguez Beron
-                  <a href="https://twitter.com/gaba">@gaba</a>
-                </h3>
-                <p>Journalism Needs Everyone</p>
-                <a href="https://www.youtube.com/watch?v=nVI0EhM5iVA" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="february-2017" class="event-title">
-            <a href="#february-2017">February 28<sup>th</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Keith Hamilton
-                  <a href="https://twitter.com/kdo2g">@kdo2g</a>
-                </h3>
-                <p>Application Protesting Interfaces</p>
-                <a href="https://www.youtube.com/watch?v=gblpbfKyi8Y" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Jamund Ferguson
-                  <a href="https://twitter.com/xjamundx">@xjamundx</a>
-                </h3>
-                <p>The Wonderful World of Linting in JavaScript</p>
-                <a href="https://www.youtube.com/watch?v=mYJbKmTDo7w" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Machiko Yasuda
-                  <a href="https://twitter.com/machikoyasuda">@machikoyasuda</a>
-                </h3>
-                <p>Fullstack Life Development: Changing Careers and Changing Communities ✨🙌🏽</p>
-                <a href="https://www.youtube.com/watch?v=2LrZEoWqjoc" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="january-2017" class="event-title">
-            <a href="#january-2017">January 31<sup>st</sup>, 2017</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Chinedu Francis Nwafili
-                  <a href="https://twitter.com/chinedufn">@chinedufn</a>
-                </h3>
-                <p>Skeletal Animation in the Browser with WebGL</p>
-                <a href="https://www.youtube.com/watch?v=ROKnHMYiBi4" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Brook Shelley
-                  <a href="https://twitter.com/brookshelley">@brookshelley</a>
-                </h3>
-                <p>Canary in the Internet Mine</p>
-                <a href="https://www.youtube.com/watch?v=LWwHLSTSaB8" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Erin McKean
-                  <a href="https://twitter.com/emckean">@emckean</a>
-                </h3>
-                <p>An API in Ten Minutes With LoopBack</p>
-                <a href="https://www.youtube.com/watch?v=jLc1p64zdLY" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Ivar Thorson
-                </h3>
-                <p>How Sunflowers Lead to Another Musical Scale</p>
-                <a href="https://www.youtube.com/watch?v=Z-LqkpMn6yo" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <a id="2016" class="past-events-year"><span>2016</span></a>
-
-          <!-- 🍩 -->
-
-          <h2 id="november-2016" class="event-title">
-            <a href="#november-2016">November 29<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Bill Kayser
-                  <a href="https://twitter.com/bravoking">@bravoking</a>
-                </h3>
-                <p>Everything I Learned About Software I Learned on a Tall Ship</p>
-                <a href="https://www.youtube.com/watch?v=c9lFkejg-o8" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Andy Pressman<br>
-                  <a href="https://twitter.com/andypressman">@andypressman</a>
-                </h3>
-                <p>What We Lose When It&rsquo;s Easy to Use</p>
-                <a href="https://www.youtube.com/watch?v=nsYEyI7V4Vk" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Tara Scherner de la Fuente
-                  <a href="https://twitter.com/GoatUserStories">@GoatUserStories</a>
-                  <a href="https://twitter.com/MediaRemedial">@MediaRemedial</a>
-                </h3>
-                <p>How to be an Onboarding Superhero</p>
-                <a href="https://www.youtube.com/watch?v=5PakA8zM51o" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Toby Fee <a href="https://twitter.com/tobyfee">@tobyfee</a>
-                </h3>
-                <p>Security for Everyone</p>
-                <a href="https://www.youtube.com/watch?v=6JajwlNebP4" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="october-2016" class="event-title">
-            <a href="#october-2016">October 25<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Jeff Lombard
-                  <a href="https://twitter.com/JeffLombardJr">@JeffLombardJr</a>
-                </h3>
-                <p>Working Hard to be Lazy</p>
-                <a href="https://www.youtube.com/watch?v=JuqVmhJ4tDA" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Jeena Lee &amp; Malisa Smith <a href="https://twitter.com/theJeenaLee">@theJeenaLee</a> <span class="ampersand">&amp;</span> <a href="https://twitter.com/malisas7">@malisas7</a>
-                </h3>
-                <p>Team JaM in Systems Wonderland</p>
-                <a href="https://www.youtube.com/watch?v=qtvKgv6W44U" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Caterina Paun
-                  <a href="https://twitter.com/caterinasworld">@caterinasworld</a>
-                </h3>
-                <p>The Case for Framer and FramerJS</p>
-                <a href="https://www.youtube.com/watch?v=EqNch-eZuak" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Wal&eacute; Ogundip&eacute;
-                  <a href="https://twitter.com/kopasetik">@kopasetik</a>
-                </h3>
-                <p>Taking a bite out of exclusion&hellip; and donuts!</p>
-                <a href="https://www.youtube.com/watch?v=wmiz5D53y3A" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="september-2016" class="event-title">
-            <a href="#september-2016">September 27<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Melissa Smith &amp; Mark Arciaga
-                  <a href="https://twitter.com/femmelectric">@femmelectric</a> <span class="ampersand">&amp;</span> <a href="https://twitter.com/compurhythm8000">@compurhythm8000</a>
-                </h3>
-                <p>The Couple Who JS&rsquo;s Together Stays Together</p>
-                <a href="https://www.youtube.com/watch?v=w940c3PjkpE" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Andrew Chalkley
-                  <a href="https://twitter.com/chalkers">@chalkers</a>
-                </h3>
-                <p>The Easy Way to Get JS Running on a WiFi-Enabled Device!</p>
-                <a href="https://www.youtube.com/watch?v=w5cQiDflGNc" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Amjith Ramanujam
-                  <a href="https://twitter.com/amjithr">@amjithr</a>
-                </h3>
-                <p>How to Implement Fuzzy Search in a Few Lines of JavaScript</p>
-                <a href="https://www.youtube.com/watch?v=HTgf_3HxjIY" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="august-2016" class="event-title">
-            <a href="#august-2016">August 30<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Darius Kazemi
-                  <a href="https://twitter.com/tinysubversions">@tinysubversions</a>
-                </h3>
-                <p>React is isomorphic to a game engine</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Elea Chang
-                  <a href="https://twitter.com/elea">@elea</a>
-                </h3>
-                <p>Code Reviews: CSS edition</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Danielle Robinson
-                  <a href="https://twitter.com/daniellecrobins">@daniellecrobins</a>
-                </h3>
-                <p>The Open Revolution in Science</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Noelle Daley
-                  <a href="https://twitter.com/elnoelle">@elnoelle</a>
-                </h3>
-                <p>Sustainable Career Development: Advancing While Still Having Free Time</p>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <div class="non-event">
-            <strong>July 26<sup>th</sup>, 2016</strong>
-            Donut.js Summer BBQ!
-          </div>
-
-          <!-- 🍩 -->
-
-          <h2 id="june-2016" class="event-title">
-            <a href="#june-2016">June 28<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Zac Finger
-                  <a href="https://twitter.com/zacfinger">@zacfinger</a>
-                </h3>
-                <p>modempunk.com and Glitch Art</p>
-                <a href="https://www.youtube.com/watch?v=5tRWeWGe6EQ" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Kate Chapman
-                  <a href="https://twitter.com/wonderchook">@wonderchook</a>
-                </h3>
-                <p>Land Rights and Open Source</p>
-                <a href="https://www.youtube.com/watch?v=sZvcqGuq6pg" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Andrew Hedges
-                  <a href="https://twitter.com/segdeha">@segdeha</a>
-                </h3>
-                <p>Hiring Junior Developers</p>
-                <a href="https://www.youtube.com/watch?v=7Q7iim4rtGM" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Rachel Nabors
-                  <a href="https://twitter.com/rachelnabors">@rachelnabors</a>
-                </h3>
-                <p>Career Offroading</p>
-                <a href="https://www.youtube.com/watch?v=q_V-gYoiz3E" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="may-2016" class="event-title">
-            <a href="#may-2016">May 31<sup>st</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Sam Julien <a href="https://twitter.com/samjulien">@samjulien</a>
-                </h3>
-                <p>IoTReX: Functional Reactive Programming and Hardware</p>
-                  <a href="https://www.youtube.com/watch?v=rdG8CLMdEeM" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Virginia Roberts <a href="https://twitter.com/askvirginia">@askvirginia</a>
-                </h3>
-                <p>Sell Out and Save the World!</p>
-                <a href="https://www.youtube.com/watch?v=wChYL_KfxLE" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Todd Kennedy <a href="https://twitter.com/whale_eat_squid">@whale_eat_squid</a>
-                </h3>
-                <p>Building a Hiring Process</p>
-                <a href="https://www.youtube.com/watch?v=06iLNW9tA5g" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Amy Wibowo <a href="https://twitter.com/sailorhg">@sailorhg</a>
-                </h3>
-                <p>Value of Humanities in Computer Science Education</p>
-                <a href="https://www.youtube.com/watch?v=ACxARI9CWxI" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Teffen Ellis <a href="https://twitter.com/teffenellis">@teffenellis</a>
-                </h3>
-                <p>Writing a Novel with JavaScript</p>
-                <a href="https://www.youtube.com/watch?v=R_0K9ZoDdYM" rel="noopener" target="_blank" class="video-link">Watch the talk video!</a>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <h2 id="april-2016" class="event-title">
-            <a href="#april-2016">April 26<sup>th</sup>, 2016</a>
-          </h2>
-          <ul>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Visnu Pitiyanuvath <a href="https://twitter.com/visnup">@visnup</a>
-                </h3>
-                <p>HSL&mdash;the RGB You&rsquo;ve Been Waiting For</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Stef Hatcher <a href="https://twitter.com/stefhatcher">@stefhatcher</a>
-                </h3>
-                <p>React Meets Accessibility</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Ben Michel <a href="https://twitter.com/obensource">@obensource</a>
-                </h3>
-                <p>Remote-performing&mdash;It&rsquo;s a Thing!</p>
-              </div>
-            </li>
-            <li>
-              <div class="event-speaker">
-                <h3>
-                  Liz Abinante <a href="https://twitter.com/feministy">@feministy</a>
-                </h3>
-                <p>Auto-generating Knitting Patterns with Javascript</p>
-              </div>
-            </li>
-          </ul>
-
-          <!-- 🍩 -->
-
-          <a class="button" href="../submit-talk/">Submit a talk</a>
-
-        </div>
+          <li>
+            <div class="event-speaker">
+              <h3>Derek Hurley <a href="https://github.com/dzhurley">github.com/dzhurley</a></h3>
+              <p>Listening in (kind of) the Third Dimension</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Yug5HC7Ppog"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="april-2017"><a href="#april-2017">April 18<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Patrick Kettner <a href="https://twitter.com/patrickkettner">@patrickkettner</a></h3>
+              <p>Building Command Line Apps with React</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=duNfIN8T9jA"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Blaine Schmeisser <a href="https://twitter.com/blainesch">@blainesch</a></h3>
+              <p>Zazu: Your Trusty Programmable Butler</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=BtDaH5i4YAI"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Asa Miller <a href="https://twitter.com/realasa">@realasa</a></h3>
+              <p>Turning JavaScript into Light</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=068V9mmotpU"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="march-2017"><a href="#march-2017">March 29<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>James Churchill <a href="https://twitter.com/SmashDev">@SmashDev</a></h3>
+              <p>Can Anyone Learn to Program?</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=o-T7cnElKMY"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Bill Automata <a href="https://twitter.com/billautomata">@billautomata</a></h3>
+              <p>Beyond Math.random()</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=KoHSQStw3fs"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Gabriela Rodriguez Beron <a href="https://twitter.com/gaba">@gaba</a></h3>
+              <p>Journalism Needs Everyone</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=nVI0EhM5iVA"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="february-2017"><a href="#february-2017">February 28<sup>th</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Keith Hamilton <a href="https://twitter.com/kdo2g">@kdo2g</a></h3>
+              <p>Application Protesting Interfaces</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=gblpbfKyi8Y"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Jamund Ferguson <a href="https://twitter.com/xjamundx">@xjamundx</a></h3>
+              <p>The Wonderful World of Linting in JavaScript</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=mYJbKmTDo7w"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Machiko Yasuda <a href="https://twitter.com/machikoyasuda">@machikoyasuda</a></h3>
+              <p>Fullstack Life Development: Changing Careers and Changing Communities ✨🙌🏽</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=2LrZEoWqjoc"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="january-2017"><a href="#january-2017">January 31<sup>st</sup>, 2017</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Chinedu Francis Nwafili <a href="https://twitter.com/chinedufn">@chinedufn</a></h3>
+              <p>Skeletal Animation in the Browser with WebGL</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=ROKnHMYiBi4"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Brook Shelley <a href="https://twitter.com/brookshelley">@brookshelley</a></h3>
+              <p>Canary in the Internet Mine</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=LWwHLSTSaB8"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Erin McKean <a href="https://twitter.com/emckean">@emckean</a></h3>
+              <p>An API in Ten Minutes With LoopBack</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=jLc1p64zdLY"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Ivar Thorson</h3>
+              <p>How Sunflowers Lead to Another Musical Scale</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=Z-LqkpMn6yo"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <a class="past-events-year"
+             id="2016"><span>2016</span></a> <!-- 🍩 -->
+        <h2 class="event-title"
+            id="november-2016"><a href="#november-2016">November 29<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Bill Kayser <a href="https://twitter.com/bravoking">@bravoking</a></h3>
+              <p>Everything I Learned About Software I Learned on a Tall Ship</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=c9lFkejg-o8"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Andy Pressman<br>
+              <a href="https://twitter.com/andypressman">@andypressman</a></h3>
+              <p>What We Lose When It&rsquo;s Easy to Use</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=nsYEyI7V4Vk"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Tara Scherner de la Fuente <a href="https://twitter.com/GoatUserStories">@GoatUserStories</a> <a href="https://twitter.com/MediaRemedial">@MediaRemedial</a></h3>
+              <p>How to be an Onboarding Superhero</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=5PakA8zM51o"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Toby Fee <a href="https://twitter.com/tobyfee">@tobyfee</a></h3>
+              <p>Security for Everyone</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=6JajwlNebP4"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="october-2016"><a href="#october-2016">October 25<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Jeff Lombard <a href="https://twitter.com/JeffLombardJr">@JeffLombardJr</a></h3>
+              <p>Working Hard to be Lazy</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=JuqVmhJ4tDA"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Jeena Lee &amp; Malisa Smith <a href="https://twitter.com/theJeenaLee">@theJeenaLee</a> <span class="ampersand">&amp;</span> <a href="https://twitter.com/malisas7">@malisas7</a></h3>
+              <p>Team JaM in Systems Wonderland</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=qtvKgv6W44U"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Caterina Paun <a href="https://twitter.com/caterinasworld">@caterinasworld</a></h3>
+              <p>The Case for Framer and FramerJS</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=EqNch-eZuak"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Wal&eacute; Ogundip&eacute; <a href="https://twitter.com/kopasetik">@kopasetik</a></h3>
+              <p>Taking a bite out of exclusion&hellip; and donuts!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=wmiz5D53y3A"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="september-2016"><a href="#september-2016">September 27<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Melissa Smith &amp; Mark Arciaga <a href="https://twitter.com/femmelectric">@femmelectric</a> <span class="ampersand">&amp;</span> <a href="https://twitter.com/compurhythm8000">@compurhythm8000</a></h3>
+              <p>The Couple Who JS&rsquo;s Together Stays Together</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=w940c3PjkpE"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Andrew Chalkley <a href="https://twitter.com/chalkers">@chalkers</a></h3>
+              <p>The Easy Way to Get JS Running on a WiFi-Enabled Device!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=w5cQiDflGNc"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Amjith Ramanujam <a href="https://twitter.com/amjithr">@amjithr</a></h3>
+              <p>How to Implement Fuzzy Search in a Few Lines of JavaScript</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=HTgf_3HxjIY"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="august-2016"><a href="#august-2016">August 30<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Darius Kazemi <a href="https://twitter.com/tinysubversions">@tinysubversions</a></h3>
+              <p>React is isomorphic to a game engine</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Elea Chang <a href="https://twitter.com/elea">@elea</a></h3>
+              <p>Code Reviews: CSS edition</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Danielle Robinson <a href="https://twitter.com/daniellecrobins">@daniellecrobins</a></h3>
+              <p>The Open Revolution in Science</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Noelle Daley <a href="https://twitter.com/elnoelle">@elnoelle</a></h3>
+              <p>Sustainable Career Development: Advancing While Still Having Free Time</p>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <div class="non-event">
+          <strong>July 26<sup>th</sup>, 2016</strong> Donut.js Summer BBQ!
+        </div><!-- 🍩 -->
+        <h2 class="event-title"
+            id="june-2016"><a href="#june-2016">June 28<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Zac Finger <a href="https://twitter.com/zacfinger">@zacfinger</a></h3>
+              <p>modempunk.com and Glitch Art</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=5tRWeWGe6EQ"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Kate Chapman <a href="https://twitter.com/wonderchook">@wonderchook</a></h3>
+              <p>Land Rights and Open Source</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=sZvcqGuq6pg"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Andrew Hedges <a href="https://twitter.com/segdeha">@segdeha</a></h3>
+              <p>Hiring Junior Developers</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=7Q7iim4rtGM"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Rachel Nabors <a href="https://twitter.com/rachelnabors">@rachelnabors</a></h3>
+              <p>Career Offroading</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=q_V-gYoiz3E"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="may-2016"><a href="#may-2016">May 31<sup>st</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Sam Julien <a href="https://twitter.com/samjulien">@samjulien</a></h3>
+              <p>IoTReX: Functional Reactive Programming and Hardware</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=rdG8CLMdEeM"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Virginia Roberts <a href="https://twitter.com/askvirginia">@askvirginia</a></h3>
+              <p>Sell Out and Save the World!</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=wChYL_KfxLE"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Todd Kennedy <a href="https://twitter.com/whale_eat_squid">@whale_eat_squid</a></h3>
+              <p>Building a Hiring Process</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=06iLNW9tA5g"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Amy Wibowo <a href="https://twitter.com/sailorhg">@sailorhg</a></h3>
+              <p>Value of Humanities in Computer Science Education</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=ACxARI9CWxI"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Teffen Ellis <a href="https://twitter.com/teffenellis">@teffenellis</a></h3>
+              <p>Writing a Novel with JavaScript</p><a class="video-link"
+                   href="https://www.youtube.com/watch?v=R_0K9ZoDdYM"
+                   rel="noopener"
+                   target="_blank">Watch the talk video!</a>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <h2 class="event-title"
+            id="april-2016"><a href="#april-2016">April 26<sup>th</sup>, 2016</a></h2>
+        <ul>
+          <li>
+            <div class="event-speaker">
+              <h3>Visnu Pitiyanuvath <a href="https://twitter.com/visnup">@visnup</a></h3>
+              <p>HSL&mdash;the RGB You&rsquo;ve Been Waiting For</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Stef Hatcher <a href="https://twitter.com/stefhatcher">@stefhatcher</a></h3>
+              <p>React Meets Accessibility</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Ben Michel <a href="https://twitter.com/obensource">@obensource</a></h3>
+              <p>Remote-performing&mdash;It&rsquo;s a Thing!</p>
+            </div>
+          </li>
+          <li>
+            <div class="event-speaker">
+              <h3>Liz Abinante <a href="https://twitter.com/feministy">@feministy</a></h3>
+              <p>Auto-generating Knitting Patterns with Javascript</p>
+            </div>
+          </li>
+        </ul><!-- 🍩 -->
+        <a class="button"
+             href="../submit-talk/">Submit a talk</a>
       </div>
     </div>
-
-    <!-- generated sprinkles! -->
-    <canvas id="sprinkles" class="sprinkles"></canvas>
-    <script src="../js/sprinkles.js"></script>
-  </body>
+  </div><!-- generated sprinkles! -->
+  <canvas class="sprinkles"
+          id="sprinkles"></canvas>
+  <script src="../js/sprinkles.js"></script>
+</body>
 </html>
