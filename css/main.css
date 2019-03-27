@@ -565,7 +565,7 @@ img {
 }
 
 .panel.future-events li {
-  display: inline-block;
+  display: block;
   max-width: 90%;
   margin: 0.5rem auto;
   padding: 0.6rem .25rem 0.6rem .7rem;
