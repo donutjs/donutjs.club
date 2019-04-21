@@ -914,11 +914,22 @@ body.splash .sprinkle-background {
 /* Videos coming soon. */
 p.video-coming-soon {
   display: inline-block;
-  background: #f3f3f3;
-  color: #bbb !important;
+  background: #F9CACD;
+  color: #000 !important;
   border-radius: 5px;
   margin-top: .25rem;
   padding: 0.5rem 0.75rem;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+p.video-unavailable {
+  display: inline-block;
+  background: #eee;
+  color: #888 !important;
+  border-radius: 5px;
+  margin-top: .25rem;
+  padding: 0.3rem 0.5rem;
   font-size: 14px;
   text-transform: uppercase;
 }
