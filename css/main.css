@@ -1243,6 +1243,7 @@ a.past-events-year span {
 .panel.update {
   max-width: 600px;
   margin: 0 auto;
+  color: #222;
 }
 
 .panel.update h1 {
