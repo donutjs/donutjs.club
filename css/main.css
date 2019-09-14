@@ -1111,6 +1111,11 @@ a.past-events-year span {
   vertical-align: top;
 }
 
+.schedule-table a {
+  color: #888;
+  font-size: 70%;
+}
+
 
 /* Big buttons?! */
 .huge-button {
