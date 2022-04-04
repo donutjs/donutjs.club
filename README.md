@@ -4,6 +4,6 @@
 
 **[donutjs.club](https://donutjs.club/)**
 
-We are a donut-themed tech meetup in Portland.
+Donut.js ~is~ was a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.
 
-If you are interested in volunteering, please email us at [hello@donutjs.club](mailto:hello@donutjs.club).
+Donut.js ran from April 2016 to February 2020, with a total of 38 events and [125 talks](https://donutjs.club/past-speakers/).
