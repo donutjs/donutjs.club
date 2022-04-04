@@ -31,6 +31,6 @@ Note: Unfortunately, we did not keep records for donations made between April
 | Jan-Feb 2020     | Street Roots                       |     $835.00 |
 | Sep 2020         | Warm Springs Community Action Team |     $400.00 |
 | Sep 2020         | Black Resilience Fund              |     $450.50 |
-| Apr 2022         | ??????????????                     |     $400.00 |
-| Apr 2022         | ??????????????                     |     $400.00 |
+| Apr 2022         | Free Geek                          |     $400.00 |
+| Apr 2022         | TODO                               |     $400.00 |
 |                  | **TOTAL**                          | **$15,245** |
